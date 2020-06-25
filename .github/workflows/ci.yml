@@ -1,0 +1,22 @@
+name: CI
+on: [push]
+
+jobs:
+
+  verify:
+    name: Verify
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+          bundler: 1
+
+      - name: Try to create lockfile
+        run: bundle lock
