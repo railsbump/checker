@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 3.0.0'
+gem 'dry-monads', '~> 1.3'
+gem 'dry-transaction', '~> 0.13'
+gem 'dry-validation', '~> 1.3'
+gem 'pundit', '~> 2.1'
+gem 'rails', '>= 6.0.0', '~> 6.1.0'
+gem 'responders', '~> 3.0.0'
