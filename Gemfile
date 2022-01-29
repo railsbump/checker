@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'charlock_holmes', '~> 0.7'
+gem 'rails', '>= 3.2', '~> 6.0.0'
+gem 'rails_admin', '>= 0.6.6', '< 3.0.0.beta'
+gem 'simple_xlsx_reader', '~> 1.0'
