@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 0.15.2'
+gem 'faraday-cookie_jar', '~> 0.0.6'
+gem 'faraday_middleware', '~> 0.12.2'
+gem 'rails', '~> 5.2.0'
