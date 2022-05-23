@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'bootstrap-sass', '< 3.4', '>= 3.3.5.1'
+gem 'canonical-rails', '~> 0.1.0'
+gem 'jquery-rails', '~> 4.1'
+gem 'spree_api', '= 3.2.1'
+gem 'spree_core', '= 3.2.1'
+gem 'rails', '~> 3.2.0'
