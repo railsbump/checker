@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'jquery-rails', '~> 3.1.2'
+gem 'jquery-ui-rails', '~> 5.0.0'
+gem 'select2-rails', '~> 3.5.0'
+gem 'spree_api', '= 2.4.2'
+gem 'spree_core', '= 2.4.2'
+gem 'rails', '~> 3.2.0'
