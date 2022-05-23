@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'canonical-rails', '~> 0.0.4'
+gem 'jquery-rails', '~> 3.1.2'
+gem 'spree_api', '= 2.4.7'
+gem 'spree_core', '= 2.4.7'
+gem 'rails', '~> 6.0.0'
