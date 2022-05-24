@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'doorkeeper', '~> 5.0'
+gem 'fast_jsonapi', '~> 1.5'
+gem 'rabl', '~> 0.13.1'
+gem 'spree_core', '= 3.7.1'
+gem 'versioncake', '~> 3.4.0'
+gem 'rails', '~> 4.0.0'
