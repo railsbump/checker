@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'railties', '>= 0'
+gem 'scrivito_content_browser', '= 0.65.2'
+gem 'scrivito_editors', '= 0.65.2'
+gem 'scrivito_sdk', '= 0.65.2'
+gem 'rails', '~> 7.0.0'
