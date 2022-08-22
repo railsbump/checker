@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'cfn-model', '= 0.1.8'
+gem 'jmespath', '= 1.3.1'
+gem 'logging', '= 2.2.2'
+gem 'netaddr', '= 1.5.1'
+gem 'trollop', '= 2.1.2'
+gem 'rails', '~> 6.1.0'
