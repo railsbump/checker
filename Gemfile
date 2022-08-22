@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-s3', '~> 1.76'
+gem 'cfn-model', '= 0.5.4'
+gem 'lightly', '~> 0.3.2'
+gem 'logging', '~> 2.2.2'
+gem 'netaddr', '~> 2.0.4'
+gem 'optimist', '~> 3.0.0'
+gem 'rails', '~> 6.1.0'
