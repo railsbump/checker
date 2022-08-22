@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'cfn-model', '= 0.0.5'
+gem 'logging', '= 2.0.0'
+gem 'trollop', '= 2.1.2'
+gem 'rails', '~> 3.1.0'
