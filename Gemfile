@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'azure', '~> 0.6'
+gem 'fog-core', '~> 1.27'
+gem 'fog-json', '~> 1.0'
+gem 'fog-xml', '~> 0.1'
+gem 'rails', '~> 3.0.0'
