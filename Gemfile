@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activemodel', '>= 6.0.0'
+gem 'activesupport', '>= 6.0.0'
+gem 'addressable', '~> 2.6'
+gem 'image_processing', '~> 1.1'
+gem 'marcel', '~> 1.0.0'
+gem 'ssrf_filter', '~> 1.0'
+gem 'rails', '~> 7.0.0'
