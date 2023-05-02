@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 5.1', '< 7'
+gem 'dogstatsd-ruby', '~> 5.5'
+gem 'sidekiq', '>= 4.2', '< 7'
+gem 'statsd-instrument', '>= 2.0.4'
+gem 'rails', '~> 5.2.0'
