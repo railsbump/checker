@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'decidim-admin', '= 0.26.4'
+gem 'decidim-comments', '= 0.26.4'
+gem 'decidim-core', '= 0.26.4'
+gem 'rails', '~> 4.2.0'
