@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'colorize', '>= 0'
+gem 'commander', '>= 0'
+gem 'httpclient', '~> 2.3'
+gem 'rails', '~> 4.1.0'
