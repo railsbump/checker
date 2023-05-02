@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'httmultiparty', '<= 0.3.12'
+gem 'httparty', '<= 0.11'
+gem 'rack', '>= 0'
+gem 'rails', '~> 5.1.0'
