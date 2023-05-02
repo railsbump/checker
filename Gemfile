@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'httparty', '>= 0.16.0'
+gem 'jekyll', '>= 1.4.1'
+gem 'psych', '>= 2.1.0'
+gem 'rack', '>= 0'
+gem 'rails', '~> 7.0.0'
