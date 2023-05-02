@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'httmultiparty', '>= 0'
+gem 'httparty', '>= 0'
+gem 'json', '~> 1.8.0'
+gem 'rack', '>= 0'
+gem 'zip', '>= 0'
+gem 'rails', '~> 5.0.0'
