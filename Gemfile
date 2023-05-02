@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'decidim-core', '= 0.27.1'
+gem 'decidim-meetings', '= 0.27.1'
+gem 'wicked_pdf', '~> 2.1'
+gem 'wkhtmltopdf-binary', '~> 0.12'
+gem 'rails', '~> 6.1.0'
