@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'actionview', '>= 0'
+gem 'daru', '>= 0'
+gem 'daru-data_tables', '>= 0'
+gem 'google_visualr', '>= 0'
+gem 'lazy_high_charts', '>= 0'
+gem 'nyaplot', '>= 0'
+gem 'rails', '~> 3.1.0'
