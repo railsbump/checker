@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dry-configurable', '~> 1.0'
+gem 'dry-core', '~> 1.0'
+gem 'dry-struct', '~> 1.6'
+gem 'faker', '>= 2.0', '< 3.0'
+gem 'rom-core', '~> 5.3'
+gem 'rails', '~> 5.1.0'
