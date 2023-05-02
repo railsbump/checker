@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'rswag-api', '= 2.8.0'
+gem 'rswag-specs', '= 2.8.0'
+gem 'rswag-ui', '= 2.8.0'
+gem 'rails', '~> 3.1.0'
