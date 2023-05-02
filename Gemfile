@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'andand', '>= 0'
+gem 'i18n', '>= 0'
+gem 'nokogiri', '>= 1.4'
+gem 'yob-roxml', '>= 3.1.6'
+gem 'rails', '~> 3.0.0'
