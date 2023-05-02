@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'dry-core', '~> 1.0'
+gem 'dry-types', '~> 1.0'
+gem 'rom', '~> 5.2', '>= 5.2.1'
+gem 'sequel', '>= 4.49'
+gem 'rails', '~> 4.2.0'
