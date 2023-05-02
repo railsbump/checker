@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'addressable', '~> 2.0'
+gem 'net-http-persistent', '< 5.0'
+gem 'rack', '>= 1.0'
+gem 'rails', '~> 6.0.0'
