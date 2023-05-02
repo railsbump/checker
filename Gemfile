@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'rubocop', '~> 1.38.0'
+gem 'rubocop-gitlab-security', '~> 0.1.1'
+gem 'rubocop-graphql', '~> 0.14'
+gem 'rubocop-performance', '~> 1.14'
+gem 'rubocop-rails', '~> 2.15'
+gem 'rubocop-rspec', '~> 2.15'
+gem 'rails', '~> 6.0.0'
