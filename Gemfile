@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'css-rewrite', '~> 2.0'
+gem 'generated-assets', '~> 2.0'
+gem 'mime-types', '>= 0'
+gem 'mini_magick', '>= 0'
+gem 'rails', '>= 5.2', '~> 6.0.0'
