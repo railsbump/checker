@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'async-io', '>= 0'
+gem 'connection_pool', '>= 0'
+gem 'zeitwerk', '>= 2.1.10'
+gem 'rails', '~> 6.0.0'
