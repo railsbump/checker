@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 3.0.0'
+gem 'activerecord', '>= 3.0.0'
+gem 'logtail', '~> 0.1'
+gem 'logtail-rack', '~> 0.1'
+gem 'railties', '>= 3.0.0'
+gem 'rails', '~> 6.0.0'
