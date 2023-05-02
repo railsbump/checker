@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'http', '~> 3.0.0'
+gem 'lru_redux', '>= 0'
+gem 'rails', '~> 4.2.0'
