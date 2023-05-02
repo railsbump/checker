@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'dry-core', '~> 1.0'
+gem 'dry-events', '~> 1.0'
+gem 'dry-matcher', '~> 0.10'
+gem 'dry-monads', '~> 1.6'
+gem 'rails', '~> 6.0.0'
