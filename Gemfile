@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'appium_lib', '~> 12.1.2'
+gem 'pry', '~> 0.14.0'
+gem 'spec', '~> 5.3', '>= 5.3.1'
+gem 'thor', '>= 0.19', '< 2.0'
+gem 'rails', '~> 6.0.0'
