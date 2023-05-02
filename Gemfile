@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'airbrussh', '~> 1.1', '>= 1.1.1'
+gem 'berkshelf', '~> 7.0.0', '>= 7.0.8'
+gem 'capistrano', '~> 3.7', '>= 3.7.1'
+gem 'rails', '~> 5.0.0'
