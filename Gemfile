@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '<= 2.9.9'
+gem 'andand', '>= 0'
+gem 'nokogiri', '>= 1.4'
+gem 'roxml', '>= 3.1.1'
+gem 'rails', '~> 2.3.0'
