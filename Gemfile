@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'colorize', '>= 0'
+gem 'commander', '>= 0'
+gem 'httpclient', '~> 2.3'
+gem 'inifile', '>= 0'
+gem 'rails', '~> 7.0.0'
