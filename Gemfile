@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activerecord', '~> 6.1'
+gem 'activesupport', '~> 6.1'
+gem 'pg', '>= 0'
+gem 'request_store', '>= 0'
+gem 'rails', '~> 6.1.0'
