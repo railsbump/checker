@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dry-configurable', '>= 0.8'
+gem 'dry-initializer', '~> 3.0'
+gem 'openapi_validator', '>= 0.3'
+gem 'rack-test', '~> 2.0'
+gem 'rspec', '~> 3.0'
+gem 'rails', '~> 4.2.0'
