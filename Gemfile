@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'rom-changeset', '~> 5.3', '>= 5.3.0'
+gem 'rom-core', '~> 5.3', '>= 5.3.0'
+gem 'rom-repository', '~> 5.3', '>= 5.3.0'
+gem 'rails', '~> 3.0.0'
