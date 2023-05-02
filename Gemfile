@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'dry-auto_inject', '~> 1.0', '< 2'
+gem 'dry-configurable', '~> 1.0', '< 2'
+gem 'dry-core', '~> 1.0', '< 2'
+gem 'dry-inflector', '~> 1.0', '< 2'
+gem 'rails', '~> 3.1.0'
