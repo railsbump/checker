@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'json', '>= 0'
+gem 'rack', '>= 0'
+gem 'rest-client', '>= 0'
+gem 'rails', '~> 3.0.0'
