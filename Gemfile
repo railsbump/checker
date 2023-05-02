@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dotenv', '~> 2.1', '>= 2.1.1'
+gem 'facets', '~> 3.1', '>= 3.1.0'
+gem 'rake', '~> 12.0', '>= 12.0.0'
+gem 'shiplane_bootstrappers_chef', '= 0.1.15'
+gem 'shiplane_deployers_capistrano_docker', '= 0.1.15'
+gem 'rails', '~> 6.1.0'
