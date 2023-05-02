@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'better_errors', '>= 2.3.0', '~> 2.3.0'
+gem 'binding_of_caller', '>= 0'
+gem 'pry', '>= 0.9'
+gem 'rails', '~> 5.2.0'
