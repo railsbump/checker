@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'multi_xml', '>= 0.5.2'
+gem 'nokogiri', '>= 1.6.1'
+gem 'rails', '>= 3.1', '~> 3.2.0'
+gem 'railties', '>= 3.1'
+gem 'roxml', '>= 0'
