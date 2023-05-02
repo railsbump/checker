@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 1.10.0'
+gem 'faraday-multipart', '~> 1.0.3'
+gem 'faraday-net_http_persistent', '~> 1.2'
+gem 'jwt', '~> 2.3'
+gem 'net-http-persistent', '~> 4.0'
+gem 'sorbet-runtime', '~> 0.5.10539'
+gem 'rails', '~> 3.1.0'
