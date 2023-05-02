@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'andand', '>= 0'
+gem 'libxml-ruby', '>= 0.9.8'
+gem 'roxml', '= 2.5.1'
+gem 'rails', '~> 3.0.0'
