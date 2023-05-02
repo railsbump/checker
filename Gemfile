@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'dry-configurable', '~> 1.0'
+gem 'dry-monads', '~> 1.4'
+gem 'faraday', '~> 2.2'
+gem 'faraday-retry', '~> 2.0'
+gem 'jwt', '~> 2.3'
+gem 'warden', '~> 1.2'
+gem 'rails', '~> 4.1.0'
