@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'holidays', '~> 8.5'
+gem 'tzinfo', '~> 2.0'
+gem 'tzinfo-data', '~> 1'
+gem 'rails', '~> 3.1.0'
