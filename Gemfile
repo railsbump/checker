@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 4.2.0', '< 7.1'
+gem 'activesupport', '>= 0'
+gem 'mysql2', '>= 0'
+gem 'rails', '~> 7.0.0'
