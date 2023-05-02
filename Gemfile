@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'clamp', '>= 0'
+gem 'colorize', '>= 0'
+gem 'excon', '>= 0'
+gem 'highline', '>= 0'
+gem 'ruby_dig', '>= 0'
+gem 'shell-spinner', '>= 0'
+gem 'rails', '~> 4.1.0'
