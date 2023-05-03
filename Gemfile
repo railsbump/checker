@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'multi_json', '>= 0'
+gem 'mustermann', '~> 2.0'
+gem 'rack-protection', '= 2.2.3'
+gem 'sinatra', '= 2.2.3'
+gem 'tilt', '~> 2.0'
+gem 'rails', '~> 5.0.0'
