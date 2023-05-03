@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4.2.0', '~> 4.2'
+gem 'psych', '~> 0'
+gem 'tzinfo', '>= 1.2.0', '~> 1.2'
+gem 'rails', '~> 4.2.0'
