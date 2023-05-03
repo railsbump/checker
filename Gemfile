@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'convolver-light', '~> 0.3.1'
+gem 'matrix', '>= 0'
+gem 'oily_png', '~> 1.2'
+gem 'pdf-reader', '~> 2.1'
+gem 'slop', '~> 4.2'
+gem 'rails', '~> 4.0.0'
