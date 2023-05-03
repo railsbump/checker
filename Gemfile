@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'hashie', '~> 3.4'
+gem 'nokogiri', '>= 1.6.6', '~> 1.6'
+gem 'rest-client', '~> 1.8'
+gem 'rails', '~> 6.1.0'
