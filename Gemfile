@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activestorage', '>= 5.2.0'
+gem 'addressable', '~> 2.8'
+gem 'carrierwave', '>= 0.7', '< 2.2'
+gem 'multipart-post', '>= 2.1.0'
+gem 'rest-client', '>= 2.1', '~> 2.1'
+gem 'rails', '~> 7.0.0'
