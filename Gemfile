@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'launchy', '>= 0.3.2'
+gem 'mechanize', '~> 1.0.0'
+gem 'rest-client', '< 1.7.0', '>= 1.4.0'
+gem 'term-ansicolor', '~> 1.0'
+gem 'yajl-ruby', '~> 0.6'
+gem 'rails', '~> 7.0.0'
