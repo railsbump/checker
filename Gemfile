@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'case_transform2', '>= 1.0', '< 2.0'
+gem 'dry-configurable', '>= 1.0', '< 2.0'
+gem 'faraday', '>= 0.16', '< 3.0'
+gem 'faraday-net_http', '>= 1.0', '< 3.0'
+gem 'rails', '~> 4.0.0'
