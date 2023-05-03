@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'karafka-core', '>= 2.0.4', '< 3.0.0'
+gem 'rdkafka', '>= 0.12'
+gem 'thor', '>= 0.20'
+gem 'waterdrop', '>= 2.4.1', '< 3.0.0'
+gem 'zeitwerk', '~> 2.3'
+gem 'rails', '~> 4.2.0'
