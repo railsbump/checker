@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'iconv', '>= 0'
+gem 'roo', '>= 0'
+gem 'spreadsheet', '>= 0'
+gem 'write_xlsx', '>= 0'
+gem 'rails', '~> 5.2.0'
