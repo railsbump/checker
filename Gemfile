@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'hashie', '>= 0'
+gem 'thor', '~> 0.18'
+gem 'versionomy', '~> 0.4'
+gem 'rails', '~> 3.1.0'
