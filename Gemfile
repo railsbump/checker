@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'deface', '~> 1.0'
+gem 'solidus', '< 3', '>= 1.0'
+gem 'solidus_auth_devise', '< 3', '>= 1.0'
+gem 'solidus_support', '>= 0'
+gem 'rails', '~> 3.2.0'
