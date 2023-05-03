@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'phonelib', '>= 0'
+gem 'rexml', '>= 0'
+gem 'sorbet-runtime', '~> 0.5'
+gem 'vonage-jwt', '~> 0.1.0'
+gem 'zeitwerk', '~> 2', '>= 2.2'
+gem 'rails', '~> 3.2.0'
