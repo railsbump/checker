@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 1.3'
+gem 'faraday', '>= 0'
+gem 'i18n', '>= 0'
+gem 'json', '>= 0'
+gem 'rake', '>= 0'
+gem 'sys-uname', '>= 0'
+gem 'rails', '~> 4.2.0'
