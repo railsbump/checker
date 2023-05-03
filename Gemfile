@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'ndr_ui', '>= 0'
+gem 'net-imap', '>= 0'
+gem 'net-pop', '>= 0'
+gem 'net-smtp', '>= 0'
+gem 'rails', '>= 6.0', '< 7.1', '~> 7.0.0'
+gem 'will_paginate', '>= 0'
