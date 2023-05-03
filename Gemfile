@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 2.0.0'
+gem 'faraday-follow_redirects', '~> 0.3.0'
+gem 'faraday-multipart', '~> 1.0.4'
+gem 'mime-types', '~> 3.0'
+gem 'rails', '~> 4.2.0'
