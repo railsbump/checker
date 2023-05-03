@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'colored', '~> 1.2'
+gem 'launchy', '~> 2.2.0'
+gem 'mechanize', '~> 2.7.5'
+gem 'netrc', '~> 0.10.3'
+gem 'rest-client', '~> 1.8'
+gem 'rails', '~> 5.1.0'
