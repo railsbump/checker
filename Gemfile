@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'hashie', '~> 0.1.8'
+gem 'httparty', '~> 0.5.0'
+gem 'nokogiri', '>= 0'
+gem 'rails', '~> 3.0.0'
