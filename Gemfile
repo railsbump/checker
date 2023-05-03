@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'active_attr', '~> 0.7'
+gem 'activesupport', '~> 4.0'
+gem 'hashie', '~> 1.2'
+gem 'httparty', '~> 0.10'
+gem 'rails', '~> 4.0.0'
