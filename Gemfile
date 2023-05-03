@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'rails', '< 5', '>= 4.2.0', '~> 4.2.0'
+gem 'refile', '~> 0.6.1'
+gem 'refile-mini_magick', '~> 0.2.0'
+gem 'refile-s3', '~> 0.2.0'
+gem 'sprockets', '>= 3.4.0', '~> 3.4'
