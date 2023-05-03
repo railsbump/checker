@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activemodel', '>= 0'
+gem 'activesupport', '>= 0'
+gem 'chronic', '>= 0'
+gem 'rails', '~> 2.3.0'
