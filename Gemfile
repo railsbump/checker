@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4.1.4'
+gem 'rouge', '>= 1.6.1'
+gem 'rspec-core', '>= 3.0.3'
+gem 'rails', '~> 6.0.0'
