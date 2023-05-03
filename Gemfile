@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 4.2', '< 7'
+gem 'sequel', '>= 4.0', '< 6'
+gem 'rails', '~> 4.2.0'
