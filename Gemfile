@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 3.0.3'
+gem 'httparty', '>= 0'
+gem 'xml-simple', '>= 0'
+gem 'rails', '~> 4.0.0'
