@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'io-wait', '~> 0.1.0'
+gem 'jwt', '>= 2.0'
+gem 'net-imap', '>= 0.2.1'
+gem 'oauth2', '>= 1.4.4', '< 3'
+gem 'rails', '~> 3.2.0'
