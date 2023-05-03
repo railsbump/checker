@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'devise', '~> 4.7'
+gem 'devise-encryptable', '= 0.2.0'
+gem 'spree_core', '>= 4.5.0'
+gem 'spree_extension', '>= 0'
+gem 'rails', '~> 5.0.0'
