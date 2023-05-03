@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activemodel', '>= 0'
+gem 'correios-cep', '>= 0'
+gem 'net-http', '>= 0'
+gem 'rails', '>= 0', '~> 7.0.0'
