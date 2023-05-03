@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'que', '>= 1'
+gem 'sinatra', '>= 0'
+gem 'rails', '~> 3.2.0'
