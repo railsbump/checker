@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'spree_api', '= 4.5.0'
+gem 'spree_cli', '= 4.5.0'
+gem 'spree_core', '= 4.5.0'
+gem 'rails', '~> 5.1.0'
