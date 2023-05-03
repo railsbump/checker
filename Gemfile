@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'lockfile', '>= 1.4.3'
+gem 'rails', '>= 3.0.7', '~> 6.1.0'
+gem 'rturk', '>= 2.3.0'
+gem 'turkee', '>= 0'
