@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'easypost', '>= 0'
+gem 'solidus', '< 3.x', '>= 1.1'
+gem 'solidus_support', '>= 0.1.1'
+gem 'rails', '~> 5.1.0'
