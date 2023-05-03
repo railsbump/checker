@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 5.0'
+gem 'activemodel', '>= 5.0'
+gem 'autoprefixer-rails', '>= 5.2.1'
+gem 'sassc', '>= 2.0.0'
+gem 'rails', '~> 6.0.0'
