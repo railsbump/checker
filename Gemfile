@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'fast_excel', '>= 0'
+gem 'iconv', '>= 0'
+gem 'spreadsheet', '>= 0'
+gem 'rails', '~> 3.0.0'
