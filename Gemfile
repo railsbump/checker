@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'capistrano', '>= 0'
+gem 'capistrano-utils', '>= 0'
+gem 'rake', '>= 0'
+gem 'rails', '~> 2.3.0'
