@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'deface', '>= 0'
+gem 'easypost', '>= 0'
+gem 'solidus_core', '>= 2.0.0', '< 4'
+gem 'solidus_support', '~> 0.5'
+gem 'rails', '~> 3.2.0'
