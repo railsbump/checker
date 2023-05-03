@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'qonfig', '~> 0.24'
+gem 'smart_engine', '~> 0.16'
+gem 'smart_types', '~> 0.8'
+gem 'rails', '~> 7.0.0'
