@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activemerchant', '~> 1.50'
+gem 'money', '>= 0'
+gem 'offsite_payments', '~> 2'
+gem 'rails', '~> 6.1.0'
