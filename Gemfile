@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activesupport', '<= 5.2.1', '>= 4.2.0'
+gem 'aws-sdk-s3', '~> 1.19'
+gem 'fog-aws', '~> 2.0'
+gem 'mime-types', '~> 3.2'
+gem 'tzinfo', '>= 1.2.0', '~> 1.2'
+gem 'rails', '~> 5.2.0'
