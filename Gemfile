@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord-postgres_pub_sub', '>= 0.4.0'
+gem 'activesupport', '>= 5.1', '< 7.1'
+gem 'sidekiq', '>= 5.0.4', '< 7'
+gem 'rails', '~> 5.1.0'
