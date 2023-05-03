@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4'
+gem 'prawn', '~> 2.2', '>= 2.2.2'
+gem 'prawn-icon', '= 2.4.0'
+gem 'prawn-table', '= 0.2.2'
+gem 'rails', '~> 6.0.0'
