@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 4.2', '< 8'
+gem 'after_commit_everywhere', '~> 1.1'
+gem 'sequel', '~> 5.38'
+gem 'rails', '~> 7.0.0'
