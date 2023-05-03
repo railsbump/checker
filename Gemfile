@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'enumerated_type', '>= 0'
+gem 'i18n', '>= 0'
+gem 'rails', '~> 6.0.0'
