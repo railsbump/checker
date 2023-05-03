@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 1.7', '< 1.9.0'
+gem 'faraday_middleware', '~> 1.2'
+gem 'multi_json', '~> 1.15'
+gem 'typhoeus', '~> 1.4'
+gem 'rails', '~> 5.1.0'
