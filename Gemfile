@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'concurrent-ruby', '>= 0'
+gem 'sidekiq', '>= 3.4.2', '< 7'
+gem 'rails', '~> 3.0.0'
