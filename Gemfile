@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 0'
+gem 'dotenv', '>= 0'
+gem 'nenv', '>= 0'
+gem 'rspec-logsplit', '>= 0.1.2'
+gem 'timers', '~> 4.0.0'
+gem 'rails', '~> 2.3.0'
