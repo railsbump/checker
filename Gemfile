@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'haml', '>= 4.0', '< 6.2'
+gem 'parallel', '~> 1.10'
+gem 'rainbow', '>= 0'
+gem 'rubocop', '>= 0.50.0'
+gem 'sysexits', '~> 1.1'
+gem 'rails', '~> 7.0.0'
