@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'faraday', '>= 0'
+gem 'faraday_middleware', '>= 0'
+gem 'multi_xml', '>= 0'
+gem 'rails', '~> 6.0.0'
