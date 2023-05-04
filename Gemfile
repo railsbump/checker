@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'iso_country_codes', '~> 0.4'
+gem 'naughty_or_nice', '~> 0.0.2'
+gem 'swot', '~> 0.3.1'
+gem 'rails', '~> 4.1.0'
