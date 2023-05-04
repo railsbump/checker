@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'celluloid', '>= 0'
+gem 'celluloid-essentials', '>= 0'
+gem 'celluloid-gems', '>= 0'
+gem 'rails', '~> 5.1.0'
