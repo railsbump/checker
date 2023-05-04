@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'trailblazer-macro', '>= 2.1.12', '< 2.2.0'
+gem 'trailblazer-macro-contract', '>= 2.1.4', '< 2.2.0'
+gem 'trailblazer-operation', '>= 0.9.0', '< 1.0.0'
+gem 'rails', '~> 6.1.0'
