@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dry-monads', '~> 1.0'
+gem 'money', '~> 6.0'
+gem 'nokogiri', '~> 1.6'
+gem 'physical', '~> 0.4', '>= 0.4.5'
+gem 'rest-client', '~> 2.0'
+gem 'rails', '~> 7.0.0'
