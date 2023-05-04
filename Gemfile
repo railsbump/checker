@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'execjs', '>= 0'
+gem 'sprockets', '>= 0'
+gem 'tilt', '>= 0'
+gem 'rails', '~> 3.0.0'
