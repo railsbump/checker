@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'parser', '!= 2.5.1.1'
+gem 'rubocop', '~> 0.90.0'
+gem 'rubocop-rails', '~> 2.5.2'
+gem 'rubocop-rspec', '~> 1.38.1'
+gem 'rails', '~> 5.2.0'
