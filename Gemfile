@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activemerchant', '>= 1.105'
+gem 'rexml', '>= 0'
+gem 'solidus_core', '>= 2.3', '< 4'
+gem 'solidus_support', '~> 0.8'
+gem 'rails', '~> 2.3.0'
