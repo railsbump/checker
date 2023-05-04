@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'modular-scale', '>= 1.0.6'
+gem 'sassy-math', '>= 1.5'
+gem 'singularitygs', '>= 0.0.1'
+gem 'rails', '~> 4.0.0'
