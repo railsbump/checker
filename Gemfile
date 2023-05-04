@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activemodel', '>= 0'
+gem 'activerecord', '>= 0'
+gem 'activesupport', '>= 0'
+gem 'virtus', '>= 0'
+gem 'rails', '~> 3.0.0'
