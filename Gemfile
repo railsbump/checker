@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 0'
+gem 'faraday_middleware', '>= 0'
+gem 'hashie', '>= 0'
+gem 'json', '>= 0'
+gem 'simple_oauth', '>= 0'
+gem 'rails', '~> 3.1.0'
