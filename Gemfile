@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 5.2', '< 6.2'
+gem 'capybara', '>= 2.18', '< 4.0'
+gem 'require_all', '>= 3.0', '< 4.0'
+gem 'rspec-expectations', '~> 3.10'
+gem 'thor', '>= 0.20', '< 1.2'
+gem 'rails', '~> 6.1.0'
