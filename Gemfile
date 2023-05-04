@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'faraday', '~> 2'
+gem 'faraday-net_http_persistent', '>= 2.0.2'
+gem 'hashie', '>= 0'
+gem 'net-http-persistent', '>= 4.0.1', '< 5.0'
+gem 'rails', '~> 4.2.0'
