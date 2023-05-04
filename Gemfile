@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'rack-openid', '>= 0.2.1'
+gem 'ruby-openid', '>= 2.1.7'
+gem 'sinatra', '>= 0.9.2'
+gem 'rails', '~> 3.2.0'
