@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activeresource', '>= 0'
+gem 'browser_sniffer', '~> 2.0'
+gem 'jwt', '>= 2.2.3'
+gem 'rails', '> 5.2.1', '~> 7.0.0'
+gem 'redirect_safely', '~> 1.0'
+gem 'shopify_api', '~> 12.3'
+gem 'sprockets-rails', '>= 2.0.0'
