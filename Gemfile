@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'actionpack', '~> 3.0'
+gem 'activesupport', '~> 3.0'
+gem 'dimensions', '>= 0'
+gem 'railties', '~> 3.0'
+gem 'rails', '~> 3.2.0'
