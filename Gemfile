@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 2.0', '< 3.0'
+gem 'json', '~> 2.1', '>= 2.1.0'
+gem 'json-jwt', '~> 1.5', '>= 1.5.2'
+gem 'rails', '~> 6.1.0'
