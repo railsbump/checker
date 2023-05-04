@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'addressable', '~> 2.3'
+gem 'public_suffix', '~> 1.4'
+gem 'swot', '~> 0.3'
+gem 'rails', '~> 3.1.0'
