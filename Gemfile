@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '> 2.4'
+gem 'oauth2', '~> 2.0'
+gem 'rest-client', '~> 2.0'
+gem 'rails', '~> 5.1.0'
