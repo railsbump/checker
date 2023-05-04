@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'email_veracity', '>= 0'
+gem 'public_suffix', '>= 0'
+gem 'swot', '>= 0'
+gem 'rails', '~> 5.2.0'
