@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 6.0', '< 8'
+gem 'ruby2ruby', '~> 2.4'
+gem 'ruby_parser', '~> 3.10'
+gem 'rails', '~> 7.0.0'
