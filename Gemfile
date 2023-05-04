@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '< 6.0', '>= 4.2'
+gem 'capybara', '~> 2.18'
+gem 'require_all', '~> 2.0'
+gem 'thor', '~> 0.20'
+gem 'rails', '~> 4.2.0'
