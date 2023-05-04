@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'erubis', '>= 2.7.0'
+gem 'haml', '>= 3.1.0'
+gem 'rack', '>= 1.3.0'
+gem 'rack-rewrite', '>= 1.2.1'
+gem 'rails', '~> 3.0.0'
