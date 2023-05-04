@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'colorize', '~> 0.7'
+gem 'iso_country_codes', '~> 0.6'
+gem 'naughty_or_nice', '~> 0.0.2'
+gem 'swot', '~> 0.4.2'
+gem 'rails', '~> 4.0.0'
