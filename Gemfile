@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'avro', '>= 0'
+gem 'service_contract', '>= 0'
+gem 'webmock', '>= 0'
+gem 'rails', '~> 3.2.0'
