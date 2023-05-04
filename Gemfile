@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'colored', '~> 1.2'
+gem 'iso_country_codes', '~> 0.6'
+gem 'naughty_or_nice', '= 2.1'
+gem 'public_suffix', '~> 2.0'
+gem 'rails', '~> 4.1.0'
