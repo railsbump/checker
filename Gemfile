@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activemerchant', '~> 1.48'
+gem 'braintree', '~> 3.4'
+gem 'solidus_api', '>= 2.4.0', '< 4'
+gem 'solidus_core', '>= 2.4.0', '< 4'
+gem 'solidus_support', '>= 0.8.1', '< 1'
+gem 'rails', '~> 4.0.0'
