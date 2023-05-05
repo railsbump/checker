@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'blingfire', '>= 0.1.7'
+gem 'numo-narray', '>= 0'
+gem 'onnxruntime', '>= 0.5.1'
+gem 'rails', '~> 6.0.0'
