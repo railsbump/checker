@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 0'
+gem 'font-awesome-rails', '>= 0'
+gem 'scrivito', '>= 0'
+gem 'rails', '~> 4.1.0'
