@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 5.2.0', '< 8.0'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'method_source', '~> 1.0'
+gem 'rails', '~> 7.0.0'
