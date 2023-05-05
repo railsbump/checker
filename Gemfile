@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'actionmailer', '>= 3.2.6', '< 8'
+gem 'actionpack', '>= 3.2.6', '< 8'
+gem 'devise', '>= 3.2', '< 6'
+gem 'rails', '~> 4.1.0'
