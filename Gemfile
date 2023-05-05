@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'chronic', '~> 0.10.2'
+gem 'numerizer', '~> 0.2.0'
+gem 'texttube', '~> 6.0.0'
+gem 'rails', '~> 2.3.0'
