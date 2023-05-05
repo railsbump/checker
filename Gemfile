@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'api_struct', '~> 1.0.1'
+gem 'mimemagic', '>= 0'
+gem 'parallel', '>= 0'
+gem 'retries', '>= 0'
+gem 'rails', '~> 3.2.0'
