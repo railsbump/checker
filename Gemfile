@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'chronic', '~> 0.2.3'
+gem 'shoulda', '~> 2.10.3'
+gem 'simplecov', '>= 0'
+gem 'rails', '~> 4.0.0'
