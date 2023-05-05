@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'drydock', '>= 0.6.9'
+gem 'httparty', '>= 0.7.7'
+gem 'json', '>= 1.6.8'
+gem 'rails', '~> 3.0.0'
