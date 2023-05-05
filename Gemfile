@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'http', '>= 3.0', '< 6.0'
+gem 'jsonpath', '~> 1.0'
+gem 'recursive-open-struct', '~> 1.1', '>= 1.1.1'
+gem 'rest-client', '~> 2.0'
+gem 'rails', '~> 7.0.0'
