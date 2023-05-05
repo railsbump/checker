@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'dry-schema', '~> 1.7'
+gem 'dry-system', '~> 1.0', '< 2'
+gem 'dry-validation', '~> 1.5'
+gem 'rails', '~> 3.2.0'
