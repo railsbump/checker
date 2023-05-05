@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 3.2', '< 8.0'
+gem 'heartcheck', '~> 2.0'
+gem 'net-telnet', '~> 0.1.1'
+gem 'rails', '~> 4.1.0'
