@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'aws-sdk', '~> 2'
+gem 'dotenv-rails', '>= 0'
+gem 'thor', '>= 0'
+gem 'rails', '~> 4.2.0'
