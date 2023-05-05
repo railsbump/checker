@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'abstract_type', '~> 0.0.2'
+gem 'adamantium', '~> 0.0.5'
+gem 'backports', '~> 2.7.0'
+gem 'equalizer', '~> 0.0.3'
+gem 'rails', '~> 3.2.0'
