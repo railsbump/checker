@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'appium_lib_core', '~> 6.0'
+gem 'nokogiri', '~> 1.8', '>= 1.8.1'
+gem 'tomlrb', '>= 1.1', '< 3.0'
+gem 'rails', '~> 4.2.0'
