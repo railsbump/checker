@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'dry-cli', '>= 0.7', '< 2'
+gem 'rack-proxy', '~> 0.6', '>= 0.6.1'
+gem 'zeitwerk', '~> 2.2'
+gem 'rails', '~> 4.0.0'
