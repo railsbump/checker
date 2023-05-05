@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'adamantium', '~> 0.2'
+gem 'concord', '~> 0.0'
+gem 'equalizer', '~> 0.0'
+gem 'nokogiri', '~> 1.6'
+gem 'sass', '~> 3.2.19'
+gem 'rails', '~> 3.1.0'
