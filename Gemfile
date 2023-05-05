@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'dry-configurable', '~> 0.13.0'
+gem 'faraday', '>= 0.11.0', '< 2'
+gem 'faraday-detailed_logger', '~> 2.1'
+gem 'faraday_middleware', '>= 0.11', '< 2'
+gem 'ipaddress', '~> 0.8', '>= 0.8.3'
+gem 'openssl', '>= 2.0.5'
+gem 'rails', '~> 2.3.0'
