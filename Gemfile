@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'api-auth', '>= 1.4', '< 2.5'
+gem 'flexirest', '~> 1.6'
+gem 'json', '>= 1.8'
+gem 'rest-client', '>= 1.8'
+gem 'rails', '~> 6.0.0'
