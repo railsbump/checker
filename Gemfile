@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'awesome_print', '>= 1.8.0'
+gem 'binding_of_caller', '~> 0.7'
+gem 'colorize', '~> 0.8'
+gem 'diffy', '~> 3.4.0'
+gem 'pry', '>= 0.10.4', '< 0.13'
+gem 'rails', '~> 3.1.0'
