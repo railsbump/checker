@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'bundler', '< 3'
+gem 'json', '~> 2.6'
+gem 'memoist', '~> 0.16.2'
+gem 'nokogiri', '~> 1.13'
+gem 'rails', '~> 6.1.0'
