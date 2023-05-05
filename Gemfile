@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'concord', '~> 0.0'
+gem 'equalizer', '~> 0.0'
+gem 'nokogiri', '~> 1.6'
+gem 'sass', '~> 3.2.19'
+gem 'rails', '~> 2.3.0'
