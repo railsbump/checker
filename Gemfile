@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'simplecov', '~> 0.22.0'
+gem 'term-ansicolor', '~> 1.7'
+gem 'thor', '~> 1.2'
+gem 'tins', '~> 1.32'
+gem 'rails', '~> 6.0.0'
