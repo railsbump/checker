@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'dotenv', '>= 0'
+gem 'gitlab', '>= 0'
+gem 'thor', '>= 0'
+gem 'rails', '~> 3.2.0'
