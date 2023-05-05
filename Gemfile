@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'certifi', '~> 2016.9', '>= 2016.09.26'
+gem 'faraday', '~> 0.10'
+gem 'faraday-http-cache', '~> 1.2.2'
+gem 'logging', '~> 2.0'
+gem 'test-unit', '~> 3.1.5'
+gem 'rails', '~> 5.0.0'
