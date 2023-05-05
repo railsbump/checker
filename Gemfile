@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'equalizer', '~> 0.0.5'
+gem 'ice_nine', '~> 0.7.0'
+gem 'nokogiri', '~> 1.5.9'
+gem 'rails', '~> 3.0.0'
