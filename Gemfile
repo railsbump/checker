@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'ftpfxp', '>= 0.0.4'
+gem 'i18n', '>= 0.5'
+gem 'retryable', '>= 2.0'
+gem 'rails', '~> 3.2.0'
