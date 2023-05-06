@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 2.0'
+gem 'ftpfxp', '>= 0.0.4'
+gem 'i18n', '>= 0.5'
+gem 'retryable', '>= 1.2'
+gem 'rails', '~> 3.2.0'
