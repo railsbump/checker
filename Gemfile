@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'dry-core', '>= 0.3.1', '~> 0.3'
+gem 'dry-equalizer', '~> 0.2'
+gem 'dry-struct', '~> 0.3'
+gem 'transproc', '~> 1.0'
+gem 'rails', '~> 5.1.0'
