@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'cri', '~> 2.8'
+gem 'ddplugin', '~> 1.0'
+gem 'hamster', '~> 3.0'
+gem 'ref', '~> 2.0'
+gem 'rails', '~> 3.2.0'
