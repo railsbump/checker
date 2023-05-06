@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'rack', '< 3'
+gem 'sidekiq', '>= 5', '< 8'
+gem 'webrick', '>= 1', '< 2'
+gem 'rails', '~> 2.3.0'
