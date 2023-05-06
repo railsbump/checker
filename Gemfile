@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'adsf-live', '~> 1.4'
+gem 'cri', '~> 2.13'
+gem 'listen', '~> 3.0'
+gem 'nanoc', '~> 4.11', '>= 4.11.5'
+gem 'rails', '~> 2.3.0'
