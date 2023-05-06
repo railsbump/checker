@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'carrierwave', '>= 0'
+gem 'i18n', '>= 0'
+gem 'net_dav', '>= 0'
+gem 'rails', '~> 5.2.0'
