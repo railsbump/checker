@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'addressable', '~> 2.5'
+gem 'cri', '~> 2.15'
+gem 'nanoc-core', '= 4.11.1'
+gem 'parallel', '~> 1.12'
+gem 'slow_enumerator_tools', '~> 1.0'
+gem 'tomlrb', '~> 1.2'
+gem 'rails', '~> 3.2.0'
