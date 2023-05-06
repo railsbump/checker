@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'binding_of_caller', '>= 0'
+gem 'parser', '>= 0'
+gem 'proc_to_ast', '>= 0'
+gem 'rspec', '>= 2.13', '< 4'
+gem 'unparser', '>= 0'
+gem 'rails', '~> 3.2.0'
