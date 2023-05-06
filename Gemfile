@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'htmlentities', '~> 4'
+gem 'kramdown', '~> 2.3'
+gem 'kramdown-parser-gfm', '~> 1.1'
+gem 'open3', '~> 0.1'
+gem 'rails', '~> 3.0.0'
