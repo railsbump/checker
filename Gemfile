@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'cri', '~> 2.3'
+gem 'hamster', '~> 3.0'
+gem 'parallel', '~> 1.9'
+gem 'ref', '~> 2.0'
+gem 'rails', '~> 3.2.0'
