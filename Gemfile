@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'double-bag-ftps', '>= 0.1.3'
+gem 'i18n', '>= 0.5'
+gem 'retryable', '>= 2.0'
+gem 'rails', '~> 6.1.0'
