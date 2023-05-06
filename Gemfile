@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 5.0'
+gem 'activerecord-jdbcpostgresql-adapter', '>= 50.0'
+gem 'activesupport', '>= 5.0'
+gem 'rails', '~> 7.0.0'
