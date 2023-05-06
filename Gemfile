@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'dotenv', '>= 0'
+gem 'gitlab', '>= 0'
+gem 'thor', '>= 0'
+gem 'rails', '~> 3.0.0'
