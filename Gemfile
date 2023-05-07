@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'httparty', '>= 0'
+gem 'money', '>= 0'
+gem 'nokogiri', '>= 0'
+gem 'rails', '~> 6.1.0'
