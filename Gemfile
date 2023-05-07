@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'gsl', '~> 1.14'
+gem 'rake-compiler', '>= 0'
+gem 'statistics2', '~> 0.54'
+gem 'statsample', '~> 0.17'
+gem 'rails', '~> 5.1.0'
