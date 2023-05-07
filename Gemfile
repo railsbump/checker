@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'aws-sdk', '~> 1.7'
+gem 'fluentd', '~> 0.10.0'
+gem 'yajl-ruby', '~> 1.0'
+gem 'rails', '~> 6.1.0'
