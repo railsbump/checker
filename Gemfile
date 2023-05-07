@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-s3', '~> 1.0'
+gem 'aws-sdk-sqs', '~> 1.0'
+gem 'fluentd', '< 2', '>= 0.14.2'
+gem 'rails', '~> 3.1.0'
