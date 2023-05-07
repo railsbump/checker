@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-cloudwatchlogs', '~> 1.0'
+gem 'fluent-mixin-config-placeholders', '>= 0.2.0'
+gem 'fluentd', '>= 0'
+gem 'rails', '~> 4.0.0'
