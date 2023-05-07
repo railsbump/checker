@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'color', '>= 1.4.0'
+gem 'hpricot', '>= 0'
+gem 'rexml', '>= 0'
+gem 'rmagick', '>= 0'
+gem 'transaction-simple', '~> 1.3'
+gem 'rails', '~> 5.0.0'
