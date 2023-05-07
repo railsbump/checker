@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'pairing_heap', '>= 0.3.0'
+gem 'rexml', '~> 3.2', '>= 3.2.4'
+gem 'stream', '~> 0.5.3'
+gem 'rails', '~> 4.2.0'
