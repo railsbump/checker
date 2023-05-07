@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-sns', '~> 1'
+gem 'logical_model', '= 0.7.1'
+gem 'railties', '>= 3.1'
+gem 'rails', '~> 7.0.0'
