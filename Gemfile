@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'filesize', '~> 0'
+gem 'jsobfu', '~> 0'
+gem 'json', '~> 2'
+gem 'metasm', '~> 1'
+gem 'nokogiri', '~> 1'
+gem 'rb-readline', '~> 0'
+gem 'rails', '~> 3.2.0'
