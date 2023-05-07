@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activemodel', '>= 0'
+gem 'activesupport', '>= 0'
+gem 'ethon', '= 0.6.3'
+gem 'kaminari', '~> 1.2.1'
+gem 'typhoeus', '= 0.6.4'
+gem 'rails', '~> 5.2.0'
