@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 1.10.0'
+gem 'faraday-detailed_logger', '>= 0'
+gem 'faraday-multipart', '>= 0'
+gem 'nokogiri', '>= 0'
+gem 'rails', '~> 3.2.0'
