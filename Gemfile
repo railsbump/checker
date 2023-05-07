@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'abstract_type', '~> 0.0.6'
+gem 'adamantium', '~> 0.1'
+gem 'concord', '~> 0.1.4'
+gem 'descendants_tracker', '~> 0.0.1'
+gem 'equalizer', '~> 0.0.7'
+gem 'rails', '~> 3.0.0'
