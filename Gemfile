@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'aws-sdk', '>= 1.8.2'
+gem 'fluent-mixin-config-placeholders', '~> 0.2.0'
+gem 'fluentd', '~> 0.10.0'
+gem 'yajl-ruby', '~> 1.0'
+gem 'rails', '~> 5.2.0'
