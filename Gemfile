@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activemodel', '>= 0'
+gem 'activesupport', '>= 0'
+gem 'typhoeus', '~> 0.2.4'
+gem 'will_paginate', '~> 3.0.pre2'
+gem 'rails', '~> 3.0.0'
