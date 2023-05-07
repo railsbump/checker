@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'builder', '>= 1.0', '< 4.0'
+gem 'oauth', '>= 0.4.5', '< 0.6'
+gem 'rexml', '>= 0'
+gem 'rails', '~> 3.2.0'
