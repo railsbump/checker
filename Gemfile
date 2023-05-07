@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'dry-equalizer', '~> 0.2'
+gem 'rom-support', '~> 1.0.0'
+gem 'transproc', '~> 0.4.0'
+gem 'rails', '~> 2.3.0'
