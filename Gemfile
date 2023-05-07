@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 0'
+gem 'concurrent-ruby', '~> 1.1'
+gem 'thor', '< 2.0', '>= 0.18.1'
+gem 'tty-command', '~> 0.10.0'
+gem 'tty-prompt', '~> 0.23.1'
+gem 'tty-spinner', '~> 0.9.3'
+gem 'rails', '~> 3.0.0'
