@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 6.1.0', '< 7.1'
+gem 'chronic', '~> 0'
+gem 'chronic_duration', '~> 0'
+gem 'rails', '~> 7.0.0'
