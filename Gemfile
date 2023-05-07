@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 5.1', '< 7.1'
+gem 'activesupport', '>= 5.1', '< 7.1'
+gem 'granite-form', '>= 0.3.0'
+gem 'memoist', '~> 0.16'
+gem 'ruby2_keywords', '~> 0.0.5'
+gem 'rails', '~> 6.1.0'
