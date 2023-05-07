@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'prometheus-client', '~> 1.0'
+gem 'puma', '>= 5.0'
+gem 'rack', '>= 0'
+gem 'rails', '>= 0', '~> 5.1.0'
