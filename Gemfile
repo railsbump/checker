@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'colorize', '>= 0'
+gem 'gherkin', '>= 0'
+gem 'trollop', '>= 0'
+gem 'rails', '~> 4.2.0'
