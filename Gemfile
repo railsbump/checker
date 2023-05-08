@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'bunny', '~> 1.4'
+gem 'multi_json', '>= 0'
+gem 'rails', '~> 7.0.0'
