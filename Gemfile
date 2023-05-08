@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'bunny', '~> 1.5'
+gem 'concurrent-ruby', '~> 0.7.0'
+gem 'multi_json', '>= 0'
+gem 'rails', '~> 4.0.0'
