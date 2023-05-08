@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'shoppe', '~> 0.0.9'
+gem 'stripe', '~> 1.8.7'
+gem 'rails', '~> 4.0.0'
