@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'money-rails', '>= 0'
+gem 'public_activity', '>= 0'
+gem 'rails', '>= 5.0.0', '~> 5.0.0'
+gem 'service_pattern', '>= 0'
+gem 'stripe', '>= 0'
+gem 'stripe-ruby-mock', '>= 0'
+gem 'stripe_event', '>= 0.0.4'
