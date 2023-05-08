@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'event_emitter', '>= 0'
+gem 'httparty', '>= 0'
+gem 'json', '>= 0'
+gem 'websocket-client-simple', '>= 0.0.6'
+gem 'rails', '~> 2.3.0'
