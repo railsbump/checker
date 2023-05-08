@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'faraday', '< 3'
+gem 'google-protobuf', '~> 3.0', '>= 3.7.0'
+gem 'rails', '~> 3.2.0'
