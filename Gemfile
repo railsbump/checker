@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 2.3.10'
+gem 'erubis', '>= 0'
+gem 'i18n', '~> 0.4'
+gem 'rails', '~> 4.2.0'
