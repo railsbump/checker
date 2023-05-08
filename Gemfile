@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activesupport', '~> 3.0'
+gem 'erubis', '>= 0'
+gem 'i18n', '~> 0.4'
+gem 'jeweler', '>= 0'
+gem 'rake', '>= 0'
+gem 'yard', '>= 0'
+gem 'rails', '~> 3.1.0'
