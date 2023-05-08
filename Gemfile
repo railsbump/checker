@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 6.0'
+gem 'activejob', '>= 6.0'
+gem 'scout_apm', '~> 4.0'
+gem 'rails', '~> 6.1.0'
