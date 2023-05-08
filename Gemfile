@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'json-schema', '>= 0'
+gem 'link_header', '>= 0'
+gem 'multi_json', '>= 0'
+gem 'rack', '>= 0'
+gem 'rails', '~> 6.1.0'
