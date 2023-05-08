@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 5.2'
+gem 'activemodel', '>= 5.2'
+gem 'activesupport', '>= 5.2'
+gem 'multi_json', '~> 1.0'
+gem 'rack', '>= 0'
+gem 'typhoeus', '~> 1.0'
+gem 'rails', '~> 5.2.0'
