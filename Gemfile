@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '< 7.0'
+gem 'mime-types', '>= 0'
+gem 'rack', '~> 2.0'
+gem 'webpacker', '>= 5.1'
+gem 'rails', '~> 5.2.0'
