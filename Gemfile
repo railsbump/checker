@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'bunny', '~> 0.10.0'
+gem 'celluloid', '>= 0'
+gem 'rails', '~> 7.0.0'
