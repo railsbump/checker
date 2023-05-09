@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 3.2'
+gem 'connection_pool', '>= 0'
+gem 'nats-pure', '~> 2'
+gem 'protobuf', '~> 3.7', '>= 3.7.2'
+gem 'rails', '~> 4.2.0'
