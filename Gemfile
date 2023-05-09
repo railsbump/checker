@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'highline', '>= 1.6.2'
+gem 'libarchive', '>= 0.1.1'
+gem 'net-sftp', '>= 2.0.2'
+gem 'net-ssh', '>= 2.0.15'
+gem 'polyglot', '>= 0.2.9'
+gem 'treetop', '>= 1.4.2'
+gem 'rails', '~> 3.0.0'
