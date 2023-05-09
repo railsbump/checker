@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'nokogiri', '~> 1.5'
+gem 'puma', '~> 6.0'
+gem 'rack', '~> 3.0.0'
+gem 'rackup', '~> 0.2.3'
+gem 'rexml', '~> 3.2.4'
+gem 'webrick', '~> 1.3'
+gem 'rails', '~> 5.0.0'
