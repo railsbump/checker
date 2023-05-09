@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'chinese_pinyin', '>= 0.3.0'
+gem 'redis', '>= 2.1.1'
+gem 'redis-namespace', '~> 1.0.2'
+gem 'rmmseg-cpp-huacnlee', '>= 0.2.8'
+gem 'rails', '~> 4.1.0'
