@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'typhoeus', '>= 0'
+gem 'virtus', '>= 0'
+gem 'rails', '~> 5.1.0'
