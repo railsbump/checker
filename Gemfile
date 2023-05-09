@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'multipart-post', '>= 0'
+gem 'virtus', '>= 0'
+gem 'rails', '~> 4.0.0'
