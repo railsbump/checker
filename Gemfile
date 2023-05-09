@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 0.8.7'
+gem 'lita', '~> 2.7'
+gem 'lita-slack-handler', '~> 0.2'
+gem 'rails', '~> 6.0.0'
