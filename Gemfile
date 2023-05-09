@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activerecord', '< 5.0'
+gem 'grape', '>= 0'
+gem 'kaminari', '>= 0'
+gem 'roar', '< 2.0', '>= 0.12.0'
+gem 'rails', '~> 2.3.0'
