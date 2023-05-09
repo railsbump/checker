@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'devise', '>= 0'
+gem 'lockbox', '>= 0'
+gem 'rails', '>= 3.1.1', '~> 5.0.0'
+gem 'randexp', '>= 0'
+gem 'rotp', '>= 4.0.0'
