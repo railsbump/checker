@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'redis', '>= 2.1.1'
+gem 'redis-namespace', '>= 1.0.2'
+gem 'ruby-pinyin', '>= 0.3.0', '~> 0.3'
+gem 'rails', '~> 3.1.0'
