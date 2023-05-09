@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'libarchive', '>= 0.1.1'
+gem 'net-sftp', '>= 2.0.2'
+gem 'net-ssh', '>= 2.0.15'
+gem 'polyglot', '>= 0.2.9'
+gem 'treetop', '>= 1.4.2'
+gem 'rails', '~> 4.2.0'
