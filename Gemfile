@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'grape', '>= 0'
+gem 'kaminari', '>= 0'
+gem 'roar', '< 2.0', '>= 0.12.0'
+gem 'rails', '~> 6.1.0'
