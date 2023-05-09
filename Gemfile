@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'httparty', '>= 0'
+gem 'ico-validator', '~> 0.4'
+gem 'nokogiri', '>= 0'
+gem 'rails', '~> 6.1.0'
