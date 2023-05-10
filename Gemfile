@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'active_model_serializers', '>= 0'
+gem 'activesupport', '>= 4'
+gem 'g5_authentication_client', '>= 0.5.3'
+gem 'httparty', '>= 0'
+gem 'pg', '>= 0'
+gem 'rails', '>= 0', '~> 5.2.0'
