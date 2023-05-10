@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'commander', '>= 0'
+gem 'flexirest', '~> 1.2.2'
+gem 'toml', '>= 0'
+gem 'rails', '~> 3.1.0'
