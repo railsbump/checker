@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'eventmachine', '>= 0'
+gem 'faraday', '>= 0'
+gem 'faye-websocket', '>= 0.8.0'
+gem 'lita', '>= 4.7.1'
+gem 'multi_json', '>= 0'
+gem 'rails', '~> 4.1.0'
