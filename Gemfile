@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'devise_g5_authenticatable', '= 1.0.2.rc.1'
+gem 'g5_authenticatable_api', '~> 1.0'
+gem 'g5_updatable', '> 0.6.0'
+gem 'pundit', '~> 1.0'
+gem 'rolify', '~> 5.1.0'
+gem 'rails', '~> 6.1.0'
