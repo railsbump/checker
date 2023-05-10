@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'active_model_serializers', '~> 0.8'
+gem 'g5_foundation_client', '>= 0.3.0'
+gem 'pg', '>= 0'
+gem 'rails', '>= 0', '~> 2.3.0'
+gem 'virtus', '>= 0'
