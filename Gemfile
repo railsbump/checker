@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'configlet', '~> 2.1'
+gem 'modelish', '~> 0.4'
+gem 'oauth2', '>= 0'
+gem 'rails', '~> 6.0.0'
