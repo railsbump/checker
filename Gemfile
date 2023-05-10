@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'devise_g5_authenticatable', '~> 0.2.2'
+gem 'g5_authenticatable_api', '~> 0.4.1'
+gem 'g5_updatable', '~> 0.6.0'
+gem 'omniauth-g5', '~> 0.3'
+gem 'pundit', '~> 1.0'
+gem 'rolify', '~> 4.0'
+gem 'rails', '~> 3.1.0'
