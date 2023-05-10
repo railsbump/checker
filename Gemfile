@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'braintree', '>= 2.40.0'
+gem 'deface', '~> 1.0'
+gem 'spree_backend', '>= 3.1.0'
+gem 'spree_core', '>= 3.1.0'
+gem 'spree_extension', '>= 0'
+gem 'spree_frontend', '>= 3.1.0'
+gem 'rails', '~> 6.0.0'
