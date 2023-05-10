@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'avatax', '>= 19.3'
+gem 'spree_backend', '>= 2.1.0'
+gem 'spree_core', '>= 2.1.0'
+gem 'spree_extension', '>= 0'
+gem 'rails', '~> 6.0.0'
