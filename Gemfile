@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'dm-core', '>= 0'
+gem 'feedzirra', '>= 0'
+gem 'rufus-scheduler', '>= 0'
+gem 'rails', '~> 7.0.0'
