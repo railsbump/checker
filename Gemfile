@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activemodel', '>= 4.0'
+gem 'activesupport', '>= 4.0'
+gem 'i18n', '!= 1.8.8'
+gem 'neo4j-ruby-driver', '>= 4.4.1'
+gem 'orm_adapter', '~> 0.5.0'
+gem 'sorted_set', '>= 0'
+gem 'rails', '~> 4.0.0'
