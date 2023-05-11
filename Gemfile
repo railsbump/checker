@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'http', '>= 3.0'
+gem 'ruby2_keywords', '>= 0'
+gem 'rails', '~> 7.0.0'
