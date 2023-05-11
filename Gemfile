@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'jquery-plugins-rails', '~> 0.2'
+gem 'jquery-rails', '~> 4.0'
+gem 'railties', '>= 3.0'
+gem 'rails', '~> 4.0.0'
