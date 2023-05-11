@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'actionview', '>= 5.0.0'
+gem 'activesupport', '>= 5.0.0'
+gem 'octicons', '>= 17.0.0'
+gem 'view_component', '>= 2.81.0', '< 3.0'
+gem 'rails', '~> 6.0.0'
