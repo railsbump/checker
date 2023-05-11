@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'addressable', '~> 2.6'
+gem 'dotenv', '~> 2.7'
+gem 'eth', '~> 0.5.11'
+gem 'httparty', '~> 0.17'
+gem 'json', '~> 2.2'
+gem 'rails', '~> 4.0.0'
