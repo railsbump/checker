@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 0.8.4'
+gem 'faraday_middleware', '~> 0.8'
+gem 'json', '= 1.7.5'
+gem 'rails', '~> 5.1.0'
