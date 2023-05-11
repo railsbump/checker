@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'imba-source', '>= 0'
+gem 'imba-template', '>= 0'
+gem 'railties', '>= 4.2.0'
+gem 'rails', '~> 4.2.0'
