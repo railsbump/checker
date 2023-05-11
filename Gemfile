@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'dig_rb', '~> 1.0'
+gem 'httparty', '>= 0.21.0', '< 1.0.0'
+gem 'rake', '~> 13.0'
+gem 'table_print', '~> 1.5'
+gem 'term-ansicolor', '~> 1.7'
+gem 'thor', '>= 0.20', '< 2.0'
+gem 'rails', '~> 4.1.0'
