@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 1.6'
+gem 'google-cloud-monitoring-dashboard-v1', '>= 0.5', '< 2.a'
+gem 'google-cloud-monitoring-metrics_scope-v1', '>= 0.0', '< 2.a'
+gem 'google-cloud-monitoring-v3', '>= 0.10', '< 2.a'
+gem 'rails', '~> 4.0.0'
