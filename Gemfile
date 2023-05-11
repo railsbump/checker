@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activejob', '>= 4.2'
+gem 'bunny-publisher', '~> 0.2.0'
+gem 'sneakers', '~> 2.7'
+gem 'rails', '~> 5.1.0'
