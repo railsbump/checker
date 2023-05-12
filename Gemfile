@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'notification-handler', '= 2.0.0'
+gem 'notification-pusher', '= 2.0.0'
+gem 'notification-renderer', '= 2.0.0'
+gem 'notification-settings', '= 2.0.0'
+gem 'rails', '~> 3.2.0'
