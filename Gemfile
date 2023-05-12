@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'linkify-it-rb', '~> 4.0'
+gem 'mdurl-rb', '~> 1.0'
+gem 'uc.micro-rb', '~> 1.0'
+gem 'rails', '~> 6.1.0'
