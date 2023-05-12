@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'capybara', '>= 0'
+gem 'capybara-console', '>= 0'
+gem 'exception_notification', '>= 0'
+gem 'rails', '~> 4.0.0'
