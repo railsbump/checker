@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'gapic-common', '>= 0.16.0', '< 2.a'
+gem 'google-cloud-errors', '~> 1.0'
+gem 'google-cloud-location', '>= 0.0', '< 2.a'
+gem 'rails', '~> 7.0.0'
