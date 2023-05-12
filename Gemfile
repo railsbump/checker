@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+gem 'grac', '~> 4.2.0'
+gem 'rails', '~> 5.2.0'
