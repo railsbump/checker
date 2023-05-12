@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'bcrypt', '>= 0'
+gem 'disposable', '>= 0.1.11'
+gem 'reform', '~> 2.0'
+gem 'trailblazer', '~> 1.0'
+gem 'warden', '>= 0'
+gem 'rails', '~> 3.2.0'
