@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activemodel', '~> 3'
+gem 'activesupport', '~> 3'
+gem 'rspec', '~> 2'
+gem 'rails', '~> 3.1.0'
