@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'kwalify', '~> 0.7.0'
+gem 'parser', '~> 3.2.0'
+gem 'rainbow', '>= 2.0', '< 4.0'
+gem 'rails', '~> 3.2.0'
