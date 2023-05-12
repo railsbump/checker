@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activemodel', '~> 3'
+gem 'activesupport', '~> 3'
+gem 'rspec-core', '~> 2'
+gem 'rspec-expectations', '~> 2'
+gem 'rails', '~> 3.2.0'
