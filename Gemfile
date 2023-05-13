@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 0'
+gem 'railties', '>= 3.0.0'
+gem 'responders', '>= 0'
+gem 'roar', '~> 1.2'
+gem 'test_xml', '>= 0.1.6'
+gem 'uber', '< 0.2.0'
+gem 'rails', '~> 6.1.0'
