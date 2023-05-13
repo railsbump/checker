@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4', '< 7'
+gem 'json', '>= 1.4'
+gem 'typhoeus', '~> 1.0', '>= 1.0.1'
+gem 'rails', '~> 6.0.0'
