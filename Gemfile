@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 2.1'
+gem 'parallel_tests', '~> 3.3'
+gem 'rspec', '~> 3.10'
+gem 'rails', '~> 4.2.0'
