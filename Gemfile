@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'rubocop', '~> 1.33'
+gem 'rubocop-capybara', '>= 0'
+gem 'rails', '~> 4.2.0'
