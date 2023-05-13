@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'binding_of_caller', '~> 0.7'
+gem 'google-cloud-core', '~> 1.1'
+gem 'google-cloud-logging', '~> 1.0'
+gem 'google-gax', '~> 0.10.1'
+gem 'stackdriver-core', '~> 1.2'
+gem 'rails', '~> 3.2.0'
