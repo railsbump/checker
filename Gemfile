@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'bcrypt', '~> 3.1'
+gem 'doorkeeper', '~> 5.3'
+gem 'jsonapi-serializer', '~> 2.1'
+gem 'spree_core', '= 4.5.1'
+gem 'rails', '~> 4.1.0'
