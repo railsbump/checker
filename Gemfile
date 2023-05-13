@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'dotenv', '~> 2.7'
+gem 'http', '~> 5.0'
+gem 'json', '~> 2.5'
+gem 'uri', '~> 0.12.0'
+gem 'rails', '~> 6.1.0'
