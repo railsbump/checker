@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'actionmailer', '>= 0'
+gem 'spree_core', '>= 4.5.1'
+gem 'sprockets', '>= 4.0'
+gem 'rails', '~> 7.0.0'
