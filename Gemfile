@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'carrierwave', '>= 0.8', '< 3'
+gem 'mongoid', '>= 3.0', '< 9.0'
+gem 'mongoid-grid_fs', '>= 1.3', '< 3.0'
+gem 'rails', '~> 4.1.0'
