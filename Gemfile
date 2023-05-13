@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activesupport', '> 6'
+gem 'addressable', '~> 2.8'
+gem 'faraday', '~> 1.10'
+gem 'faraday_middleware', '~> 1.2'
+gem 'multi_json', '~> 1.15'
+gem 'rainbow', '~> 3.1'
+gem 'rails', '~> 7.0.0'
