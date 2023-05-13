@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 5.2'
+gem 'grape', '~> 1.0'
+gem 'httparty', '>= 0.21'
+gem 'jwt', '~> 2.6'
+gem 'keyless', '~> 1.1'
+gem 'recursive-open-struct', '~> 1.1'
+gem 'rails', '~> 5.2.0'
