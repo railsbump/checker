@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'colorize', '= 0.7.7'
+gem 'hiera-eyaml', '= 2.1.0'
+gem 'slop', '~> 3.6'
+gem 'rails', '~> 3.2.0'
