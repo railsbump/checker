@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'faraday', '< 2.8.0', '>= 1.1.0'
+gem 'faraday-follow_redirects', '<= 0.3.0', '< 1.0.0'
+gem 'faraday-multipart', '>= 1.0.0', '< 2.0.0'
+gem 'faraday-net_http', '< 4.0.0'
+gem 'hashie', '>= 1.2.0', '< 6.0'
+gem 'jwt', '>= 1.5.6'
+gem 'rails', '~> 5.2.0'
