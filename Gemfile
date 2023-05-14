@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'coinbase', '~> 2.0'
+gem 'multi_json', '~> 1.3'
+gem 'omniauth-oauth2', '~> 1.2'
+gem 'rails', '~> 6.0.0'
