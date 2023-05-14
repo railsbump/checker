@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '< 6', '>= 4.2'
+gem 'logger', '~> 1'
+gem 'rest-client', '~> 2.0'
+gem 'rails', '~> 4.2.0'
