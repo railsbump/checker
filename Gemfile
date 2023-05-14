@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 5.2'
+gem 'activesupport', '>= 5.2'
+gem 'after_transaction_commit', '>= 1.0', '< 3'
+gem 'debug_inspector', '~> 1.0'
+gem 'fugit', '~> 1.3'
+gem 'railties', '>= 5.2'
+gem 'rails', '~> 6.0.0'
