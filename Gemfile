@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'after_transaction_commit', '< 3', '>= 1.0'
+gem 'rails', '>= 4.2', '~> 6.0.0'
+gem 'redis', '> 3.0'
+gem 'redis-scripting', '~> 1.0.1'
+gem 'rufus-scheduler', '~> 3.4'
