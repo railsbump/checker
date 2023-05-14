@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'character_set', '~> 1.4'
+gem 'regexp_parser', '>= 2.6.2', '< 3.0.0'
+gem 'regexp_property_values', '~> 1.0'
+gem 'rails', '~> 3.1.0'
