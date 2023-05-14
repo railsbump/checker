@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'globalid', '>= 0'
+gem 'i18n', '>= 1.7.0'
+gem 'jbuilder', '~> 2.7'
+gem 'kaminari', '>= 0.15'
+gem 'ostruct', '>= 0.3.2'
+gem 'rails', '>= 6.1', '< 8', '~> 6.1.0'
+gem 'view_component', '~> 2.66'
