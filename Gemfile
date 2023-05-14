@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'i18n', '~> 1.8'
+gem 'interactor', '~> 3.1'
+gem 'sycamore', '~> 0.3'
+gem 'rails', '~> 3.2.0'
