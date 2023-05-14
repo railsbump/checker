@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'arrayfields', '~> 4.9', '>= 4.9.2'
+gem 'chronic', '~> 0.10', '>= 0.10.2'
+gem 'fattr', '~> 2.4', '>= 2.4.0'
+gem 'map', '~> 6.6', '>= 6.6.0'
+gem 'rails', '~> 3.0.0'
