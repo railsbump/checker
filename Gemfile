@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'hoe', '>= 1.8.2'
+gem 'mocha', '>= 0.9.0'
+gem 'rake', '>= 0'
+gem 'rspec', '>= 0'
+gem 'rubigen', '>= 0'
+gem 'taglob', '>= 1.0.0'
+gem 'rails', '~> 6.0.0'
