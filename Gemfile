@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 6.0'
+gem 'activesupport', '>= 6.0'
+gem 'attr_json', '>= 1.3'
+gem 'rails', '~> 6.0.0'
