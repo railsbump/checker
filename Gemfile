@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'mocha', '>= 0.9.3'
+gem 'rake', '>= 0.8.3'
+gem 'rspec', '>= 1.1.12'
+gem 'rubigen', '>= 1.4.0'
+gem 'taglob', '>= 1.1.1'
+gem 'rails', '~> 6.1.0'
