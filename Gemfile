@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activemodel', '~> 4.2'
+gem 'activesupport', '~> 4.2'
+gem 'has_active_logger', '>= 0'
+gem 'multi_json', '>= 0'
+gem 'rails', '~> 4.2.0'
