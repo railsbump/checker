@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+gem 'rubocop', '~> 1.44'
+gem 'rails', '~> 4.1.0'
