@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'pry', '>= 0.13.0'
+gem 'tty-markdown', '>= 0'
+gem 'tty-prompt', '>= 0'
+gem 'rails', '~> 6.1.0'
