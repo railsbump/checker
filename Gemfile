@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'debase-ruby_core_source', '>= 0.10.16', '<= 3.2.0'
+gem 'libdatadog', '~> 1.0.1.1.0'
+gem 'libddwaf', '~> 1.5.1.0.0'
+gem 'msgpack', '>= 0'
+gem 'rails', '~> 7.0.0'
