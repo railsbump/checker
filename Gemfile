@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-sns', '>= 0'
+gem 'aws-sdk-sqs', '>= 0'
+gem 'dry-cli', '~> 0.6'
+gem 'dry-validation', '~> 1.5'
+gem 'luna_park', '~> 0.11'
+gem 'terminal-table', '~> 3.0'
+gem 'rails', '~> 3.1.0'
