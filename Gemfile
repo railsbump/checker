@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'active_model_serializers', '~> 0.9'
+gem 'devise', '~> 3.4'
+gem 'koala', '~> 1.11.1'
+gem 'rails', '< 4.3.0', '>= 4.0.0', '~> 4.0.0'
+gem 'simple_token_authentication', '~> 1.7'
