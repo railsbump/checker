@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'json_schema', '~> 0.14', '>= 0.14.3'
+gem 'openapi_parser', '~> 1.0'
+gem 'rack', '>= 1.5'
+gem 'rails', '~> 5.2.0'
