@@ -1,4 +1,4 @@
-name: CI
+name: Check
 on:
   push:
     branches-ignore:
@@ -6,8 +6,7 @@ on:
 
 jobs:
 
-  verify:
-    name: Verify
+  check:
     runs-on: ubuntu-latest
 
     steps:
