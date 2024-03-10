@@ -17,11 +17,11 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: RUBY_VERSION
+          ruby-version: 3.3.0
           bundler: none
 
       - name: Install bundler
-        run: gem install bundler -v BUNDLER_VERSION
+        run: gem install bundler -v 2.5.6
 
       - name: Try to create lockfile
-        run: bundle _BUNDLER_VERSION_ lock >> $GITHUB_STEP_SUMMARY
+        run: bundle _2.5.6_ lock >> $GITHUB_STEP_SUMMARY
