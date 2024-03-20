@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'rubocop', '>= 0.59', '< 0.81'
+gem 'rubocop-rails', '~> 2.5.0'
+gem 'rubocop-rspec', '~> 1.39.0'
+gem 'semantic_versioning', '~> 0.2'
+gem 'rails', '~> 4.1.0'
