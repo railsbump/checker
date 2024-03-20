@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'mimemagic', '~> 0.4'
+gem 'parallel', '~> 1.22'
+gem 'retries', '~> 0.0'
+gem 'uploadcare-api_struct', '>= 1.1', '< 2'
+gem 'rails', '~> 4.2.0'
