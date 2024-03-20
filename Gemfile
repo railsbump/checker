@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'language_server-protocol', '~> 3.17.0'
+gem 'sorbet-runtime', '>= 0'
+gem 'syntax_tree', '>= 6.0.2', '< 7'
+gem 'rails', '~> 4.2.0'
