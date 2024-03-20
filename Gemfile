@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'aws-sdk', '>= 0'
+gem 'librato-rails', '>= 0'
+gem 'multi_json', '>= 0'
+gem 'sentry-raven', '>= 0'
+gem 'rails', '~> 4.1.0'
