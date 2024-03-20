@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'language_server-protocol', '~> 3.17.0.2'
+gem 'rubocop', '= 1.44.1'
+gem 'rubocop-performance', '= 1.15.2'
+gem 'rails', '~> 4.1.0'
