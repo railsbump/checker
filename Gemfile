@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'google-cloud-core', '~> 1.5'
+gem 'google-cloud-firestore-v1', '~> 0.8'
+gem 'rbtree', '~> 0.4.2'
+gem 'rails', '~> 4.1.0'
