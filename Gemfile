@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'faraday', '> 2.0'
+gem 'faraday-decode_xml', '>= 0'
+gem 'rails', '~> 4.2.0'
