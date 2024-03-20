@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4.2', '< 6.1'
+gem 'json-jwt', '~> 1.11'
+gem 'rest-client', '~> 2.0'
+gem 'rails', '~> 4.2.0'
