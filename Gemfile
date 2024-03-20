@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'dry-configurable', '>= 0.16.1'
+gem 'lucky_case', '>= 1.1.0'
+gem 'rails', '~> 4.2.0'
