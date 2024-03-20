@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activemodel', '>= 4.0.0'
+gem 'activesupport', '>= 4.0.0'
+gem 'mime-types', '>= 1.16'
+gem 'rails', '~> 4.2.0'
