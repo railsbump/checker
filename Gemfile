@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activerecord', '~> 4.1'
+gem 'activerecord-import', '~> 0.13.0'
+gem 'activesupport', '~> 4.1'
+gem 'monetize', '>= 0'
+gem 'money-rails', '>= 0'
+gem 'rails', '~> 4.2.0'
