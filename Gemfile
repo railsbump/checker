@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'guard', '~> 2.14'
+gem 'guard-compat', '~> 1.2'
+gem 'puma', '>= 4.0', '< 7'
+gem 'rails', '~> 2.3.0'
