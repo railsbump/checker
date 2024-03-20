@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 1.1'
+gem 'google-gax', '~> 1.0'
+gem 'stackdriver-core', '~> 1.2'
+gem 'rails', '~> 4.2.0'
