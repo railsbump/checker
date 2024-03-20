@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activejob', '>= 0'
+gem 'activerecord-import', '>= 0'
+gem 'bearcat', '>= 1.3.49'
+gem 'rails', '>= 4', '~> 4.1.0'
+gem 'rubyzip', '>= 0'
