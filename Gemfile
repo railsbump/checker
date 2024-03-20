@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'get_env', '~> 0.2.0'
+gem 'rubocop', '~> 1.1.0'
+gem 'rubocop-rails', '= 2.8.0'
+gem 'rubocop-rspec', '= 2.0.0.pre'
+gem 'semantic_versioning', '~> 0.2'
+gem 'rails', '~> 4.1.0'
