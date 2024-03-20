@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'alchemy_cms', '>= 5.0.0', '< 7'
+gem 'deface', '~> 1.0'
+gem 'solidus_backend', '>= 2.10.0', '< 4.0'
+gem 'solidus_core', '>= 2.10.0', '< 4.0'
+gem 'solidus_support', '>= 0.1.1'
+gem 'rails', '~> 4.0.0'
