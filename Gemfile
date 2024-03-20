@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'actionmailer', '>= 4.2', '< 7.0'
+gem 'actionpack', '>= 4.2', '< 7.0'
+gem 'activesupport', '>= 4.2', '< 7.0'
+gem 'contextual_logger', '>= 0'
+gem 'eventmachine', '~> 1.0'
+gem 'invoca-utils', '~> 0.3'
+gem 'rails', '~> 4.2.0'
