@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 4.0'
+gem 'fugit', '~> 1'
+gem 'hashie', '~> 3'
+gem 'que', '~> 0.10'
+gem 'rails', '~> 4.2.0'
