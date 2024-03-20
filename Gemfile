@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'jsonapi-serializers', '~> 0.2.6'
+gem 'jwt', '~> 1.5'
+gem 'rack-cors', '~> 0.4.0'
+gem 'rails', '~> 4.0', '~> 4.2.0'
