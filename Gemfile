@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'mechanize', '>= 0'
+gem 'mime-types', '~> 1.2'
+gem 'multi_json', '>= 0'
+gem 'nokogiri', '~> 1.5.0'
+gem 'progressbar', '>= 0'
+gem 'rails', '~> 4.2.0'
