@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.1'
+gem 'google-cloud-core', '~> 1.2'
+gem 'google-gax', '~> 1.3'
+gem 'stackdriver-core', '~> 1.3'
+gem 'rails', '~> 4.2.0'
