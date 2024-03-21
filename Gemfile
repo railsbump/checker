@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'excon', '>= 0'
+gem 'faraday', '= 0.17.3'
+gem 'rails', '~> 4.2.0'
