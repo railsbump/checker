@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'actionview', '>= 4.0'
+gem 'activesupport', '>= 4.0'
+gem 'erubi', '~> 1.4'
+gem 'html_tokenizer', '>= 0'
+gem 'parser', '>= 2.4'
+gem 'smart_properties', '>= 0'
+gem 'rails', '~> 4.2.0'
