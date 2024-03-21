@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4.2'
+gem 'deep_merge', '~> 1.2', '>= 1.2.1'
+gem 'dry-schema', '~> 1.0'
+gem 'rails', '~> 4.2.0'
