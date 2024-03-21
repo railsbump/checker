@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'actionview', '>= 0'
+gem 'octicons', '= 0.0.0.pre.f1f6300'
+gem 'railties', '>= 0'
+gem 'rails', '~> 4.2.0'
