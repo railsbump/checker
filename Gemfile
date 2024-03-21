@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'aws-sigv4', '~> 1.0'
+gem 'jmespath', '~> 1.0'
+gem 'rails', '~> 4.2.0'
