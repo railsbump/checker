@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'bourbon', '>= 0'
+gem 'jquery-rails', '>= 0'
+gem 'jquery-ui-rails', '~> 5.0.0'
+gem 'select2-rails', '= 3.5.9.1'
+gem 'solidus_api', '= 1.0.2'
+gem 'solidus_core', '= 1.0.2'
+gem 'rails', '~> 4.2.0'
