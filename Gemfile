@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'phony', '>= 0'
+gem 'phony_rails', '>= 0'
+gem 'rails', '~> 4.0', '~> 4.2.0'
+gem 'rails_admin', '~> 0.6.0'
