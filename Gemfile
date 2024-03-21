@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'actionview', '>= 4.0'
+gem 'activesupport', '>= 4.0'
+gem 'erubis', '~> 2.7.0'
+gem 'rails', '~> 4.2.0'
