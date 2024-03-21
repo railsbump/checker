@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'listen', '~> 3.9'
+gem 'observer', '~> 0.1'
+gem 'string-similarity', '~> 2.1'
+gem 'tty-option', '~> 0.1'
+gem 'rails', '~> 4.2.0'
