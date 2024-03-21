@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'rabl', '< 0.12.0', '>= 0.9.4.pre1'
+gem 'solidus_core', '= 1.0.0.pre3'
+gem 'versioncake', '~> 2.3.1'
+gem 'rails', '~> 4.2.0'
