@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+gem 'rails', '>= 3.2.1', '< 6.1', '~> 4.2.0'
+gem 'zip_tricks', '>= 4.2.1', '< 6.0'
