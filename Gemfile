@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4.0.0'
+gem 'faraday', '~> 0.11.0'
+gem 'faraday_middleware', '~> 0.11.0'
+gem 'httpclient', '~> 2.8.3', '>= 2.8.3'
+gem 'rails', '~> 4.2.0'
