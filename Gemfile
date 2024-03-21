@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'solidus_api', '= 1.2.1'
+gem 'solidus_backend', '= 1.2.1'
+gem 'solidus_core', '= 1.2.1'
+gem 'solidus_frontend', '= 1.2.1'
+gem 'solidus_sample', '= 1.2.1'
+gem 'rails', '~> 4.2.0'
