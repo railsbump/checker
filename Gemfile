@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'apartment', '~> 1.2.0'
+gem 'delayed_job_active_record', '>= 0'
+gem 'ims-lti', '>= 0'
+gem 'pg', '~> 0.18.4'
+gem 'rails', '>= 4.2.0', '~> 4.2.0'
