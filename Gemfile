@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activesupport', '< 6', '>= 4.1'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'dry-types', '~> 0.13'
+gem 'graphiti_errors', '~> 1.0.alpha.2'
+gem 'jsonapi-serializable', '~> 0.3.0'
+gem 'rails', '~> 4.2.0'
