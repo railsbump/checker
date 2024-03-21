@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'font-awesome-rails', '~> 4.0'
+gem 'rails', '~> 4.0', '~> 4.2.0'
+gem 'slim', '>= 2.0.0', '~> 2.0.0'
+gem 'tilt', '>= 1.4.1', '~> 1.4'
