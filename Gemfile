@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'multi_json', '>= 0'
+gem 'rails', '~> 4.2.0'
