@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activerecord', '< 4.3', '>= 4.0'
+gem 'open4', '= 1.3.0'
+gem 'railties', '< 4.3', '>= 4.0'
+gem 'shackles', '< 2.0', '>= 1.0.10'
+gem 'rails', '~> 4.2.0'
