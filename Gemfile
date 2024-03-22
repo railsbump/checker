@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'cgi', '<= 0.1.0'
+gem 'json_pure', '~> 2.1'
+gem 'rest-client', '>= 1.8', '<= 2.0.2'
+gem 'rails', '~> 3.2.0'
