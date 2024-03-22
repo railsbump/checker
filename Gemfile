@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activeresource', '>= 0'
+gem 'countries', '>= 0'
+gem 'phonelib', '>= 0'
+gem 'rails', '~> 4.2.0'
