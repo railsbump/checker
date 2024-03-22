@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'elasticsearch', '>= 0'
+gem 'excon', '>= 0'
+gem 'faraday', '~> 1.10'
+gem 'fluentd', '>= 0.14.22'
+gem 'rails', '~> 3.2.0'
