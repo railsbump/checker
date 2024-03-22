@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'anystyle-data', '~> 1.2'
+gem 'bibtex-ruby', '~> 4.0'
+gem 'namae', '~> 1.0'
+gem 'wapiti', '>= 1.0.2', '~> 1.0'
+gem 'rails', '~> 3.2.0'
