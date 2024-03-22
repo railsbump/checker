@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'hirb', '>= 0.4.5'
+gem 'json', '>= 1.4.3'
+gem 'msgpack', '~> 0.4.4'
+gem 'rails', '~> 3.2.0'
