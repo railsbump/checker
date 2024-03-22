@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activemodel', '~> 3.2.0'
+gem 'minitest', '>= 4.0.0'
+gem 'minitest-matchers', '~> 1.2.0'
+gem 'rails', '~> 3.2.0'
