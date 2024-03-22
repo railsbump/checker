@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'htmlentities', '~> 4.3'
+gem 'rdf', '~> 3.1'
+gem 'rdf-rdfa', '~> 3.1'
+gem 'rdf-xsd', '~> 3.1'
+gem 'rails', '~> 3.2.0'
