@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'compass-rails', '>= 0'
+gem 'rails', '>= 3.1', '~> 3.2.0'
+gem 'redactor-rails', '>= 0'
+gem 'selectize-rails', '>= 0'
+gem 'simple_form', '>= 0'
+gem 'underscore-rails', '>= 0'
