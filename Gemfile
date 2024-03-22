@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'asciidoctor-plantuml', '= 0.0.16'
+gem 'kramdown', '~> 2.4.0'
+gem 'nokogiri', '~> 1.14.0'
+gem 'rouge', '~> 4.1.0'
+gem 'rails', '~> 3.2.0'
