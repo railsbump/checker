@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'addressable', '~> 2.8'
+gem 'capybara', '~> 3.27'
+gem 'site_prism-all_there', '~> 2.0'
+gem 'rails', '~> 3.2.0'
