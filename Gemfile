@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 3.0.7'
+gem 'locomotive_carrierwave', '>= 0'
+gem 'mongoid', '= 2.0.2'
+gem 'rails', '~> 4.2.0'
