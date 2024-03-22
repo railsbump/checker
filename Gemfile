@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'httpi', '~> 3.0'
+gem 'nokogiri', '>= 1.13.9'
+gem 'rails', '~> 3.2.0'
