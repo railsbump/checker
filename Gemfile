@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'actionmailer', '~> 3.2'
+gem 'actionpack', '~> 3.2'
+gem 'activesupport', '~> 3.2'
+gem 'eventmachine', '>= 0.12.10'
+gem 'hobo_support', '>= 0'
+gem 'invoca-utils', '~> 0.0.2'
+gem 'rails', '~> 3.2.0'
