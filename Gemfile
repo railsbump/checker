@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'actionmailer', '~> 3.2'
+gem 'actionpack', '~> 3.2'
+gem 'activesupport', '~> 3.2'
+gem 'eventmachine', '>= 0.12.10'
+gem 'rails', '~> 3.2.0'
