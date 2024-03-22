@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'rabl', '~> 0.14', '>= 0.14.2'
+gem 'responders', '>= 0'
+gem 'spree', '>= 4.4.0.rc1'
+gem 'spree_extension', '>= 0'
+gem 'rails', '~> 4.2.0'
