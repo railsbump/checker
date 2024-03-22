@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 2.3.4'
+gem 'amq-protocol', '= 2.3.2'
+gem 'amqp', '= 1.8.0'
+gem 'bunny', '~> 0.7.13'
+gem 'hiredis', '>= 0.4.5'
+gem 'redis', '>= 4.2.1'
+gem 'rails', '~> 3.2.0'
