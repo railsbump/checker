@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'hirb', '>= 0.4.5'
+gem 'msgpack', '~> 0.4.4'
+gem 'parallel', '~> 0.5.19'
+gem 'td-client', '~> 0.8.42'
+gem 'td-logger', '~> 0.3.16'
+gem 'yajl-ruby', '~> 1.1.0'
+gem 'rails', '~> 3.2.0'
