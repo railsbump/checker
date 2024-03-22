@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'coffee-rails', '>= 0'
+gem 'effective_resources', '>= 0.3.0'
+gem 'haml-rails', '< 1.0.0'
+gem 'kaminari', '>= 0'
+gem 'rails', '>= 3.2.0', '~> 3.2.0'
+gem 'sass-rails', '>= 0'
+gem 'simple_form', '>= 0'
