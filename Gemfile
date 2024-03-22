@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'action_interceptor', '>= 0'
+gem 'jquery-rails', '>= 0'
+gem 'rails', '< 7', '~> 3.2.0'
+gem 'responders', '>= 0'
