@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'awesome_print', '>= 0'
+gem 'pry-rails', '>= 0'
+gem 'rails-i18n', '>= 0'
+gem 'rails', '~> 3.2.0'
