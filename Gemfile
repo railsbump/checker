@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'compass', '>= 0.12.2'
+gem 'compass-normalize', '>= 1.3'
+gem 'sass', '>= 3.2.1'
+gem 'rails', '~> 3.2.0'
