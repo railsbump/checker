@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'packs', '>= 0'
+gem 'railties', '>= 0'
+gem 'rails', '~> 3.2.0'
