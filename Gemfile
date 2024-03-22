@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'httmultiparty', '>= 0.3.13'
+gem 'httparty', '>= 0.14.0'
+gem 'psych', '>= 2.0.17'
+gem 'rack', '>= 0'
+gem 'rails', '~> 3.2.0'
