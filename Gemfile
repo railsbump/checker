@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'ffi', '>= 1.8.1'
+gem 'get_process_mem', '>= 0.2.1'
+gem 'oj', '~> 3.3'
+gem 'sys-proctable', '< 1.2.0'
+gem 'timers', '>= 4.0.0'
+gem 'rails', '~> 4.2.0'
