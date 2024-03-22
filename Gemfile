@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'active_support', '>= 0'
+gem 'execjs', '>= 0'
+gem 'httpclient', '>= 0'
+gem 'rails', '~> 4.2.0'
