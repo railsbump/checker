@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'contentful', '>= 2.11.1', '< 3.0.0'
+gem 'hooks', '>= 0.4.1'
+gem 'mongoid', '>= 7.0.2', '< 8.0.0'
+gem 'rainbow', '>= 0'
+gem 'rails', '~> 3.2.0'
