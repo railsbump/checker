@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'dry-initializer', '~> 3.0'
+gem 'dry-types', '~> 1.4'
+gem 'view_component', '>= 2.0.0', '< 3.0'
+gem 'zeitwerk', '~> 2.4'
+gem 'rails', '~> 3.2.0'
