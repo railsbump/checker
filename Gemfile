@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'pygmentize', '~> 0.0.3'
+gem 'rails', '>= 3.1.0', '~> 3.2.0'
+gem 'rails_emoji', '~> 1.7.1'
+gem 'redcarpet', '~> 3.1.1'
