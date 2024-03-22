@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'faraday', '>= 0'
+gem 'hashie', '>= 0'
+gem 'json', '>= 0'
+gem 'oauth', '>= 0'
+gem 'simple_oauth', '>= 0'
+gem 'rails', '~> 3.2.0'
