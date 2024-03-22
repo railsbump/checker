@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'authlogic', '>= 2.1.2'
+gem 'formtastic', '>= 1.1.0'
+gem 'jzip', '>= 1.0.11'
+gem 'sass', '>= 0'
+gem 'rails', '~> 3.2.0'
