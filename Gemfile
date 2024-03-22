@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'celluloid-io', '>= 0'
+gem 'logstash-event', '~> 1.2.02'
+gem 'redis', '>= 0'
+gem 'rails', '~> 3.2.0'
