@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'solidus_core', '>= 3.2', '< 4'
+gem 'solidus_support', '~> 0.8'
+gem 'stripe', '~> 8.0'
+gem 'rails', '~> 3.2.0'
