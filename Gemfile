@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'bcrypt', '~> 3.1'
+gem 'oauth', '~> 0.5', '>= 0.5.5'
+gem 'oauth2', '~> 2.0'
+gem 'rails', '~> 3.2.0'
