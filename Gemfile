@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'curb', '>= 0'
+gem 'json', '>= 0'
+gem 'mime-types', '>= 0'
+gem 'rack', '>= 0'
+gem 'rmagick', '>= 0'
+gem 'sinatra', '>= 0'
+gem 'rails', '~> 3.2.0'
