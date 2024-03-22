@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'opentelemetry-api', '~> 1.0'
+gem 'opentelemetry-common', '~> 0.19.2'
+gem 'opentelemetry-instrumentation-base', '~> 0.18.3'
+gem 'rails', '~> 4.2.0'
