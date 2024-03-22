@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'multi_json', '~> 1.10.0'
+gem 'nokogiri', '~> 1.6.0'
+gem 'progressbar', '~> 0.21'
+gem 'rest-client', '>= 0'
+gem 'rails', '~> 3.2.0'
