@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'httparty', '~> 0.17'
+gem 'jwt', '~> 2.2'
+gem 'link_header', '~> 0.0'
+gem 'rails', '~> 3.2.0'
