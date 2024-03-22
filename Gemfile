@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'diff-lcs', '~> 1.3'
+gem 'parser', '~> 3.2.2', '>= 3.2.2.4'
+gem 'regexp_parser', '~> 2.6.1'
+gem 'sorbet-runtime', '~> 0.5.0'
+gem 'unparser', '~> 0.6.9'
+gem 'rails', '~> 3.2.0'
