@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'awesome_print', '>= 0'
+gem 'nilify_blanks', '>= 0'
+gem 'pry-rails', '>= 0'
+gem 'rails-i18n', '>= 0'
+gem 'tapenade', '>= 0'
+gem 'rails', '~> 3.2.0'
