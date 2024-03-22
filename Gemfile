@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'minitest', '~> 4.1'
+gem 'minitest-matchers', '~> 1.2'
+gem 'mongoid', '~> 3.0'
+gem 'rails', '~> 3.2.0'
