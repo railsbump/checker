@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'commander', '~> 4.3'
+gem 'elasticsearch', '~> 1.0.17'
+gem 'json', '~> 1.8.2'
+gem 'quandl-config', '< 2.0', '> 0.0.3'
+gem 'rails', '~> 3.2.0'
