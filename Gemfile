@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'formtastic', '= 0.9.7'
+gem 'haml', '>= 3'
+gem 'jzip', '>= 1.0.10'
+gem 'rails', '~> 3.2.0'
