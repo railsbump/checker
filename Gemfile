@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-sns', '>= 1.1.0'
+gem 'aws-sdk-sqs', '>= 1.3.0'
+gem 'concurrent-ruby', '~> 1.0', '>= 1.0.5'
+gem 'dotenv', '~> 2.1', '>= 2.1.1'
+gem 'rails', '~> 3.2.0'
