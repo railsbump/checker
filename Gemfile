@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'coffee-rails', '>= 0'
+gem 'haml', '>= 0'
+gem 'jquery-datatables-rails', '>= 0'
+gem 'kaminari', '>= 0'
+gem 'rails', '>= 3.2.0', '~> 3.2.0'
