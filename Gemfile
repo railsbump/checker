@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'deface', '~> 1.5'
+gem 'paypalhttp', '>= 0'
+gem 'solidus_api', '>= 0'
+gem 'solidus_core', '>= 3.0', '< 5.0'
+gem 'solidus_support', '>= 0.8.0'
+gem 'solidus_webhooks', '~> 0.2'
+gem 'rails', '~> 3.2.0'
