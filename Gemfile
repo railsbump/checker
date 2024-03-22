@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 0'
+gem 'activesupport', '>= 0'
+gem 'ancestry', '>= 0'
+gem 'railties', '>= 0'
+gem 'sorbet-rails', '>= 0'
+gem 'sorbet-static-and-runtime', '>= 0'
+gem 'rails', '~> 3.2.0'
