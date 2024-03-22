@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activerecord-honeycomb', '>= 0.2.1'
+gem 'faraday-honeycomb', '>= 0.2.1'
+gem 'libhoney', '>= 1.6.0'
+gem 'rack-honeycomb', '>= 0.2.1'
+gem 'sequel-honeycomb', '>= 0.2.1'
+gem 'rails', '~> 3.2.0'
