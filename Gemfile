@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+gem 'activeresource', '>= 4.1.0', '< 6.0.0'
+gem 'rails', '~> 4.2.0'
