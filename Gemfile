@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'capybara', '>= 2.1.0'
+gem 'coffee-script', '>= 0'
+gem 'json_pure', '>= 0'
+gem 'launchy', '>= 0'
+gem 'sinatra', '>= 1.1'
+gem 'rails', '~> 3.2.0'
