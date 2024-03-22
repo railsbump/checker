@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'certifi', '>= 2016.09.26', '~> 2016.9'
+gem 'faraday', '~> 0.10.0'
+gem 'test-unit', '~> 3.1.5'
+gem 'rails', '~> 3.2.0'
