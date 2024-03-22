@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'jquery-rails', '>= 0'
+gem 'pg', '>= 0'
+gem 'sass-rails', '>= 0'
+gem 'semantic-ui-sass', '>= 0'
+gem 'rails', '~> 3.2.0'
