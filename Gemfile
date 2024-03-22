@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 0.15.4'
+gem 'faraday-net_http', '~> 1.0'
+gem 'faraday_middleware', '~> 0.12.2'
+gem 'rails', '~> 3.2.0'
