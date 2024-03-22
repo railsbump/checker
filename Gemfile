@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '>= 1.1'
+gem 'oj', '>= 3.0.11'
+gem 'sys-proctable', '>= 1.2.2'
+gem 'rails', '~> 4.2.0'
