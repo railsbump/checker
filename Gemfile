@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'dependabot-core', '= 0.80.1'
+gem 'dependabot-docker', '= 0.80.1'
+gem 'dependabot-git_submodules', '= 0.80.1'
+gem 'dependabot-nuget', '= 0.80.1'
+gem 'dependabot-python', '= 0.80.1'
+gem 'dependabot-terraform', '= 0.80.1'
+gem 'rails', '~> 4.2.0'
