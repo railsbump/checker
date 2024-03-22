@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'dependabot-core', '= 0.78.0'
+gem 'dependabot-docker', '= 0.78.0'
+gem 'dependabot-git-submodules', '= 0.78.0'
+gem 'dependabot-terraform', '= 0.78.0'
+gem 'rails', '~> 4.2.0'
