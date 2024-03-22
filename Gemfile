@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'eth', '~> 0.4.4'
+gem 'keccak', '~> 1.3', '>= 1.3.1'
+gem 'power-types', '~> 0.1'
+gem 'rails', '~> 3.2.0'
