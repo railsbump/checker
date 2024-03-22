@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'html-pipeline', '~> 1.9.0'
+gem 'pygmentize', '~> 0.0.3'
+gem 'rails', '>= 3.1.0', '~> 3.2.0'
+gem 'rails_emoji', '~> 1.7.1'
+gem 'redcarpet', '~> 3.1.1'
+gem 'sanitize', '~> 3.0.0'
