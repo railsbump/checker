@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'fmrest-core', '= 0.25.0.rc1'
+gem 'fmrest-rails', '= 0.25.0.rc1'
+gem 'fmrest-spyke', '= 0.25.0.rc1'
+gem 'rails', '~> 3.2.0'
