@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'htmlentities', '~> 4.3'
+gem 'json-canonicalization', '~> 0.3'
+gem 'link_header', '~> 0.0', '>= 0.0.8'
+gem 'multi_json', '~> 1.15'
+gem 'rack', '>= 2.2', '< 4'
+gem 'rdf', '~> 3.2', '>= 3.2.10'
+gem 'rails', '~> 3.2.0'
