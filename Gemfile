@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'minitest', '~> 5.0'
+gem 'minitest-activemodel', '~> 1.1'
+gem 'mongoid', '< 8.0', '>= 3'
+gem 'mongoid-compatibility', '>= 0'
+gem 'rails', '~> 3.2.0'
