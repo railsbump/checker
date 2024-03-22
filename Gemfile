@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'addressable', '~> 2.3'
+gem 'equalizer', '~> 0.0.11'
+gem 'http', '~> 2.0'
+gem 'http-form_data', '~> 1.0'
+gem 'naught', '~> 1.0'
+gem 'rails', '~> 3.2.0'
