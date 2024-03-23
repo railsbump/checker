@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'contrast-agent-lib', '= 1.1.0'
+gem 'ffi', '~> 1.0'
+gem 'ougai', '>= 1.8', '< 3.0.0'
+gem 'rack', '~> 2.0'
+gem 'rails', '~> 4.1.0'
