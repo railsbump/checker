@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'jbuilder', '~> 2.8'
+gem 'kaminari-activerecord', '~> 1.1'
+gem 'responders', '>= 0'
+gem 'solidus_core', '= 3.4.2'
+gem 'rails', '~> 3.2.0'
