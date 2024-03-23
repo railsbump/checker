@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 0.8'
+gem 'faraday_middleware', '~> 0.9'
+gem 'mime-types', '>= 0'
+gem 'multipart-post', '>= 0'
+gem 'rails', '~> 3.2.0'
