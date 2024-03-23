@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'ecma-re-validator', '~> 0.1.2'
+gem 'hana', '~> 1.3.3'
+gem 'uri_template', '~> 0.7.0'
+gem 'rails', '~> 3.2.0'
