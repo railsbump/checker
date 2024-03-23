@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'cool.io', '~> 1.0.0'
+gem 'http_parser.rb', '~> 0.5.1'
+gem 'json', '>= 1.4.3'
+gem 'msgpack', '~> 0.4.4'
+gem 'yajl-ruby', '~> 1.0.0'
+gem 'rails', '~> 3.2.0'
