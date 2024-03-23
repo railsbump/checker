@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'charlock_holmes', '~> 0.7.7'
+gem 'escape_utils', '~> 1.2.0'
+gem 'mini_mime', '~> 1.0'
+gem 'rugged', '~> 1.0'
+gem 'rails', '~> 3.2.0'
