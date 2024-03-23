@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'active_type', '~> 1.3.0'
+gem 'minitest', '>= 0'
+gem 'rails', '>= 0', '~> 3.2.0'
+gem 'request_store', '>= 0'
+gem 'schemacop', '~> 2.4.2'
