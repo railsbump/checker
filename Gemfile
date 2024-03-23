@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'hkdf', '~> 1.0'
+gem 'jwt', '~> 2.0'
+gem 'openssl', '~> 3.0'
+gem 'rails', '~> 2.3.0'
