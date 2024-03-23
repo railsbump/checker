@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 3.0'
+gem 'active_attr', '>= 0'
+gem 'activemodel', '>= 3.0'
+gem 'activerecord', '>= 3.0'
+gem 'transaction_isolation', '>= 0'
+gem 'transaction_retry', '>= 0'
+gem 'rails', '~> 3.2.0'
