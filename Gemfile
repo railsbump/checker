@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'debase-ruby_core_source', '<= 0.10.15'
+gem 'libddwaf', '~> 1.2.1.0.0.a'
+gem 'msgpack', '>= 0'
+gem 'rails', '~> 3.2.0'
