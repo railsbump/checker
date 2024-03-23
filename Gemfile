@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'bourbon', '~> 5.1'
+gem 'inline_svg', '~> 1.5'
+gem 'neat', '~> 3.0'
+gem 'slim-rails', '~> 3.2'
+gem 'rails', '~> 3.2.0'
