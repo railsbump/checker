@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'google-apis-bigquery_v2', '~> 0.1'
+gem 'google-cloud-core', '~> 1.2'
+gem 'googleauth', '~> 0.9'
+gem 'mini_mime', '~> 1.0'
+gem 'rails', '~> 3.2.0'
