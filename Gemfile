@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.1'
+gem 'http', '>= 4.4.0', '< 6.0.0'
+gem 'json', '~> 2.3'
+gem 'ld-eventsource', '= 2.2.1'
+gem 'semantic', '~> 1.6'
+gem 'rails', '~> 3.2.0'
