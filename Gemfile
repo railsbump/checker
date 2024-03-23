@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 3.0'
+gem 'backports', '~> 3.10'
+gem 'et-orbi', '> 1.0.5'
+gem 'fugit', '~> 1'
+gem 'hashie', '~> 3'
+gem 'que', '~> 0.10'
+gem 'rails', '~> 3.2.0'
