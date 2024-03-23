@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'active_hash', '>= 0'
+gem 'activesupport', '>= 0'
+gem 'cancancan', '>= 0'
+gem 'rails', '~> 3.2.0'
