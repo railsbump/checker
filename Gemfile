@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'packwerk', '>= 2.2.1'
+gem 'rails', '>= 0', '~> 2.3.0'
+gem 'sorbet-runtime', '>= 0'
+gem 'zeitwerk', '>= 0'
