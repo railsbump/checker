@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'capistrano', '~> 3.0'
+gem 'capistrano-bundle_audit', '>= 0.1.0'
+gem 'capistrano-one_time_key', '>= 0'
+gem 'capistrano-shared_configs', '>= 0'
+gem 'rails', '~> 3.2.0'
