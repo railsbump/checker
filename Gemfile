@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'oj', '>= 0'
+gem 'oj_mimic_json', '>= 0'
+gem 'yajl-ruby', '~> 1.2.1'
+gem 'rails', '~> 3.2.0'
