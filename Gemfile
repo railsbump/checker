@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-sns', '>= 1.1.0'
+gem 'aws-sdk-sqs', '>= 1.3.0'
+gem 'dotenv', '~> 2.1', '>= 2.1.1'
+gem 'rails', '~> 2.3.0'
