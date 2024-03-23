@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'anyway_config', '>= 1.1.1', '~> 1.1'
+gem 'grpc', '~> 1.6'
+gem 'redis', '>= 3.2'
+gem 'rails', '~> 3.2.0'
