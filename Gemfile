@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'anycable-core', '= 1.4.3'
+gem 'google-protobuf', '~> 3.23'
+gem 'grpc', '~> 1.53'
+gem 'rails', '~> 3.2.0'
