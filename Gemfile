@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'dalli', '~> 2.7'
+gem 'kgio', '~> 2.9'
+gem 'uuidtools', '~> 2.1'
+gem 'rails', '~> 3.2.0'
