@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'active_type', '~> 0.7.1'
+gem 'activejob', '>= 0'
+gem 'activerecord', '>= 0'
+gem 'activesupport', '>= 0'
+gem 'minitest', '>= 0'
+gem 'schemacop', '~> 2.0'
+gem 'rails', '~> 3.2.0'
