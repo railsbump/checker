@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'bindata', '>= 0'
+gem 'openssl-ccm', '>= 0'
+gem 'openssl-cmac', '>= 0'
+gem 'rubyntlm', '>= 0'
+gem 'windows_error', '>= 0.1.4'
+gem 'rails', '~> 3.2.0'
