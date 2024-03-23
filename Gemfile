@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'language_server-protocol', '~> 3.17.0.2'
+gem 'lint_roller', '~> 1.0'
+gem 'rubocop', '~> 1.52.0'
+gem 'standard-custom', '~> 1.0.0'
+gem 'standard-performance', '~> 1.1.0'
+gem 'rails', '~> 3.2.0'
