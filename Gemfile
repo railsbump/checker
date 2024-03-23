@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'extension', '>= 0'
+gem 'initializer', '>= 0'
+gem 'output', '>= 0'
+gem 'setter', '>= 0'
+gem 'single', '>= 0'
+gem 'rails', '~> 3.2.0'
