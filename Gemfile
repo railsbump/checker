@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'chronic', '>= 0'
+gem 'chronic_duration', '>= 0'
+gem 'spanner', '>= 0'
+gem 'xduration', '~> 2.2'
+gem 'rails', '~> 4.1.0'
