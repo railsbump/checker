@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'apitome', '>= 0'
+gem 'pg', '>= 0'
+gem 'rails', '>= 0', '~> 3.2.0'
+gem 'rspec-rails', '~> 3'
