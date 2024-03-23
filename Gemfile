@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'http', '~> 5.0'
+gem 'json', '~> 2.5'
+gem 'uri', '~> 0.13.0'
+gem 'rails', '~> 3.2.0'
