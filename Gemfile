@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-core', '~> 3', '>= 3.47.0'
+gem 'aws-sdk-kms', '~> 1'
+gem 'aws-sigv4', '~> 1.0'
+gem 'rails', '~> 3.2.0'
