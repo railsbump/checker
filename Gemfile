@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'erubis', '~> 2.7.0'
+gem 'flipper', '~> 0.11.0.beta3'
+gem 'rack', '< 3', '>= 1.4'
+gem 'rack-protection', '< 2.1.0', '>= 1.5.3'
+gem 'rails', '~> 3.2.0'
