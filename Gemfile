@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'gherkin', '< 5.0'
+gem 'json', '<= 3.0', '>= 1.0'
+gem 'multi_json', '~> 1.0'
+gem 'rails', '~> 3.2.0'
