@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'command-runner', '~> 0.4'
+gem 'os', '~> 0.9'
+gem 'packed_struct', '>= 0'
+gem 'thor', '~> 0.18'
+gem 'rails', '~> 3.2.0'
