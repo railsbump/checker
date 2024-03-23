@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activeresource', '>= 3.0.0'
+gem 'pry', '>= 0.9.12.6'
+gem 'thor', '~> 0.18.1'
+gem 'rails', '~> 3.2.0'
