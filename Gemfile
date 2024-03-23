@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0', '>= 1.0.2'
+gem 'faraday', '>= 1.0'
+gem 'sentry-ruby-core', '= 4.6.0.pre.beta.0'
+gem 'rails', '~> 3.2.0'
