@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 1.2'
+gem 'google-gax', '~> 1.0'
+gem 'google-protobuf', '~> 3.3'
+gem 'rails', '~> 3.2.0'
