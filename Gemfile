@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '>= 1.1'
+gem 'event_emitter', '>= 0.2.6'
+gem 'google-protobuf', '= 3.21.7'
+gem 'websocket-driver', '>= 0.5.0'
+gem 'rails', '~> 2.3.0'
