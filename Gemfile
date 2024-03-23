@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 3.0'
+gem 'fugit', '~> 1.0'
+gem 'que', '~> 0.12'
+gem 'rails', '~> 3.2.0'
