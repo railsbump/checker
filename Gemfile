@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'active_attr', '>= 0'
+gem 'transaction_isolation', '>= 0'
+gem 'transaction_retry', '>= 0'
+gem 'rails', '~> 3.2.0'
