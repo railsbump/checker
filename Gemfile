@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'erubi', '>= 1.0.0', '< 2.0.0'
+gem 'flipper', '~> 1.3.0.pre'
+gem 'rack', '>= 1.4', '< 4'
+gem 'rack-protection', '>= 1.5.3', '< 5.0.0'
+gem 'rack-session', '>= 1.0.2', '< 3.0.0'
+gem 'sanitize', '< 7'
+gem 'rails', '~> 3.2.0'
