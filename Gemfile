@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-ec2', '~> 1'
+gem 'capistrano', '~> 3.1'
+gem 'colorize', '~> 0.8'
+gem 'terminal-table', '~> 1.7'
+gem 'rails', '~> 3.2.0'
