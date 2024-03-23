@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'cmdparse', '~> 3.0', '>= 3.0.3'
+gem 'geom2d', '~> 0.4', '>= 0.4.1'
+gem 'openssl', '>= 2.2.1'
+gem 'rails', '~> 3.2.0'
