@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activeresource', '>= 3.0.0'
+gem 'graphql-client', '>= 0'
+gem 'rack', '>= 0'
+gem 'rails', '~> 3.2.0'
