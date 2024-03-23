@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'charlock_holmes', '~> 0.6.6'
+gem 'escape_utils', '>= 0.3.1'
+gem 'mime-types', '~> 1.19'
+gem 'pygments.rb', '~> 0.5.4'
+gem 'rails', '~> 3.2.0'
