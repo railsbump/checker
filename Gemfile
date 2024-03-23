@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'hana', '~> 1.3'
+gem 'regexp_parser', '~> 2.0'
+gem 'simpleidn', '~> 0.2'
+gem 'rails', '~> 3.2.0'
