@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'bindata', '>= 0'
+gem 'rubyntlm', '>= 0'
+gem 'windows_error', '>= 0'
+gem 'rails', '~> 3.2.0'
