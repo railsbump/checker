@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'google-api-client', '~> 0.26'
+gem 'google-cloud-core', '~> 1.2'
+gem 'googleauth', '>= 0.6.2', '< 0.10.0'
+gem 'mime-types', '~> 3.0'
+gem 'rails', '~> 3.2.0'
