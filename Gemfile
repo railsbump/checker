@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 0.17.3', '< 2.a'
+gem 'google-cloud-core', '~> 1.6'
+gem 'googleapis-common-protos', '>= 1.3.10', '< 2.a'
+gem 'googleapis-common-protos-types', '>= 1.0.5', '< 2.a'
+gem 'googleauth', '>= 0.16.2', '< 2.a'
+gem 'rails', '~> 3.2.0'
