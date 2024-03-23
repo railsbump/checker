@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'nexmo-jwt', '~> 0.1.2'
+gem 'phonelib', '>= 0'
+gem 'rexml', '>= 0'
+gem 'sorbet-runtime', '~> 0.5'
+gem 'zeitwerk', '~> 2', '>= 2.2'
+gem 'rails', '~> 3.2.0'
