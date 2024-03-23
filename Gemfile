@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dotenv', '~> 2.0'
+gem 'octokit', '>= 4.20', '< 7.0'
+gem 'reverse_markdown', '>= 1', '< 3'
+gem 'rugged', '>= 0.24', '< 2.0'
+gem 'thor', '>= 0.19', '< 2.0'
+gem 'rails', '~> 3.2.0'
