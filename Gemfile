@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'bigdecimal', '>= 0'
+gem 'dalli', '~> 3.2.3'
+gem 'ddtrace', '~> 1.0'
+gem 'drb', '>= 0'
+gem 'mutex_m', '>= 0'
+gem 'rack', '>= 0'
+gem 'rails', '~> 3.2.0'
