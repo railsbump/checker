@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'addressable', '~> 2.5'
+gem 'faraday', '~> 2.0'
+gem 'faraday-gzip', '~> 2.0'
+gem 'json', '~> 2'
+gem 'zeitwerk', '~> 2.4'
+gem 'rails', '~> 3.2.0'
