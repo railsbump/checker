@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faye-websocket', '~> 0.10'
+gem 'multi_json', '>= 0'
+gem 'slack-ruby-client', '~> 0.5'
+gem 'rails', '~> 3.2.0'
