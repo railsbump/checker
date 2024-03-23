@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'erubis', '>= 0'
+gem 'flipper', '~> 0.7.0.beta1'
+gem 'rack', '>= 0'
+gem 'rails', '~> 3.2.0'
