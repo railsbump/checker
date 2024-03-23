@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'aws-sdk', '~> 2'
+gem 'json', '>= 0'
+gem 'redis', '>= 0'
+gem 'simplecov', '>= 0'
+gem 'rails', '~> 3.2.0'
