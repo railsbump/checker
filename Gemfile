@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'doorkeeper', '>= 0.5'
+gem 'exception_notification', '>= 4.0'
+gem 'openstax_utilities', '>= 4.0.0'
+gem 'rails', '>= 3.1', '~> 3.2.0'
+gem 'representable', '>= 1.8'
+gem 'roar', '>= 0.12.1'
+gem 'roar-rails', '>= 0.1.2'
