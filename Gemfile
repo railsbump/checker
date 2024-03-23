@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 2.7.0'
+gem 'concurrent-ruby', '>= 1.1.6'
+gem 'faraday', '>= 1.0.1'
+gem 'net-http-persistent', '>= 0'
+gem 'rails', '~> 3.2.0'
