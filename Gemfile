@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'json', '>= 0'
+gem 'simplecov', '>= 0'
+gem 'rails', '~> 3.2.0'
