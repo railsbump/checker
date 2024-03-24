@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'dry-core', '~> 1.0'
+gem 'dry-inflector', '~> 1.0'
+gem 'dry-logic', '~> 1.4'
+gem 'zeitwerk', '~> 2.6'
+gem 'rails', '~> 4.1.0'
