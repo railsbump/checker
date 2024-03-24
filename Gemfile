@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 0'
+gem 'hashie', '>= 0'
+gem 'httparty', '>= 0'
+gem 'json', '>= 0'
+gem 'rails', '~> 4.1.0'
