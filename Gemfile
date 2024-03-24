@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 0'
+gem 'connection_pool', '>= 0'
+gem 'dry-configurable', '~> 0.1.7'
+gem 'null-logger', '>= 0'
+gem 'rake', '>= 0'
+gem 'ruby-kafka', '>= 0'
+gem 'rails', '~> 3.2.0'
