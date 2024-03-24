@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'builder', '= 2.1.2'
+gem 'diff-lcs', '= 1.1.2'
+gem 'polyglot', '= 0.2.9'
+gem 'term-ansicolor', '= 1.0.4'
+gem 'treetop', '= 1.4.2'
+gem 'rails', '~> 3.2.0'
