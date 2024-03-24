@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'equalizer', '~> 0.0.9'
+gem 'git', '~> 1.2'
+gem 'rubocop', '~> 0.23'
+gem 'thor', '~> 0.19'
+gem 'rails', '~> 3.2.0'
