@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'mimemagic', '>= 0'
+gem 'nokogiri', '~> 1.6.0'
+gem 'rspec', '~> 2.13.0'
+gem 'uuid', '>= 0'
+gem 'rails', '~> 3.2.0'
