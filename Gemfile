@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'baran', '~> 0.1.8'
+gem 'colorize', '~> 0.8.1'
+gem 'json-schema', '~> 4.0.0'
+gem 'tiktoken_ruby', '~> 0.0.5'
+gem 'zeitwerk', '= 2.6.11'
+gem 'rails', '~> 3.2.0'
