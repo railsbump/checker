@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'deb_version', '~> 1.0.1'
+gem 'pastel', '~> 0.8.0'
+gem 'thor', '~> 1.2.0'
+gem 'tty-command', '~> 0.10.1'
+gem 'rails', '~> 3.2.0'
