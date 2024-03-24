@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'iso8601', '~> 0.9.1'
+gem 'net_http_timeout_errors', '~> 0.3.0'
+gem 'oga', '~> 3.0'
+gem 'rails', '~> 3.2.0'
