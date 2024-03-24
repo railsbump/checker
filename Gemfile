@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'ruby2ruby', '>= 2.0.6'
+gem 'ruby_parser', '>= 3.2.0'
+gem 'sexp_processor', '>= 4.3.0'
+gem 'rails', '~> 3.2.0'
