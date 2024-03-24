@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'apimatic_core', '~> 0.3.0'
+gem 'apimatic_core_interfaces', '~> 0.2.0'
+gem 'apimatic_faraday_client_adapter', '~> 0.1.0'
+gem 'rails', '~> 3.2.0'
