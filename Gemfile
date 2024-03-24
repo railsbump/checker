@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4.0'
+gem 'prometheus-client', '>= 0'
+gem 'ruby-kafka', '>= 0'
+gem 'yabeda', '>= 0'
+gem 'rails', '~> 4.1.0'
