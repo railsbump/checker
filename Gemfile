@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '~> 3'
+gem 'builder', '> 2.0'
+gem 'multi_json', '~> 1.0'
+gem 'rails', '~> 3.2.0'
