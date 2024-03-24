@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 2.7.10'
+gem 'faraday-rack', '~> 2'
+gem 'highline', '~> 2.1.0'
+gem 'json_pure', '~> 2.6.3'
+gem 'launchy', '~> 2.5.2'
+gem 'pusher-client', '~> 0.6.2'
+gem 'rails', '~> 3.2.0'
