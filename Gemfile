@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'code_ownership', '>= 0'
+gem 'parse_packwerk', '>= 0'
+gem 'rake', '>= 0'
+gem 'ruby-graphviz', '>= 0'
+gem 'sorbet-runtime', '>= 0'
+gem 'rails', '~> 3.2.0'
