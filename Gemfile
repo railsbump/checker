@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'htmlentities', '>= 0'
+gem 'iso8601', '>= 0'
+gem 'multi_json', '~> 1.11'
+gem 'oga', '>= 0'
+gem 'open_uri_redirections', '>= 0'
+gem 'rails', '~> 3.2.0'
