@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'builder', '~> 3.0'
+gem 'jamespath', '>= 0.5.1'
+gem 'multi_json', '~> 1.0'
+gem 'multi_xml', '~> 0.5'
+gem 'rails', '~> 3.2.0'
