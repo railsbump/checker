@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'google-cloud-bigtable-admin-v2', '~> 0.0'
+gem 'google-cloud-bigtable-v2', '~> 0.14'
+gem 'google-cloud-core', '~> 1.5'
+gem 'rails', '~> 3.2.0'
