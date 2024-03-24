@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'backports', '~> 2.6'
+gem 'faraday', '~> 0.8'
+gem 'faraday_middleware', '~> 0.9'
+gem 'gh', '~> 0.9'
+gem 'highline', '~> 1.6'
+gem 'netrc', '~> 0.7'
+gem 'rails', '~> 3.2.0'
