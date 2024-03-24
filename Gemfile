@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activejob', '>= 0'
+gem 'aws-sdk-sqs', '>= 0'
+gem 'concurrent-ruby', '>= 0'
+gem 'railties', '>= 0'
+gem 'rails', '~> 2.3.0'
