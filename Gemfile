@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'json', '>= 1.8.3', '~> 1.8'
+gem 'jwt', '>= 1.5.2', '~> 1.0'
+gem 'typhoeus', '>= 1.0.1', '~> 1.0'
+gem 'rails', '~> 3.2.0'
