@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'nokogiri', '>= 0'
+gem 'rspec-steps', '~> 0.1.1'
+gem 'uuid', '>= 0'
+gem 'rails', '~> 3.2.0'
