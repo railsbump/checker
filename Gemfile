@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'mime-types', '>= 3.3', '< 4'
+gem 'require_all', '>= 2', '< 4'
+gem 'rspec-expectations', '~> 3.12'
+gem 'uuid', '>= 2.3', '< 3'
+gem 'rails', '~> 3.2.0'
