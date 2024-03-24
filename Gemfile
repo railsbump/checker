@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'json', '>= 1.8', '< 3'
+gem 'mime-types', '~> 3.3'
+gem 'require_all', '~> 2.0'
+gem 'uuid', '~> 2.3'
+gem 'rails', '~> 3.2.0'
