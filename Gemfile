@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'curb', '~> 0.7.15'
+gem 'memcached', '~> 1.3'
+gem 'yaji', '~> 0.0.9'
+gem 'yajl-ruby', '~> 0.8.2'
+gem 'rails', '~> 3.2.0'
