@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'algoliasearch', '>= 1.1.7'
+gem 'json', '>= 1.5.1'
+gem 'rubysl', '>= 0'
+gem 'rails', '~> 3.2.0'
