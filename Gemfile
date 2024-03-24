@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'builder', '>= 2.1.2'
+gem 'diff-lcs', '>= 1.1.3'
+gem 'gherkin', '~> 2.12'
+gem 'multi_json', '< 2.0', '>= 1.7.5'
+gem 'multi_test', '>= 0.0.2'
+gem 'rails', '~> 3.2.0'
