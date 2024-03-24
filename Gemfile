@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'fog-core', '~> 1.27'
+gem 'fog-json', '~> 1.0'
+gem 'fog-xml', '~> 0.1'
+gem 'rails', '~> 4.2.0'
