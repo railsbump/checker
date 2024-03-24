@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'json_schemer', '~> 0.2'
+gem 'multi_json', '~> 1.14'
+gem 'mustermann-contrib', '~> 1.1.1'
+gem 'oas_parser', '~> 0.24'
+gem 'r2ree', '~> 0.1'
+gem 'rack', '~> 2.1'
+gem 'rails', '~> 3.2.0'
