@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'aws-eventstream', '~> 1.0'
+gem 'aws-partitions', '~> 1.0'
+gem 'aws-sigv4', '~> 1.0'
+gem 'jmespath', '~> 1.0'
+gem 'rails', '~> 3.2.0'
