@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '>= 1.1'
+gem 'dry-monitor', '~> 0.5'
+gem 'dry-validation', '~> 1.7'
+gem 'rdkafka', '>= 0.10'
+gem 'zeitwerk', '~> 2.3'
+gem 'rails', '~> 3.2.0'
