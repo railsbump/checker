@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'json_schemer', '~> 0.2'
+gem 'multi_json', '~> 1.13'
+gem 'oas_parser', '~> 0.19'
+gem 'rack', '~> 2'
+gem 'rails', '~> 3.2.0'
