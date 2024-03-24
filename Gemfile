@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'redlock', '>= 0'
+gem 'rufus-scheduler', '~> 3.0'
+gem 'thor', '>= 0'
+gem 'rails', '~> 4.1.0'
