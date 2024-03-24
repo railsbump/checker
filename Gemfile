@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'dry-container', '~> 0.7', '>= 0.7.2'
+gem 'dry-core', '~> 0.4', '>= 0.4.7'
+gem 'dry-equalizer', '~> 0.2', '>= 0.2.2'
+gem 'dry-inflector', '~> 0.1', '>= 0.1.2'
+gem 'dry-initializer', '~> 3.0'
+gem 'rails', '~> 3.2.0'
