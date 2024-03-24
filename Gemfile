@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'connection_pool', '>= 1.0.0', '~> 1.0'
+gem 'multi_json', '~> 1.0'
+gem 'yaji', '>= 0.3.2', '~> 0.3'
+gem 'rails', '~> 3.2.0'
