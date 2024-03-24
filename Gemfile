@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 0'
+gem 'activerecord', '< 4.0.0'
+gem 'google-qr', '>= 0'
+gem 'rotp', '= 1.6.1'
+gem 'rails', '~> 3.2.0'
