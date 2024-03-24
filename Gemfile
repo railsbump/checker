@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 3.0'
+gem 'chronic', '>= 0'
+gem 'chronic_duration', '>= 0'
+gem 'spanner', '>= 0'
+gem 'sugar-high', '>= 0.7.3'
+gem 'xduration', '>= 3.0.0'
+gem 'rails', '~> 4.1.0'
