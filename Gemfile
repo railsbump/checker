@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'cohere-ruby', '~> 0.9.1'
+gem 'milvus', '~> 0.9.0'
+gem 'pinecone', '~> 0.1.6'
+gem 'qdrant-ruby', '~> 0.9.0'
+gem 'ruby-openai', '~> 4.0.0'
+gem 'weaviate-ruby', '~> 0.8.0'
+gem 'rails', '~> 3.2.0'
