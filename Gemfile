@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activeadmin', '>= 1.1.0', '< 3.0'
+gem 'font-awesome-sass', '~> 5.0'
+gem 'jquery-rails', '>= 0'
+gem 'rails', '~> 3.2.0'
