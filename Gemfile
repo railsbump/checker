@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'karafka-core', '~> 2.0'
+gem 'rdkafka', '>= 0.10'
+gem 'zeitwerk', '~> 2.3'
+gem 'rails', '~> 3.2.0'
