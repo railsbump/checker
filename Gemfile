@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dry-initializer', '>= 0'
+gem 'dry-monads', '>= 0'
+gem 'dry-struct', '>= 0'
+gem 'dry-types', '>= 0'
+gem 'faraday', '~> 1.0'
+gem 'rails', '~> 4.1.0'
