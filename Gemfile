@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 0'
+gem 'activerecord', '>= 0'
+gem 'rails', '>= 0', '~> 3.2.0'
+gem 'rotp', '>= 5.0', '< 7.0'
+gem 'rqrcode', '>= 0'
