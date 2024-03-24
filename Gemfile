@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'haml', '>= 2.0.9'
+gem 'morph', '>= 0.3.2'
+gem 'nokogiri', '>= 0'
+gem 'rails', '~> 3.2.0'
