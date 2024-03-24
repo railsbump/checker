@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 2.1.0'
+gem 'json', '>= 1.1.3'
+gem 'xml-simple', '>= 1.0.11'
+gem 'rails', '~> 3.2.0'
