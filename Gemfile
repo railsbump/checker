@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'colorize', '~> 0.8.1'
+gem 'erubis', '~> 2.7'
+gem 'i18n', '>= 0.5'
+gem 'thor', '~> 0.20.0'
+gem 'unicorn', '~> 5.4'
+gem 'rails', '~> 4.1.0'
