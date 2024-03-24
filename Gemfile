@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '~> 3.0'
+gem 'builder', '~> 2.0'
+gem 'i18n', '~> 0.4'
+gem 'json', '~> 1.5'
+gem 'rails', '~> 3.2.0'
