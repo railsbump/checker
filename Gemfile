@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'diff-lcs', '>= 1.1.2'
+gem 'term-ansicolor', '>= 1.0.3'
+gem 'treetop', '>= 1.2.4'
+gem 'rails', '~> 3.2.0'
