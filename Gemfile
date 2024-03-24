@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'allure-ruby-commons', '= 2.13.9'
+gem 'rspec-core', '>= 3.8', '< 4'
+gem 'ruby2_keywords', '~> 0.0.2'
+gem 'rails', '~> 3.2.0'
