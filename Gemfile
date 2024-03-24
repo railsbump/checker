@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'aspector', '>= 0'
+gem 'bundler', '>= 0'
+gem 'connection_pool', '>= 0'
+gem 'null-logger', '>= 0'
+gem 'poseidon', '>= 0'
+gem 'rake', '>= 0'
+gem 'rails', '~> 3.2.0'
