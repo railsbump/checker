@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dotenv', '>= 0'
+gem 'faraday', '>= 2.0'
+gem 'faraday-mashify', '>= 0.1.1'
+gem 'faraday-multipart', '>= 1.0.4'
+gem 'hashie', '~> 5'
+gem 'rails', '~> 4.1.0'
