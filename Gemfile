@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'azure-storage-blob', '~> 2.0'
+gem 'azure-storage-common', '~> 2.0'
+gem 'fog-core', '= 2.1.0'
+gem 'fog-json', '~> 1.2.0'
+gem 'mime-types', '>= 0'
+gem 'ms_rest_azure', '~> 0.12.0'
+gem 'rails', '~> 3.2.0'
