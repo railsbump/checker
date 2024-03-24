@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 0'
+gem 'mail', '>= 0'
+gem 'octokit', '>= 0'
+gem 'slack-notifier', '>= 0'
+gem 'thor', '>= 0'
+gem 'toml', '>= 0'
+gem 'rails', '~> 4.1.0'
