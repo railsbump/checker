@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 0.9'
+gem 'faraday_middleware', '>= 0'
+gem 'hashie', '>= 0'
+gem 'rails', '~> 3.2.0'
