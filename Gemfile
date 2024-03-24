@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'pastel', '~> 0.7.2'
+gem 'thor', '~> 0.20.0'
+gem 'tty-command', '~> 0.9.0'
+gem 'rails', '~> 3.2.0'
