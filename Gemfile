@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'database_url', '~> 0.1.2'
+gem 'erubis', '~> 2.7'
+gem 'i18n', '>= 0.5'
+gem 'paint', '~> 2.0'
+gem 'rails', '~> 4.1.0'
