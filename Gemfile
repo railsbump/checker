@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'bundler', '~> 2.1'
+gem 'dry-cli', '~> 0.7'
+gem 'dry-files', '~> 0.3', '>= 0.3.0'
+gem 'dry-inflector', '~> 0.2'
+gem 'rake', '~> 13.0'
+gem 'rails', '~> 3.2.0'
