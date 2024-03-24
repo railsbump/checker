@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.0'
+gem 'dry-types', '~> 0.13'
+gem 'jsonapi-serializable', '~> 0.3.0'
+gem 'jsonapi_errorable', '~> 0.9'
+gem 'rails', '~> 3.2.0'
