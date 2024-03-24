@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'rubocop', '= 1.31.2'
+gem 'rubocop-ast', '= 1.19.1'
+gem 'rubocop-rails', '= 2.15.2'
+gem 'rubocop-rake', '= 0.6.0'
+gem 'rubocop-rspec', '= 2.12.1'
+gem 'rails', '~> 3.2.0'
