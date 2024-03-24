@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'hanami-router', '~> 2.0.alpha2'
+gem 'hanami-utils', '~> 2.0.alpha1'
+gem 'json_schemer', '~> 0.2'
+gem 'multi_json', '~> 1.14'
+gem 'oas_parser', '~> 0.24'
+gem 'rack', '~> 2.2'
+gem 'rails', '~> 3.2.0'
