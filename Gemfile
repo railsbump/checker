@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 2.0.2'
+gem 'haml', '>= 2.0.9'
+gem 'hpricot', '>= 0.6'
+gem 'morph', '>= 0.2.6'
+gem 'rails', '~> 3.2.0'
