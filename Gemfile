@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'builder', '>= 2.1.2'
+gem 'diff-lcs', '>= 1.1.2'
+gem 'gherkin', '>= 1.0.22'
+gem 'json_pure', '>= 1.2.4'
+gem 'term-ansicolor', '>= 1.0.4'
+gem 'rails', '~> 3.2.0'
