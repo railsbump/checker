@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'json_refs', '~> 0.1', '>= 0.1.7'
+gem 'json_schemer', '~> 2.1.0'
+gem 'multi_json', '~> 1.15'
+gem 'mustermann', '~> 3.0.0'
+gem 'openapi_parameters', '>= 0.3.2', '< 2.0'
+gem 'rack', '>= 2.2', '< 4.0'
+gem 'rails', '~> 3.2.0'
