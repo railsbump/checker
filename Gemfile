@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 0'
+gem 'hashie', '>= 0'
+gem 'httparty', '>= 0'
+gem 'jeweler', '~> 1.6.4'
+gem 'json', '>= 0'
+gem 'shoulda', '>= 0'
+gem 'rails', '~> 4.1.0'
