@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'addressable', '~> 2.3'
+gem 'faraday', '>= 0.9', '< 3.0'
+gem 'json', '>= 0'
+gem 'rack', '>= 1.4', '< 4.0'
+gem 'rails', '~> 4.1.0'
