@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'haml', '>= 2.0.9'
+gem 'hpricot', '>= 0.6'
+gem 'morph', '>= 0.3.1'
+gem 'rails', '~> 3.2.0'
