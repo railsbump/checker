@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'baran', '~> 0.1.6'
+gem 'colorize', '~> 0.8.1'
+gem 'tiktoken_ruby', '~> 0.0.5'
+gem 'rails', '~> 3.2.0'
