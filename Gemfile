@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 2.3.5'
+gem 'json-jruby', '>= 1.1.3'
+gem 'nokogiri', '>= 1.3.3'
+gem 'rails', '~> 3.2.0'
