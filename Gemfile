@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'delivery_boy', '>= 0.2', '< 2.x'
+gem 'dry-configurable', '~> 0.13'
+gem 'dry-monitor', '~> 0.5'
+gem 'dry-validation', '~> 1.7'
+gem 'ruby-kafka', '>= 1.3.0'
+gem 'zeitwerk', '~> 2.4'
+gem 'rails', '~> 3.2.0'
