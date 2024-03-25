@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'carmen', '>= 0'
+gem 'carmen-rails', '>= 0'
+gem 'coffee-rails', '>= 0'
+gem 'haml', '>= 0'
+gem 'migrant', '>= 0'
+gem 'rails', '>= 3.2.0', '~> 3.2.0'
