@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'crack', '>= 0'
+gem 'faraday', '>= 0'
+gem 'mime-types', '>= 0'
+gem 'multi_json', '>= 0'
+gem 'rails', '~> 3.2.0'
