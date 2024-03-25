@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'memery', '>= 0'
+gem 'rabbit_messaging', '~> 0.3'
+gem 'rails', '>= 0', '~> 3.2.0'
