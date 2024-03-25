@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'em-websocket', '= 0.3.6'
+gem 'ruby-hmac', '= 0.4.0'
+gem 'thin', '= 1.3.1'
+gem 'yajl-ruby', '= 1.1.0'
+gem 'rails', '~> 3.2.0'
