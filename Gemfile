@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'colorize', '>= 0'
+gem 'hashie', '>= 0'
+gem 'thor', '>= 0'
+gem 'rails', '~> 3.2.0'
