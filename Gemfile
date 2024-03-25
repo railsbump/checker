@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'certifi', '~> 2018.1'
+gem 'faraday', '~> 0.15.4'
+gem 'faraday-http-cache', '~> 2.0.0'
+gem 'faraday_middleware', '~> 0.13.1'
+gem 'logging', '~> 2.2.2'
+gem 'rails', '~> 3.2.0'
