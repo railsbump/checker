@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'execjs', '>= 0'
+gem 'httpclient', '>= 0'
+gem 'ruby-progressbar', '>= 0'
+gem 'rails', '~> 3.2.0'
