@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'pry', '>= 0.12.2'
+gem 'sorbet-runtime', '>= 0'
+gem 'sorbet-static', '>= 0.4.4471'
+gem 'thor', '>= 0'
+gem 'rails', '~> 4.2.0'
