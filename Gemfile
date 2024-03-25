@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'pry', '>= 0.12.2'
+gem 'sorbet-static', '~> 0.4.4371'
+gem 'thor', '~> 0.20.3'
+gem 'zeitwerk', '~> 2.1'
+gem 'rails', '~> 3.2.0'
