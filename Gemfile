@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'httparty', '>= 0'
+gem 'jwt', '>= 0'
+gem 'plissken', '>= 0'
+gem 'virtus', '>= 0'
+gem 'rails', '~> 3.2.0'
