@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'em-http-request', '= 1.0.3'
+gem 'em-websocket', '= 0.5.0'
+gem 'multi_json', '= 1.7.3'
+gem 'thin', '= 1.5.1'
+gem 'rails', '~> 3.2.0'
