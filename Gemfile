@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 2.7'
+gem 'faraday-retry', '~> 2.2'
+gem 'rails', '~> 3.2.0'
