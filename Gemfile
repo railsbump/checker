@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'mime-types', '~> 3.1'
+gem 'mini_magick', '~> 4.5'
+gem 'wysiwyg-rails', '~> 3.2.7'
+gem 'rails', '~> 3.2.0'
