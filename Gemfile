@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'async-container', '~> 0.1'
+gem 'async-http', '~> 0.2'
+gem 'rack', '>= 1.0'
+gem 'samovar', '~> 1.3'
+gem 'rails', '~> 3.2.0'
