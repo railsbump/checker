@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'mime-types', '>= 0'
+gem 'nokogiri', '>= 1.12.0'
+gem 'rubyzip', '>= 1.3.0'
+gem 'rails', '~> 3.2.0'
