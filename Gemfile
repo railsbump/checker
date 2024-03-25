@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 4.2.0'
+gem 'rack', '>= 1.1'
+gem 'rubocop', '>= 1.33.0', '< 2.0'
+gem 'rails', '~> 4.2.0'
