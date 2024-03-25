@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'google-apis-androidpublisher_v3', '~> 0.34.0'
+gem 'googleauth', '~> 1.3.0'
+gem 'multi_json', '~> 1.15'
+gem 'thor', '< 2.0'
+gem 'rails', '~> 4.1.0'
