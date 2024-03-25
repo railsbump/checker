@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'httparty', '~> 0.13'
+gem 'json', '~> 2.1'
+gem 'jwt', '~> 2.1'
+gem 'rails', '~> 3.2.0'
