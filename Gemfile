@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'jruby-openssl', '>= 0'
+gem 'nokogiri', '= 1.5.0.beta.4'
+gem 'term-ansicolor', '>= 0'
+gem 'rails', '~> 4.1.0'
