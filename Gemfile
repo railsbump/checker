@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'building-blocks', '>= 0'
+gem 'jeweler', '>= 0'
+gem 'rails', '>= 0', '~> 3.2.0'
+gem 'rcov', '>= 0'
+gem 'rspec', '>= 0'
