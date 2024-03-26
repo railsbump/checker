@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'parser', '>= 0'
+gem 'proc_to_ast', '>= 0'
+gem 'rspec', '>= 2.13', '< 4'
+gem 'unparser', '>= 0'
+gem 'rails', '~> 4.1.0'
