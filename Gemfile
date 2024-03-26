@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 2.5', '>= 2.5.2'
+gem 'faraday-multipart', '~> 1.0.4'
+gem 'mime-types', '~> 3.0'
+gem 'rails', '~> 4.2.0'
