@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.1'
+gem 'google-cloud-core', '~> 1.5'
+gem 'google-cloud-pubsub-v1', '~> 0.8'
+gem 'retriable', '~> 3.1'
+gem 'rails', '~> 3.2.0'
