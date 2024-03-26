@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'faraday', '>= 0.9', '< 3'
+gem 'faraday-multipart', '>= 0'
+gem 'rails', '~> 4.1.0'
