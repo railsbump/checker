@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'actionpack', '>= 3.0', '< 8.0'
+gem 'activerecord', '>= 3.0', '< 8.0'
+gem 'railties', '>= 3.0', '< 8.0'
+gem 'rails', '~> 4.1.0'
