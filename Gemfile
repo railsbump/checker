@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'i18n', '>= 0.7'
+gem 'pastel', '~> 0.7.2'
+gem 'thor', '~> 0.20.0'
+gem 'tty-pager', '~> 0.12.0'
+gem 'tty-screen', '~> 0.6.5'
+gem 'tty-tree', '~> 0.3.0'
+gem 'rails', '~> 3.2.0'
