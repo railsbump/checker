@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dry-struct', '~> 1.0'
+gem 'google-protobuf', '~> 3.14'
+gem 'grpc', '~> 1.52'
+gem 'retriable', '~> 3.1.2'
+gem 'timecop', '~> 0.9.6'
+gem 'rails', '~> 4.1.0'
