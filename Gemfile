@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'haml', '~> 5.0'
+gem 'redis', '>= 3.2'
+gem 'sinatra-contrib', '~> 2.2.3'
+gem 'stoplight', '>= 1.4'
+gem 'rails', '~> 4.1.0'
