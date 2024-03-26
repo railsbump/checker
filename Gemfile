@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'avro-patches', '~> 0.3'
+gem 'avro_turf', '~> 0.8'
+gem 'phobos', '~> 1.8'
+gem 'ruby-kafka', '~> 0.7'
+gem 'rails', '~> 3.2.0'
