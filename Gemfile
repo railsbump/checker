@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 3'
+gem 'activerecord-import', '>= 0.27.0'
+gem 'rails_or', '>= 1.1.8'
+gem 'rails', '~> 4.1.0'
