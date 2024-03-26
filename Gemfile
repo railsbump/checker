@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'erubi', '>= 1.10.0'
+gem 'prism', '>= 0.19.0'
+gem 'sorbet-static-and-runtime', '>= 0.5.10187'
+gem 'thor', '>= 0.19.2'
+gem 'rails', '~> 4.2.0'
