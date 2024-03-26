@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'avro_turf', '>= 0.11', '< 2'
+gem 'fig_tree', '~> 0.0.2'
+gem 'phobos', '>= 1.9', '< 3.0'
+gem 'ruby-kafka', '< 2'
+gem 'sigurd', '>= 0.1.0', '< 1.0'
+gem 'rails', '~> 3.2.0'
