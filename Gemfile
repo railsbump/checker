@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'google-cloud-automl-v1', '>= 0.6', '< 2.a'
+gem 'google-cloud-automl-v1beta1', '>= 0.7', '< 2.a'
+gem 'google-cloud-core', '~> 1.6'
+gem 'rails', '~> 4.1.0'
