@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'avro_turf', '~> 0.11'
+gem 'phobos', '~> 1.9'
+gem 'ruby-kafka', '~> 0.7'
+gem 'sigurd', '= 0.0.1'
+gem 'rails', '~> 3.2.0'
