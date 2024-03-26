@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'digest', '>= 0'
+gem 'net-protocol', '>= 0'
+gem 'timeout', '>= 0'
+gem 'rails', '~> 4.2.0'
