@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 1.6'
+gem 'google-cloud-video_intelligence-v1', '>= 0.8', '< 2.a'
+gem 'google-cloud-video_intelligence-v1beta2', '>= 0.6', '< 2.a'
+gem 'google-cloud-video_intelligence-v1p1beta1', '>= 0.6', '< 2.a'
+gem 'google-cloud-video_intelligence-v1p2beta1', '>= 0.7', '< 2.a'
+gem 'rails', '~> 4.1.0'
