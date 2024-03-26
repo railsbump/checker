@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'minitest', '~> 4.1'
+gem 'minitest-activemodel', '~> 1.0'
+gem 'minitest-matchers', '~> 1.2'
+gem 'mongoid', '>= 3'
+gem 'rails', '~> 2.3.0'
