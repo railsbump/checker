@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 0.21.0'
+gem 'google-gax', '~> 0.8.0'
+gem 'grpc-google-iam-v1', '~> 0.6.8'
+gem 'rails', '~> 4.2.0'
