@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'sorbet', '>= 0.5.10187'
+gem 'sorbet-runtime', '>= 0.5.9204'
+gem 'thor', '>= 0.19.2'
+gem 'rails', '~> 3.2.0'
