@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'parallel', '>= 0'
+gem 'pg', '>= 0.18.2'
+gem 'slop', '>= 4.10.1'
+gem 'tty-spinner', '>= 0'
+gem 'rails', '~> 4.1.0'
