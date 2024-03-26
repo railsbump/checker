@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activerecord', '>= 0'
+gem 'highline', '>= 0'
+gem 'rspec', '>= 0'
+gem 'rails', '~> 4.1.0'
