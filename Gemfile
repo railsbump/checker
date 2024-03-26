@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 1.6'
+gem 'google-cloud-tasks-v2', '>= 0.7', '< 2.a'
+gem 'google-cloud-tasks-v2beta2', '>= 0.8', '< 2.a'
+gem 'google-cloud-tasks-v2beta3', '>= 0.9', '< 2.a'
+gem 'rails', '~> 4.1.0'
