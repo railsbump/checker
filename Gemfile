@@ -1,0 +1,4 @@
+source 'https://rubygems.org'
+gem 'prawn', '~> 1.3.0'
+gem 'prawn-table', '~> 0.2.1'
+gem 'rails', '~> 4.2.0'
