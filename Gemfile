@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'backports', '>= 3.16.0'
+gem 'memoist', '>= 0'
+gem 'rubocop', '>= 1.0.0'
+gem 'rails', '~> 4.1.0'
