@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 0.21.0'
+gem 'google-gax', '~> 0.6.0'
+gem 'google-protobuf', '~> 3.0'
+gem 'googleapis-common-protos', '~> 1.3'
+gem 'grpc', '~> 1.0'
+gem 'grpc-google-iam-v1', '~> 0.6.8'
+gem 'rails', '~> 3.2.0'
