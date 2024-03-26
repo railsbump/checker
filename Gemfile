@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.1'
+gem 'connection_pool', '~> 2.2', '>= 2.2.2'
+gem 'redis', '>= 3.3.5', '< 5'
+gem 'rails', '~> 4.1.0'
