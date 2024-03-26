@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 2.0'
+gem 'faraday-follow_redirects', '>= 0'
+gem 'faraday-multipart', '>= 0'
+gem 'oauth2', '>= 1.4', '< 3'
+gem 'rails', '~> 4.1.0'
