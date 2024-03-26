@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'gapic-common', '>= 0.5', '< 2.a'
+gem 'google-cloud-errors', '~> 1.0'
+gem 'grpc-google-iam-v1', '>= 0.6.10', '< 2.a'
+gem 'rails', '~> 4.2.0'
