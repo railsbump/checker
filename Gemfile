@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 0'
+gem 'faraday_curl', '>= 0'
+gem 'faraday_middleware', '>= 0'
+gem 'httparty', '>= 0'
+gem 'rails', '~> 4.1.0'
