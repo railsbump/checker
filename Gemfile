@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'erubi', '>= 1.10.0'
+gem 'sorbet', '>= 0.5.10187'
+gem 'sorbet-runtime', '>= 0.5.9204'
+gem 'syntax_tree', '>= 6.1.1'
+gem 'thor', '>= 0.19.2'
+gem 'rails', '~> 3.2.0'
