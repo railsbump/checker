@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'bundler', '>= 0'
+gem 'thor', '< 2.0', '>= 0.18.1'
+gem 'tty-command', '~> 0.10.0'
+gem 'tty-prompt', '~> 0.23.1'
+gem 'rails', '~> 4.1.0'
