@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'sorbet', '~> 0.5.5'
+gem 'sorbet-runtime', '>= 0'
+gem 'tapioca', '~> 0.4'
+gem 'rails', '~> 3.2.0'
