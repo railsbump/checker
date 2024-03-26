@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'concurrent-ruby', '~> 1.1'
+gem 'google-cloud-core', '~> 1.2'
+gem 'google-gax', '~> 1.7'
+gem 'googleapis-common-protos', '>= 1.3.9', '< 2.0'
+gem 'grpc-google-iam-v1', '~> 0.6.9'
+gem 'rails', '~> 3.2.0'
