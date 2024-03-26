@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'haml', '>= 5.2'
+gem 'prettier_print', '>= 1.2.1'
+gem 'syntax_tree', '>= 6.0.0'
+gem 'rails', '~> 4.1.0'
