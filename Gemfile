@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 1.6'
+gem 'google-cloud-speech-v1', '>= 0.11', '< 2.a'
+gem 'google-cloud-speech-v1p1beta1', '>= 0.16', '< 2.a'
+gem 'rails', '~> 4.1.0'
