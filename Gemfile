@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'colorize', '>= 0'
+gem 'sorbet', '>= 0.5.9204'
+gem 'sorbet-runtime', '>= 0.5.9204'
+gem 'thor', '>= 0.19.2'
+gem 'rails', '~> 4.2.0'
