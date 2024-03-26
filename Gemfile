@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'gli', '~> 2.17'
+gem 'httparty', '~> 0.16'
+gem 'jwt', '~> 2.1'
+gem 'rails', '~> 4.0.0'
