@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'google-cloud-core', '~> 1.6'
+gem 'google-cloud-scheduler-v1', '>= 0.7', '< 2.a'
+gem 'google-cloud-scheduler-v1beta1', '>= 0.7', '< 2.a'
+gem 'rails', '~> 4.1.0'
