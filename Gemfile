@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'jwt', '>= 1.4', '<= 2.2.1'
+gem 'mixpanel-ruby', '<= 2.2.0'
+gem 'rails', '~> 4.0.0'
