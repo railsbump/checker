@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'rails', '>= 0', '~> 4.1.0'
+gem 'rails-footnotes', '>= 0'
+gem 'rsolr', '>= 0'
