@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 1.4.1'
+gem 'marcel', '>= 1.0.0'
+gem 'multipart-parser', '>= 0.1.1'
+gem 'rails', '~> 3.2.0'
