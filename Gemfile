@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'axe-core-api', '>= 0'
+gem 'dumb_delegator', '>= 0'
+gem 'virtus', '>= 0'
+gem 'rails', '~> 3.2.0'
