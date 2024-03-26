@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'dry-monads', '~> 1.3'
+gem 'dry-struct', '~> 1.1'
+gem 'dry-types', '~> 1.2'
+gem 'thor', '>= 0.19', '<= 2.0'
+gem 'rails', '~> 4.1.0'
