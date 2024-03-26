@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'dartsass-ruby', '~> 3.0'
+gem 'railties', '>= 4.0.0'
+gem 'sprockets', '> 3.0'
+gem 'sprockets-rails', '>= 0'
+gem 'tilt', '>= 0'
+gem 'rails', '~> 4.1.0'
