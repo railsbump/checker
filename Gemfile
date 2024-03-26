@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'fattr', '>= 0'
+gem 'methadone', '>= 0'
+gem 'openssl', '>= 0'
+gem 'paint', '>= 0'
+gem 'rails', '~> 4.1.0'
