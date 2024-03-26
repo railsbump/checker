@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'addressable', '>= 0'
+gem 'browser', '>= 0.4.0'
+gem 'geocoder', '>= 0'
+gem 'referer-parser', '>= 0'
+gem 'rails', '~> 3.2.0'
