@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'base64', '~> 0.2'
+gem 'rexml', '~> 3.2', '>= 3.2.5'
+gem 'rubyzip', '>= 1.2.2', '< 3.0'
+gem 'websocket', '~> 1.0'
+gem 'rails', '~> 4.2.0'
