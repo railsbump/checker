@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'childprocess', '~> 0.5'
+gem 'rubyzip', '~> 1.0'
+gem 'websocket', '~> 1.0'
+gem 'rails', '~> 4.2.0'
