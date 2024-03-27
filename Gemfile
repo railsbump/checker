@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'hashie', '>= 0'
+gem 'httparty', '>= 0'
+gem 'multi_json', '~> 1.0.4'
+gem 'rails', '~> 4.1.0'
