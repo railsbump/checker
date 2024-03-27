@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'runcom', '~> 0.3'
+gem 'thor', '~> 0.19'
+gem 'thor_plus', '~> 4.1'
+gem 'rails', '~> 3.2.0'
