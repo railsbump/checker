@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'console', '~> 1.10'
+gem 'fiber-annotation', '>= 0'
+gem 'io-event', '~> 1.5', '>= 1.5.1'
+gem 'timers', '~> 4.1'
+gem 'rails', '~> 4.2.0'
