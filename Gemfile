@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'clamp', '~> 1.1'
+gem 'dotenv', '~> 2.2'
+gem 'logglier', '~> 0.2'
+gem 'loofah', '~> 2.0'
+gem 'rest-client', '~> 2.0'
+gem 'sentry-raven', '~> 2.6'
+gem 'rails', '~> 3.2.0'
