@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'event_stream_parser', '>= 0.3.0', '< 2.0.0'
+gem 'faraday', '>= 1'
+gem 'faraday-multipart', '>= 1'
+gem 'rails', '~> 4.2.0'
