@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'coffee-rails', '>= 0'
+gem 'deface', '>= 0'
+gem 'sassc-rails', '>= 0'
+gem 'solidus_backend', '>= 2.4.0', '< 4'
+gem 'solidus_core', '>= 2.4.0', '< 4'
+gem 'solidus_support', '~> 0.8'
+gem 'rails', '~> 4.0.0'
