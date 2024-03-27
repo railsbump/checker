@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 0'
+gem 'faraday-xml', '>= 0'
+gem 'nokogiri', '>= 0'
+gem 'nori', '>= 0'
+gem 'rails', '~> 4.1.0'
