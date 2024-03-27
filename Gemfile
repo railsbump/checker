@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'jwt', '>= 2.0'
+gem 'net-imap', '>= 0.2.1'
+gem 'oauth2', '>= 1.4.4', '< 3'
+gem 'rails', '~> 4.1.0'
