@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'childprocess', '>= 0.5', '< 5.0'
+gem 'rexml', '~> 3.2', '>= 3.2.5'
+gem 'rubyzip', '>= 1.2.2', '< 3.0'
+gem 'websocket', '~> 1.0'
+gem 'rails', '~> 3.2.0'
