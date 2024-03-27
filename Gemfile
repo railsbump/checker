@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'refinements', '~> 2.2'
+gem 'thor', '~> 0.19'
+gem 'thor_plus', '~> 3.1'
+gem 'rails', '~> 3.2.0'
