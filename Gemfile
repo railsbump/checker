@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'rails', '>= 4.0.0', '~> 4.1.0'
+gem 'redis', '~> 3.2'
+gem 'rest-client', '~> 1.8.0'
+gem 'rspec', '>= 0'
