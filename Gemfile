@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 2.0'
+gem 'faraday-mashify', '>= 0'
+gem 'faraday-multipart', '>= 0'
+gem 'gli', '>= 0'
+gem 'hashie', '>= 0'
+gem 'rails', '~> 4.1.0'
