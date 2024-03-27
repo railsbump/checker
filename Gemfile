@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday', '>= 0.17'
+gem 'faraday_middleware', '>= 0'
+gem 'hashie', '>= 0'
+gem 'money', '~> 6.0'
+gem 'rails', '~> 4.1.0'
