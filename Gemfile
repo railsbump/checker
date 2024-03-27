@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activeresource', '>= 0'
+gem 'activesupport', '>= 0'
+gem 'nilio', '>= 1.0'
+gem 'rake', '>= 0'
+gem 'rails', '~> 3.2.0'
