@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'caxlsx', '> 3.0'
+gem 'json', '> 2.3'
+gem 'nokogiri', '> 1.10'
+gem 'rchardet', '>= 1.8.0'
+gem 'rubyzip', '> 1.2', '>= 1.2.1'
+gem 'spreadsheet', '> 1.2'
+gem 'rails', '~> 4.1.0'
