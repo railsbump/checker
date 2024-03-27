@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'fugit', '~> 1.8'
+gem 'globalid', '>= 1.0.1'
+gem 'sidekiq', '>= 6'
+gem 'rails', '~> 4.1.0'
