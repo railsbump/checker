@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'kramdown', '>= 1.16.2', '< 3.0'
+gem 'pastel', '~> 0.8'
+gem 'rouge', '>= 3.14', '< 5.0'
+gem 'strings', '~> 0.2.0'
+gem 'tty-color', '~> 0.5'
+gem 'tty-screen', '~> 0.8'
+gem 'rails', '~> 4.1.0'
