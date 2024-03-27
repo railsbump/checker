@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'httpclient', '>= 0'
+gem 'jquery-rails', '>= 0'
+gem 'nokogiri', '>= 0'
+gem 'rails', '>= 3.1', '~> 4.1.0'
