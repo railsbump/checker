@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'faraday', '>= 0'
+gem 'mighty_struct', '>= 0.1.2'
+gem 'rails', '~> 4.2.0'
