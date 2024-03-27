@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 3.2', '<= 5.1.1'
+gem 'httparty', '>= 0.14.0'
+gem 'jwt', '>= 1.5.0'
+gem 'rails', '~> 4.2.0'
