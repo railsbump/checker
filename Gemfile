@@ -1,0 +1,8 @@
+source 'https://rubygems.org'
+gem 'dry-container', '~> 0.9'
+gem 'pastel', '~> 0.8'
+gem 'refinements', '~> 9.1'
+gem 'runcom', '~> 8.2'
+gem 'spek', '~> 0.0'
+gem 'zeitwerk', '~> 2.5'
+gem 'rails', '~> 3.2.0'
