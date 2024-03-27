@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'faraday', '~> 1.7.0', '< 2.0.0'
+gem 'faraday_middleware', '~> 1.0', '< 2.0.0'
+gem 'jwt', '~> 2.2.1'
+gem 'rails', '~> 4.0.0'
