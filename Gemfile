@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'activesupport', '>= 0'
+gem 'httparty', '>= 0'
+gem 'i18n', '>= 0'
+gem 'openssl', '>= 2.2.0'
+gem 'rails', '~> 4.1.0'
