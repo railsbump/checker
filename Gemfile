@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'console', '~> 1.0'
+gem 'nio4r', '~> 2.3'
+gem 'timers', '~> 4.1'
+gem 'rails', '~> 4.2.0'
