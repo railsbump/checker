@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'faraday-http-cache', '>= 0'
+gem 'octokit', '~> 2.3'
+gem 'omniauth-github', '>= 0'
+gem 'rails', '>= 3.2', '~> 4.1.0'
+gem 'warden', '>= 0'
