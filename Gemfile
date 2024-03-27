@@ -1,0 +1,6 @@
+source 'https://rubygems.org'
+gem 'childprocess', '~> 0.1.5'
+gem 'ffi', '~> 0.6.3'
+gem 'json_pure', '>= 0'
+gem 'rubyzip', '>= 0'
+gem 'rails', '~> 3.2.0'
