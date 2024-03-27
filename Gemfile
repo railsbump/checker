@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'aws-sdk-secretsmanager', '~> 1.66'
+gem 'faraday', '~> 2.5', '>= 2.5.2'
+gem 'uri', '>= 0'
+gem 'rails', '~> 4.2.0'
