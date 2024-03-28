@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'anyway_config', '>= 1.3', '< 3'
+gem 'sidekiq', '>= 0'
+gem 'yabeda', '~> 0.6'
+gem 'rails', '~> 2.3.0'
