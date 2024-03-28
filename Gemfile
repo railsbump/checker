@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'colorize', '>= 0'
+gem 'parallel', '>= 0'
+gem 'rake', '>= 0'
+gem 'rails', '~> 3.2.0'
