@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'async', '~> 1.6'
+gem 'async-io', '~> 1.16'
+gem 'http-protocol', '~> 0.8.0'
+gem 'rails', '~> 3.2.0'
