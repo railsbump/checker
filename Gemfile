@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'daemons', '>= 1.0.8'
+gem 'hoe', '>= 1.3.0'
+gem 'trollop', '>= 1.7'
+gem 'rails', '~> 4.2.0'
