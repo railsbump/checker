@@ -7,3 +7,5 @@ coverage
 .ruby-version
 
 .vscode
+
+tmp
