@@ -13,7 +13,12 @@ option_parser = OptionParser.new do |opts|
   end
 
   opts.on("-d", "--dependencies DEPENDENCIES", "Specify dependencies in the format 'gem1:version1,gem2:version2'") do |d|
-    options[:dependencies] = JSON.parse(d)
+    begin
+      options[:dependencies] = JSON.parse(d)
+    rescue JSON::ParserError => e
+      puts "Invalid JSON format for dependencies: #{e.message} -- Parsing #{d}"
+      exit 1
+    end
   end
 end
 
