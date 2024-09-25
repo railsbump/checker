@@ -1,0 +1,33 @@
+name: Check Bundler
+
+on:
+  workflow_dispatch:
+    inputs:
+      rails_version:
+        description: 'Rails version to use'
+        required: true
+        default: '6.1.0'
+      dependencies:
+        description: 'Dependencies in the format gem1:version1,gem2:version2'
+        required: true
+        default: 'cronex:>=0.13.0,fugit:~>1.8,globalid:>=1.0.1,sidekiq:>=6'
+
+
+jobs:
+  check_bundler:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby 3.1
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1
+
+    - name: Install dependencies
+      run: bundle install
+
+    - name: Run check_bundler script
+      run: ./exe/check_bundler.sh --rails_version ${{ github.event.inputs.rails_version }} --dependencies ${{ github.event.inputs.dependencies }}
