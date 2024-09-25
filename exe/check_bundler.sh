@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
+require 'json'
 require 'optparse'
 require_relative '../lib/rails_bump/checker'
 
