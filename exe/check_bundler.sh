@@ -12,7 +12,7 @@ option_parser = OptionParser.new do |opts|
   end
 
   opts.on("-d", "--dependencies DEPENDENCIES", "Specify dependencies in the format 'gem1:version1,gem2:version2'") do |d|
-    options[:dependencies] = d.split(',').map { |dep| dep.split(':') }.to_h
+    options[:dependencies] = JSON.parse(d)
   end
 end
 
