@@ -30,4 +30,4 @@ jobs:
       run: bundle install
 
     - name: Run check_bundler script
-      run: ./exe/check_bundler.sh --rails_version ${{ github.event.inputs.rails_version }} --dependencies ${{ github.event.inputs.dependencies }}
+      run: ./exe/check_bundler.sh --rails_version '${{ github.event.inputs.rails_version }}' --dependencies '${{ github.event.inputs.dependencies }}'
