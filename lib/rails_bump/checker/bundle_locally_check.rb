@@ -14,6 +14,10 @@ module RailsBump
       def check
         captured_output = ""
 
+        puts "Checking compatibility:"
+        puts "Rails version #{@rails_version}"
+        puts "Dependencies: #{@dependencies}\n\n"  
+
         begin
           # Ensure the tmp directory exists
           FileUtils.mkdir_p('tmp')
@@ -32,6 +36,8 @@ module RailsBump
 
             File.write('tmp/Gemfile', gemfile_content)
 
+            puts "Checking with temporary Gemfile: \n\n#{gemfile_content}\n\n"
+
             # Build the definition from the temporary Gemfile
             definition = Bundler::Definition.build('tmp/Gemfile', 'tmp/Gemfile.lock', nil)
             
@@ -44,10 +50,15 @@ module RailsBump
               $stdout = original_stdout
             end
 
+            puts "✅ Compatible dependencies"
             Result.new(success: true, output: captured_output)
           end
         rescue Bundler::BundlerError => e
+          puts "💔 Incompatible dependencies"
           Result.new(success: false, output: "#{captured_output}\n\nBundler error: #{e.message}\n\n#{e.backtrace}")
+        ensure
+          puts "Cleaning up temporary files..."
+          FileUtils.rm_rf('tmp')
         end
       end
     end
