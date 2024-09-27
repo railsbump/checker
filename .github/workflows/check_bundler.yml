@@ -43,8 +43,9 @@ jobs:
         ruby-version: ${{ github.event.inputs.ruby_version }}
 
     - name: Install Bundler ${{ github.event.inputs.bundler_version }}
-      run: gem uninstall --all --force --executables
-      run: gem install bundler -v ${{ github.event.inputs.bundler_version }}
+      run: |
+        gem uninstall --all --force --executables
+        gem install bundler -v ${{ github.event.inputs.bundler_version }}
 
     - name: Install dependencies
       run: bundle _${{ github.event.inputs.bundler_version }}_ install
