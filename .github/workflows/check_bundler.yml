@@ -3,12 +3,16 @@ name: Check Bundler
 on:
   workflow_dispatch:
     inputs:
+      compat_id:
+        description: 'Compatibility Id in the format 123'
+        required: false
+        default: ''
       rails_version:
-        description: 'Rails version to use'
+        description: 'Rails version to use in the format 6.1.0'
         required: true
         default: '6.1.0'
       dependencies:
-        description: 'Dependencies in the format gem1:version1,gem2:version2'
+        description: 'Dependencies in the format cronex:>=0.13.0,fugit:~>1.8,globalid:>=1.0.1,sidekiq:>=6'
         required: true
         default: 'cronex:>=0.13.0,fugit:~>1.8,globalid:>=1.0.1,sidekiq:>=6'
 
@@ -30,4 +34,4 @@ jobs:
       run: bundle install
 
     - name: Run check_bundler script
-      run: ./exe/check_bundler.sh --rails_version '${{ github.event.inputs.rails_version }}' --dependencies '${{ github.event.inputs.dependencies }}'
+      run: ./exe/check_bundler.sh --compat_id '${{ github.event.inputs.compat_id }}' --rails_version '${{ github.event.inputs.rails_version }}' --dependencies '${{ github.event.inputs.dependencies }}'

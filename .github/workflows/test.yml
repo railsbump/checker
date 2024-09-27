@@ -1,0 +1,27 @@
+name: Tests
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - '**'
+
+jobs:
+  run_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 3.1
+
+    - name: Install dependencies
+      run: bundle install
+
+    - name: Run tests with coverage
+      run: COVERAGE=true bundle exec rspec spec
