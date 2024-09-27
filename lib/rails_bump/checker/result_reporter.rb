@@ -25,7 +25,7 @@ module RailsBump
 
         request = Net::HTTP::Post.new(RESULT_ENDPOINT.path, { 'Content-Type' => 'application/json' })
         request['RAILS-BUMP-API-KEY'] = @api_key
-        require 'byebug'; byebug
+
         request.body = {
           compat_id: @compat_id,
           rails_version: @rails_version,
