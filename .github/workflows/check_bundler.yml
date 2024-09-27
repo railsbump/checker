@@ -29,17 +29,24 @@ jobs:
   check_bundler:
     runs-on: ubuntu-latest
 
+    env:
+      RAILS_BUMP_API_KEY: ${{ secrets.RAILS_BUMP_API_KEY }}
+      RAILS_BUMP_API_HOST: "https://api.railsbump.org"
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
 
-    - name: Set up Ruby 3.1
+    - name: Set up Ruby ${{ github.event.inputs.ruby_version }}
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1
+      ruby-version: ${{ github.event.inputs.ruby_version }}
+
+    - name: Install Bundler ${{ github.event.inputs.bundler_version }}
+      run: gem install bundler -v ${{ github.event.inputs.bundler_version }}
 
     - name: Install dependencies
-      run: bundle install
+      run: bundle _${{ github.event.inputs.bundler_version }}_ install
 
     - name: Run check_bundler script
       run: ./exe/check_bundler.sh --compat_id '${{ github.event.inputs.compat_id }}' --rails_version '${{ github.event.inputs.rails_version }}' --dependencies '${{ github.event.inputs.dependencies }}'
