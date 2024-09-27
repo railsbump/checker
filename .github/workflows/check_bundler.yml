@@ -3,6 +3,10 @@ name: Check Bundler
 on:
   workflow_dispatch:
     inputs:
+      bundler_version:
+        description: 'Bundler Version'
+        required: true
+        type: string
       compat_id:
         description: 'Compatibility Id in the format 123'
         required: false
@@ -11,6 +15,10 @@ on:
         description: 'Rails version to use in the format 6.1.0'
         required: true
         default: '6.1.0'
+      ruby_version:
+        description: 'Ruby Version'
+        required: true
+        type: string
       dependencies:
         description: 'Dependencies in the format cronex:>=0.13.0,fugit:~>1.8,globalid:>=1.0.1,sidekiq:>=6'
         required: true
