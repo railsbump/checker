@@ -65,7 +65,7 @@ module RailsBump
         GEMFILE
 
         @dependencies.each do |gem_name, gem_version|
-          result += "gem '#{gem_name}', '#{gem_version}'\n"
+          result += "gem '#{gem_name}', '#{gem_version}'\n" unless gem_name == 'rails'
         end
 
         result
