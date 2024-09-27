@@ -16,9 +16,39 @@ You can test this project like this:
 
 For now it can only do this: 
 
+- Check with Bundler: It will generate a `Gemfile` and attempt to `bundle install` with the combination of `dependencies` and `rails_version`
+
+### Check with Bundler
+
+If you want to call this command locally (after following Installation steps):
+
 ```
-exe/check_bundler.sh --rails_version=6.1.0 --dependencies=skunk:0.5.2
+exe/check_bundler.sh --rails_version '6.1.0' --dependencies '{"cronex":"<= 0.13.0","fugit":"~> 1.8","globalid":"<= 1.0.1","sidekiq":"<= 6"}'
 ```
+
+If you want it to report back to railsbump.org, then you will need to pass the compat_id value:
+
+```
+exe/check_bundler.sh --compat_id '999' --rails_version '6.1.0' --dependencies '{"cronex":"<= 0.13.0","fugit":"~> 1.8","globalid":"<= 1.0.1","sidekiq":"<= 6"}'
+```
+
+In order to report back to railsbump.org, you will need to have the right RAILS_BUMP_API_KEY in your environment. Otherwise you will see a failed authentication error.
+
+If you want to call this command using GitHub Actions: 
+
+```
+curl -X POST \
+  -H "Accept: application/vnd.github.v3+json" \
+  -H "Authorization: token <SECRET_TOKEN>" \
+  https://api.github.com/repos/railsbump/checker/actions/workflows/check_bundler.yml/dispatches \
+  -d '{"ref":"main","inputs":{"rails_version":"6.1.0","dependencies":"{\"cronex\":\"<= 0.13.0\",\"fugit\":\"~> 1.8\",\"globalid\":\"<= 1.0.1\",\"sidekiq\":\"<= 6\"}"}}'
+```
+
+You will need to specify these values:
+
+- rails_version
+- dependencies
+- SECRET_TOKEN (from GitHub)
 
 ## Development
 
