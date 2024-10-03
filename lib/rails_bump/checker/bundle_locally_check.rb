@@ -83,8 +83,8 @@ module RailsBump
         $stdout = StringIO.new
         begin
           Bundler::Installer.install(Bundler.root, definition)
-          @captured_output = $stdout.string
         ensure
+          @captured_output = $stdout.string
           $stdout = original_stdout
         end
 
