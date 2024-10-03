@@ -37,7 +37,7 @@ module RailsBump
               output: @captured_output
             )
           end
-        rescue Bundler::BundlerError => e
+        rescue => err
           puts "💔 Incompatible dependencies"
           @result = Result.new(
             rails_version: @rails_version,
@@ -45,7 +45,7 @@ module RailsBump
             compat_id: @compat_id,
             success: false,
             strategy: self.class.name,
-            output: "#{@captured_output}\n\nBundler error: #{e.message}\n\n#{e.backtrace}"
+            output: "#{@captured_output}\n\nBundler error: #{err.message}\n\n#{err.backtrace}"
           )
         ensure
           puts "Cleaning up temporary files..."
