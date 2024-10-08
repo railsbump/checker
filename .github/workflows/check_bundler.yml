@@ -49,7 +49,9 @@ jobs:
         gem install bundler -v ${{ github.event.inputs.bundler_version }}
 
     - name: Install dependencies
-      run: bundle _${{ github.event.inputs.bundler_version }}_ install --without development,test
+      run: |
+        bundle config set --local without 'development,test'
+        bundle _${{ github.event.inputs.bundler_version }}_ install
 
     - name: Run check_bundler script
       run: ./exe/check_bundler.sh --compat_id '${{ github.event.inputs.compat_id }}' --rails_version '${{ github.event.inputs.rails_version }}' --dependencies '${{ github.event.inputs.dependencies }}'
