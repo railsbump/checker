@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/rails_bump/checker/version"
+require File.expand_path("lib/rails_bump/checker/version", __dir__)
 
 Gem::Specification.new do |spec|
   spec.name = "rails_bump-checker"
