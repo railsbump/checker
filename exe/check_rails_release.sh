@@ -15,7 +15,6 @@ end
 
 begin
   option_parser.parse!
-  require 'byebug'; byebug
   if options.size != 1
     puts option_parser
     exit
