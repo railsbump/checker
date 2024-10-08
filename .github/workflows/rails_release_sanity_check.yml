@@ -36,7 +36,7 @@ jobs:
 
     - name: Install Bundler ${{ github.event.inputs.bundler_version }}
       run: |
-        gem uninstall --all --force --executables
+        gem uninstall --all --executables
         gem install bundler -v ${{ github.event.inputs.bundler_version }}
 
     - name: Install dependencies
