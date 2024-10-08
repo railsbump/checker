@@ -40,7 +40,7 @@ jobs:
         gem install bundler -v ${{ github.event.inputs.bundler_version }}
 
     - name: Install dependencies
-      run: bundle _${{ github.event.inputs.bundler_version }}_ install
+      run: bundle _${{ github.event.inputs.bundler_version }}_ install --without development,test
 
     - name: Run check_bundler script
       run: ./exe/check_rails_release.sh --rails_version '${{ github.event.inputs.rails_version }}'
