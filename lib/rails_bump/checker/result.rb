@@ -3,7 +3,7 @@ module RailsBump
     class Result
       attr_reader :compat_id, :dependencies, :output, :rails_version, :strategy, :success
 
-      def initialize(success: false, output: "", rails_version:, dependencies:, compat_id: nil, strategy:)
+      def initialize(success: false, output: "", rails_version:, dependencies: {}, compat_id: nil, strategy:)
         @success = success
         @output = output
         @rails_version = rails_version
