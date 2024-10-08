@@ -31,6 +31,7 @@ jobs:
     - name: Set up Ruby ${{ github.event.inputs.ruby_version }}
       uses: ruby/setup-ruby@v1
       with:
+        bundler: none
         ruby-version: ${{ github.event.inputs.ruby_version }}
 
     - name: Install Bundler ${{ github.event.inputs.bundler_version }}
