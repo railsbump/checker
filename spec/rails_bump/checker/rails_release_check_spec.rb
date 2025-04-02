@@ -1,7 +1,7 @@
-require 'spec_helper'
+require "spec_helper"
 
 RSpec.describe RailsBump::Checker::RailsReleaseCheck do
-  describe '#check' do
+  describe "#check" do
     let(:version) { "6.1.0" }
 
     before do
@@ -29,7 +29,7 @@ RSpec.describe RailsBump::Checker::RailsReleaseCheck do
     end
 
     context "when version of Rails exists and it is compatible" do
-      it 'installs dependencies without errors' do
+      it "installs dependencies without errors" do
         result = @checker.check
 
         expect(result.success?).to be_truthy

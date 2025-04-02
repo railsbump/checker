@@ -1,9 +1,9 @@
-require 'spec_helper'
+require "spec_helper"
 
 RSpec.describe RailsBump::Checker::BundleLocallyCheck do
-  describe '#check' do
+  describe "#check" do
     let(:deps) do
-      {"cronex"=>">= 0.13.0", "fugit"=>"~> 1.8", "globalid"=>">= 1.0.1", "sidekiq"=>">= 6"}
+      {"cronex" => ">= 0.13.0", "fugit" => "~> 1.8", "globalid" => ">= 1.0.1", "sidekiq" => ">= 6"}
     end
     let(:version) { "6.1.0" }
 
@@ -33,7 +33,7 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
     end
 
     context "when version of Rails exists and it is compatible" do
-      it 'installs dependencies without errors' do
+      it "installs dependencies without errors" do
         result = @checker.check
 
         expect(result.success?).to be_truthy
@@ -52,7 +52,7 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
 
     context "when dependencies are clearly incompatible" do
       let(:deps) do
-        {"administrate"=>"0.1.0"}
+        {"administrate" => "0.1.0"}
       end
 
       it "returns success => false" do
