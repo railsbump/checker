@@ -1,5 +1,5 @@
-require 'fileutils'
-require 'stringio'
+require "fileutils"
+require "stringio"
 
 module RailsBump
   module Checker
@@ -18,7 +18,7 @@ module RailsBump
 
         begin
           # Ensure the tmp directory exists
-          FileUtils.mkdir_p('tmp')
+          FileUtils.mkdir_p("tmp")
 
           # Set up the environment and definition
           Bundler.with_unbundled_env do
@@ -42,7 +42,7 @@ module RailsBump
           )
         ensure
           puts "Cleaning up temporary files..."
-          FileUtils.rm_rf('tmp')
+          FileUtils.rm_rf("tmp")
         end
 
         @result
@@ -52,21 +52,19 @@ module RailsBump
 
       # Create a temporary Gemfile with the specified dependencies
       def gemfile_content
-        result = <<~GEMFILE
+        <<~GEMFILE
           source 'https://rubygems.org'
           gem 'rails', '#{@rails_version}'
         GEMFILE
-
-        result
       end
 
       def try_bundle_install
-        File.write('tmp/Gemfile', gemfile_content)
+        File.write("tmp/Gemfile", gemfile_content)
 
         puts "Checking with temporary Gemfile: \n\n#{gemfile_content}\n\n"
 
         # Build the definition from the temporary Gemfile
-        definition = Bundler::Definition.build('tmp/Gemfile', 'tmp/Gemfile.lock', nil)
+        definition = Bundler::Definition.build("tmp/Gemfile", "tmp/Gemfile.lock", nil)
 
         original_stdout = $stdout
         $stdout = StringIO.new

@@ -13,4 +13,3 @@ group :development, :test do
   gem "simplecov"
   gem "standard", "~> 1.3"
 end
-

@@ -1,5 +1,6 @@
-require 'fileutils'
-require 'stringio'
+require "fileutils"
+require "stringio"
+require "securerandom"
 
 module RailsBump
   module Checker
@@ -19,9 +20,22 @@ module RailsBump
         puts "Rails version #{@rails_version}"
         puts "Dependencies: #{@dependencies}\n\n"
 
+        if @dependencies.empty?
+          puts "No dependencies to check"
+          puts "✅ Compatible dependencies"
+          return Result.new(
+                   rails_version: @rails_version,
+                   dependencies: @dependencies,
+                   compat_id: @compat_id,
+                   success: true,
+                   strategy: self.class.name,
+                   output: "No dependencies to check"
+                 )
+        end
+
         begin
           # Ensure the tmp directory exists
-          FileUtils.mkdir_p('tmp')
+          FileUtils.mkdir_p("tmp")
 
           # Set up the environment and definition
           Bundler.with_unbundled_env do
@@ -49,7 +63,7 @@ module RailsBump
           )
         ensure
           puts "Cleaning up temporary files..."
-          FileUtils.rm_rf('tmp')
+          FileUtils.rm_rf("tmp")
         end
 
         @result
@@ -65,27 +79,39 @@ module RailsBump
         GEMFILE
 
         @dependencies.each do |gem_name, gem_version|
-          result += "gem '#{gem_name}', '#{gem_version}'\n" unless gem_name == 'rails'
+          result += "gem '#{gem_name}', '#{gem_version}'\n" unless gem_name == "rails"
         end
 
         result
       end
 
       def try_bundle_install
-        File.write('tmp/Gemfile', gemfile_content)
+        # Create a random temporary directory
+        tmp_dir = File.join("tmp", SecureRandom.hex(8))
+        FileUtils.mkdir_p(tmp_dir)
+
+        FileUtils.rm_rf File.join(tmp_dir, "Gemfile")
+        FileUtils.rm_rf File.join(tmp_dir, "Gemfile.lock")
+
+        # Clean Bundler cache
+        `bundle clean --force`
+
+        File.write(File.join(tmp_dir, "Gemfile"), gemfile_content)
 
         puts "Checking with temporary Gemfile: \n\n#{gemfile_content}\n\n"
 
         # Build the definition from the temporary Gemfile
-        definition = Bundler::Definition.build('tmp/Gemfile', 'tmp/Gemfile.lock', nil)
+        definition = Bundler::Definition.build(File.join(tmp_dir, "Gemfile"), File.join(tmp_dir, "Gemfile.lock"), nil)
 
         original_stdout = $stdout
         $stdout = StringIO.new
         begin
-          Bundler::Installer.install(Bundler.root, definition)
+          Bundler::Installer.install(File.join(tmp_dir, "Gemfile"), definition, force: true, jobs: 4)
         ensure
           @captured_output = $stdout.string
           $stdout = original_stdout
+          # Clean up the temporary directory
+          FileUtils.rm_rf(tmp_dir)
         end
 
         @captured_output
