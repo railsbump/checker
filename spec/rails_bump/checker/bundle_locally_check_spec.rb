@@ -36,7 +36,6 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
       it "installs dependencies without errors" do
         result = @checker.check
 
-        puts result.output
         expect(result.success?).to be_truthy
       end
     end
