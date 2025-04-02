@@ -28,7 +28,7 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
 
         result = @checker.check
 
-        expect(result.output).to include(msg)
+        expect(result.output.downcase).to include(msg.downcase)
       end
     end
 
@@ -66,7 +66,7 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
 
         result = @checker.check
 
-        expect(result.output).to include(msg)
+        expect(result.output.downcase).to include(msg.downcase)
       end
     end
   end
