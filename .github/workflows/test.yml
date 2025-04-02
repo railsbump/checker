@@ -20,6 +20,10 @@ jobs:
       with:
         ruby-version: 3.1
 
+    - name: Upgrade Bundler
+      run: |
+        gem update bundler
+
     - name: Output Ruby and Bundler versions
       run: |
         echo "Ruby version: $(ruby -v)"
