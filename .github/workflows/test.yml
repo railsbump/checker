@@ -32,5 +32,8 @@ jobs:
     - name: Install dependencies
       run: bundle install --jobs 4 --retry 3
 
+    - name: Change permissions
+      run: chmod -R o-w /opt/hostedtoolcache/Ruby
+
     - name: Run tests with coverage
       run: COVERAGE=true bundle exec rspec --order random spec
