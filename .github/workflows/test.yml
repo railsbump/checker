@@ -20,8 +20,13 @@ jobs:
       with:
         ruby-version: 3.1
 
+    - name: Output Ruby and Bundler versions
+      run: |
+        echo "Ruby version: $(ruby -v)"
+        echo "Bundler version: $(bundle -v)"
+
     - name: Install dependencies
-      run: bundle install
+      run: bundle install --jobs 4 --retry 3
 
     - name: Run tests with coverage
       run: COVERAGE=true bundle exec rspec --order random spec

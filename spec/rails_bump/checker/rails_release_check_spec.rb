@@ -32,6 +32,7 @@ RSpec.describe RailsBump::Checker::RailsReleaseCheck do
       it "installs dependencies without errors" do
         result = @checker.check
 
+        puts result.output
         expect(result.success?).to be_truthy
       end
     end
