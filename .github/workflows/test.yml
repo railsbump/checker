@@ -24,4 +24,4 @@ jobs:
       run: bundle install
 
     - name: Run tests with coverage
-      run: COVERAGE=true bundle exec rspec spec
+      run: COVERAGE=true bundle exec rspec --order random spec
