@@ -85,6 +85,9 @@ module RailsBump
       end
 
       def try_bundle_install
+        FileUtils.rm_rf "tmp/Gemfile"
+        FileUtils.rm_rf "tmp/Gemfile.lock"
+
         File.write("tmp/Gemfile", gemfile_content)
 
         puts "Checking with temporary Gemfile: \n\n#{gemfile_content}\n\n"
@@ -95,7 +98,7 @@ module RailsBump
         original_stdout = $stdout
         $stdout = StringIO.new
         begin
-          Bundler::Installer.install(Bundler.root, definition)
+          Bundler::Installer.install("tmp/Gemfile", definition, force: true, jobs: 4)
         ensure
           @captured_output = $stdout.string
           $stdout = original_stdout
