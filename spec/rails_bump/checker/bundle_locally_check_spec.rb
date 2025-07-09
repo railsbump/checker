@@ -38,6 +38,17 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
 
         expect(result.success?).to be_truthy
       end
+
+      context "when dependencies have complex requirements" do
+        let(:deps) do
+          {"faraday-net_http" => ">= 2.0, < 3.5"}
+        end
+
+        it "installs dependencies without errors" do
+          result = @checker.check
+          expect(result.success?).to be_truthy
+        end
+      end
     end
 
     context "when dependencies are empty" do
