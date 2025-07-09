@@ -12,4 +12,6 @@ group :development, :test do
   gem "rspec", "~> 3.0"
   gem "simplecov"
   gem "standard", "~> 1.3"
+  gem "vcr"
+  gem "webmock"
 end

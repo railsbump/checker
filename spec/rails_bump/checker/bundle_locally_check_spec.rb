@@ -1,6 +1,6 @@
 require "spec_helper"
 
-RSpec.describe RailsBump::Checker::BundleLocallyCheck do
+RSpec.describe RailsBump::Checker::BundleLocallyCheck, :vcr do
   describe "#check" do
     let(:deps) do
       {"cronex" => ">= 0.13.0", "fugit" => "~> 1.8", "globalid" => ">= 1.0.1", "sidekiq" => ">= 6"}
@@ -37,6 +37,17 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
         result = @checker.check
 
         expect(result.success?).to be_truthy
+      end
+
+      context "when dependencies have complex requirements" do
+        let(:deps) do
+          {"faraday-net_http" => ">= 2.0, < 3.5"}
+        end
+
+        it "installs dependencies without errors" do
+          result = @checker.check
+          expect(result.success?).to be_truthy
+        end
       end
     end
 
