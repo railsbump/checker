@@ -1,6 +1,6 @@
 require "spec_helper"
 
-RSpec.describe RailsBump::Checker::BundleLocallyCheck do
+RSpec.describe RailsBump::Checker::BundleLocallyCheck, :vcr do
   describe "#check" do
     let(:deps) do
       {"cronex" => ">= 0.13.0", "fugit" => "~> 1.8", "globalid" => ">= 1.0.1", "sidekiq" => ">= 6"}
