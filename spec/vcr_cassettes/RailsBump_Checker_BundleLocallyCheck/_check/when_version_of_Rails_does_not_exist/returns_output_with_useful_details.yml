@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://index.rubygems.org/versions
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Range:
+      - bytes=21088637-
+      If-None-Match:
+      - '"4293ea52c68e64baa4aa23b4b1d5aa16"'
+      Accept:
+      - "*/*"
+      User-Agent:
+      - bundler/2.6.6 rubygems/3.3.27 ruby/3.1.7 (arm64-apple-darwin23) command/spec
+        options/build.eventmachine,build.libv8,build.mysql2,build.nio4r,build.nokogiri,build.therubyracer,gem.changelog,gem.ci,gem.coc,gem.linter,gem.mit,gem.test,jobs,rubygems.pkg.github.com
+        963081e1eab7ef6e
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 304
+      message: Not Modified
+    headers:
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 09 Jul 2025 21:29:21 GMT
+      Via:
+      - 1.1 varnish
+      Cache-Control:
+      - max-age=60, public
+      Etag:
+      - '"4293ea52c68e64baa4aa23b4b1d5aa16"'
+      X-Served-By:
+      - cache-ewr-kewr1740025-EWR
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1752096562.673576,VS0,VE2
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Wed, 09 Jul 2025 21:29:21 GMT
+recorded_with: VCR 6.3.1

@@ -79,9 +79,12 @@ module RailsBump
         GEMFILE
 
         @dependencies.each do |gem_name, gem_version|
-          gem_version = gem_version.include?(",") ? gem_version.split(", ").map { |i| "'#{i}'" }.join(", ") : gem_version
-
-          result += "gem '#{gem_name}', #{gem_version}\n" unless gem_name == "rails"
+          if gem_version.include?(",")
+            gem_versions = gem_version.split(", ").map { |i| "'#{i}'" }.join(", ")
+            result += "gem '#{gem_name}', #{gem_versions}\n" unless gem_name == "rails"
+          else
+            result += "gem '#{gem_name}', '#{gem_version}'\n" unless gem_name == "rails"
+          end
         end
 
         result
