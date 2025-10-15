@@ -67,6 +67,14 @@ If you do not clear the cache, VCR may record a 304 response from https://rubyge
 causing bundler to use the cached rubygems index. Since CI does not have this cache, cassette
 matching will fail and VCR will report unhandled HTTP requests.
 
+To re-record all VCR cassettes (update recorded HTTP interactions), run:
+
+```sh
+rake spec:vcr_record_new
+```
+
+This will refresh all cassette files used in tests.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/railsbump/checker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/railsbump/checker/blob/master/CODE_OF_CONDUCT.md).
