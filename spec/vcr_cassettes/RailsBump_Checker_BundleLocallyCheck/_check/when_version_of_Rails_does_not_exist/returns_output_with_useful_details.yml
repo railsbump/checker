@@ -8,15 +8,14 @@ http_interactions:
       string: ''
     headers:
       Range:
-      - bytes=21088637-
+      - bytes=21431498-
       If-None-Match:
-      - '"4293ea52c68e64baa4aa23b4b1d5aa16"'
+      - '"a4b72b9b7f520921edf48433ff19fefe"'
       Accept:
       - "*/*"
       User-Agent:
-      - bundler/2.6.6 rubygems/3.3.27 ruby/3.1.7 (arm64-apple-darwin23) command/spec
-        options/build.eventmachine,build.libv8,build.mysql2,build.nio4r,build.nokogiri,build.therubyracer,gem.changelog,gem.ci,gem.coc,gem.linter,gem.mit,gem.test,jobs,rubygems.pkg.github.com
-        963081e1eab7ef6e
+      - bundler/2.7.2 rubygems/3.4.19 ruby/3.2.9 (x86_64-pc-linux) command/--order
+        options/ ci/ci,github c26ac46d17fda1a7
       Connection:
       - keep-alive
       Keep-Alive:
@@ -29,25 +28,25 @@ http_interactions:
       Connection:
       - keep-alive
       Date:
-      - Wed, 09 Jul 2025 21:29:21 GMT
+      - Wed, 15 Oct 2025 21:28:07 GMT
       Via:
       - 1.1 varnish
       Cache-Control:
       - max-age=60, public
       Etag:
-      - '"4293ea52c68e64baa4aa23b4b1d5aa16"'
+      - '"a4b72b9b7f520921edf48433ff19fefe"'
       X-Served-By:
-      - cache-ewr-kewr1740025-EWR
+      - cache-chi-kigq8000172-CHI
       X-Cache:
       - HIT
       X-Cache-Hits:
       - '0'
       X-Timer:
-      - S1752096562.673576,VS0,VE2
+      - S1760563688.774987,VS0,VE2
       Server:
       - RubyGems.org
     body:
       encoding: UTF-8
       string: ''
-  recorded_at: Wed, 09 Jul 2025 21:29:21 GMT
+  recorded_at: Wed, 15 Oct 2025 21:28:07 GMT
 recorded_with: VCR 6.3.1

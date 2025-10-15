@@ -1,6 +1,6 @@
 require "spec_helper"
 
-RSpec.describe RailsBump::Checker::RailsReleaseCheck do
+RSpec.describe RailsBump::Checker::RailsReleaseCheck, :vcr do
   describe "#check" do
     let(:version) { "6.1.0" }
 

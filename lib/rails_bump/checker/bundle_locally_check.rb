@@ -98,7 +98,7 @@ module RailsBump
         FileUtils.rm_rf File.join(tmp_dir, "Gemfile")
         FileUtils.rm_rf File.join(tmp_dir, "Gemfile.lock")
 
-        # Clean Bundler cache
+        # Remove unused gems
         `bundle clean --force`
 
         File.write(File.join(tmp_dir, "Gemfile"), gemfile_content)

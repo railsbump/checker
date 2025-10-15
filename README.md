@@ -54,6 +54,19 @@ You will need to specify these values:
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
+## Testing
+
+This project uses RSpec for testing, with VCR to record HTTP interactions.
+
+To ensure your tests run consistently with CI, remove your local bundler cache before running tests:
+```
+rm -rf ~/.bundle/cache
+```
+
+If you do not clear the cache, VCR may record a 304 response from https://rubygems.org/versions,
+causing bundler to use the cached rubygems index. Since CI does not have this cache, cassette
+matching will fail and VCR will report unhandled HTTP requests.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/railsbump/checker. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/railsbump/checker/blob/master/CODE_OF_CONDUCT.md).

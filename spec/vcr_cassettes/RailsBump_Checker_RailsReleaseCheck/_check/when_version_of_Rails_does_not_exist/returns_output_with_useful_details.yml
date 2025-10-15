@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://index.rubygems.org/versions
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Range:
+      - bytes=21431498-
+      If-None-Match:
+      - '"a4b72b9b7f520921edf48433ff19fefe"'
+      Accept:
+      - "*/*"
+      User-Agent:
+      - bundler/2.7.2 rubygems/3.4.19 ruby/3.2.9 (x86_64-pc-linux) command/--order
+        options/ ci/ci,github 9391e0e3210a6c16
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - '30'
+  response:
+    status:
+      code: 304
+      message: Not Modified
+    headers:
+      Connection:
+      - keep-alive
+      Date:
+      - Wed, 15 Oct 2025 21:28:46 GMT
+      Via:
+      - 1.1 varnish
+      Cache-Control:
+      - max-age=60, public
+      Etag:
+      - '"a4b72b9b7f520921edf48433ff19fefe"'
+      X-Served-By:
+      - cache-chi-kigq8000115-CHI
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '0'
+      X-Timer:
+      - S1760563727.680376,VS0,VE2
+      Server:
+      - RubyGems.org
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Wed, 15 Oct 2025 21:28:46 GMT
+recorded_with: VCR 6.3.1
