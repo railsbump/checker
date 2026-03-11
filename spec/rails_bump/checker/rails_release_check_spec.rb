@@ -12,6 +12,14 @@ RSpec.describe RailsBump::Checker::RailsReleaseCheck do
       end
     end
 
+    context "with a pessimistic version constraint" do
+      let(:checker) { described_class.new(rails_version: "~> 7.1.0") }
+
+      it "includes the rails gem with that constraint" do
+        expect(content).to include("gem 'rails', '~> 7.1.0'")
+      end
+    end
+
     context "with a multi-constraint rails version" do
       let(:checker) { described_class.new(rails_version: ">= 7.0, < 8.0") }
 
