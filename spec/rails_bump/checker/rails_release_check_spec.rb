@@ -1,6 +1,21 @@
 require "spec_helper"
 
 RSpec.describe RailsBump::Checker::RailsReleaseCheck do
+  describe "#tmp_dir" do
+    it "is unique per instance so concurrent runs do not collide" do
+      checker_a = described_class.new(rails_version: "7.1.0")
+      checker_b = described_class.new(rails_version: "7.2.0")
+
+      expect(checker_a.send(:tmp_dir)).not_to eq(checker_b.send(:tmp_dir))
+    end
+
+    it "is stable within the same instance" do
+      checker = described_class.new(rails_version: "7.1.0")
+
+      expect(checker.send(:tmp_dir)).to eq(checker.send(:tmp_dir))
+    end
+  end
+
   describe "#check" do
     let(:version) { "6.1.0" }
 

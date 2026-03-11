@@ -1,4 +1,5 @@
 require "fileutils"
+require "securerandom"
 require "stringio"
 
 module RailsBump
@@ -50,6 +51,10 @@ module RailsBump
 
       private
 
+      def tmp_dir
+        @tmp_dir ||= File.join("tmp", SecureRandom.hex(8))
+      end
+
       # Create a temporary Gemfile with the specified dependencies
       def gemfile_content
         <<~GEMFILE
@@ -59,20 +64,25 @@ module RailsBump
       end
 
       def try_bundle_install
-        File.write("tmp/Gemfile", gemfile_content)
+        FileUtils.mkdir_p(tmp_dir)
+        FileUtils.rm_rf File.join(tmp_dir, "Gemfile")
+        FileUtils.rm_rf File.join(tmp_dir, "Gemfile.lock")
+
+        File.write(File.join(tmp_dir, "Gemfile"), gemfile_content)
 
         puts "Checking with temporary Gemfile: \n\n#{gemfile_content}\n\n"
 
         # Build the definition from the temporary Gemfile
-        definition = Bundler::Definition.build("tmp/Gemfile", "tmp/Gemfile.lock", nil)
+        definition = Bundler::Definition.build(File.join(tmp_dir, "Gemfile"), File.join(tmp_dir, "Gemfile.lock"), nil)
 
         original_stdout = $stdout
         $stdout = StringIO.new
         begin
-          Bundler::Installer.install(Bundler.root, definition)
+          Bundler::Installer.install(File.join(tmp_dir, "Gemfile"), definition)
         ensure
           @captured_output = $stdout.string
           $stdout = original_stdout
+          FileUtils.rm_rf(tmp_dir)
         end
 
         @captured_output
