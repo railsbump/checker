@@ -43,7 +43,7 @@ module RailsBump
           )
         ensure
           puts "Cleaning up temporary files..."
-          FileUtils.rm_rf("tmp")
+          cleanup_tmp_dir
         end
 
         @result
@@ -53,6 +53,10 @@ module RailsBump
 
       def tmp_dir
         @tmp_dir ||= File.join("tmp", SecureRandom.hex(8))
+      end
+
+      def cleanup_tmp_dir
+        FileUtils.rm_rf(@tmp_dir) if @tmp_dir
       end
 
       # Create a temporary Gemfile with the specified dependencies
@@ -82,7 +86,6 @@ module RailsBump
         ensure
           @captured_output = $stdout.string
           $stdout = original_stdout
-          FileUtils.rm_rf(tmp_dir)
         end
 
         @captured_output

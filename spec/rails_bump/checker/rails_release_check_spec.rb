@@ -50,5 +50,21 @@ RSpec.describe RailsBump::Checker::RailsReleaseCheck do
         expect(result.success?).to be_truthy
       end
     end
+
+    it "cleans up only the checker scoped temp directory" do
+      checker = described_class.new(rails_version: "7.1.0")
+      scoped_tmp_dir = "tmp/release-scope-test"
+
+      checker.instance_variable_set(:@tmp_dir, scoped_tmp_dir)
+      allow(checker).to receive(:try_bundle_install).and_return("ok")
+      allow(Bundler).to receive(:with_unbundled_env).and_yield
+      allow(FileUtils).to receive(:mkdir_p)
+      allow(FileUtils).to receive(:rm_rf)
+
+      expect(FileUtils).to receive(:rm_rf).with(scoped_tmp_dir)
+      expect(FileUtils).not_to receive(:rm_rf).with("tmp")
+
+      checker.check
+    end
   end
 end
