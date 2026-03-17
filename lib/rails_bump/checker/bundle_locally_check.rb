@@ -24,13 +24,13 @@ module RailsBump
           puts "No dependencies to check"
           puts "✅ Compatible dependencies"
           return Result.new(
-                   rails_version: @rails_version,
-                   dependencies: @dependencies,
-                   compat_id: @compat_id,
-                   success: true,
-                   strategy: self.class.name,
-                   output: "No dependencies to check"
-                 )
+            rails_version: @rails_version,
+            dependencies: @dependencies,
+            compat_id: @compat_id,
+            success: true,
+            strategy: self.class.name,
+            output: "No dependencies to check"
+          )
         end
 
         begin

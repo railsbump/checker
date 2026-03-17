@@ -35,5 +35,8 @@ jobs:
     - name: Change permissions
       run: chmod -R o-w /opt/hostedtoolcache/Ruby
 
+    - name: Run linter
+      run: bundle exec standardrb --format progress
+
     - name: Run tests with coverage
       run: COVERAGE=true bundle exec rspec --order random spec
