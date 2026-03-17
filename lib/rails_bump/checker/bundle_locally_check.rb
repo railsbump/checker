@@ -63,13 +63,21 @@ module RailsBump
           )
         ensure
           puts "Cleaning up temporary files..."
-          FileUtils.rm_rf("tmp")
+          cleanup_tmp_dir
         end
 
         @result
       end
 
       private
+
+      def tmp_dir
+        @tmp_dir ||= File.join("tmp", SecureRandom.hex(8))
+      end
+
+      def cleanup_tmp_dir
+        FileUtils.rm_rf(@tmp_dir) if @tmp_dir
+      end
 
       # Create a temporary Gemfile with the specified dependencies
       def gemfile_content
@@ -88,8 +96,6 @@ module RailsBump
       end
 
       def try_bundle_install
-        # Create a random temporary directory
-        tmp_dir = File.join("tmp", SecureRandom.hex(8))
         FileUtils.mkdir_p(tmp_dir)
 
         FileUtils.rm_rf File.join(tmp_dir, "Gemfile")
@@ -112,8 +118,6 @@ module RailsBump
         ensure
           @captured_output = $stdout.string
           $stdout = original_stdout
-          # Clean up the temporary directory
-          FileUtils.rm_rf(tmp_dir)
         end
 
         @captured_output
