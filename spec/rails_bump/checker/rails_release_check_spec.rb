@@ -1,6 +1,34 @@
 require "spec_helper"
 
 RSpec.describe RailsBump::Checker::RailsReleaseCheck do
+  describe "#gemfile_content" do
+    subject(:content) { checker.send(:gemfile_content) }
+
+    context "with an exact rails version" do
+      let(:checker) { described_class.new(rails_version: "7.1.0") }
+
+      it "includes the rails gem with that version" do
+        expect(content).to include("gem 'rails', '7.1.0'")
+      end
+    end
+
+    context "with a pessimistic version constraint" do
+      let(:checker) { described_class.new(rails_version: "~> 7.1.0") }
+
+      it "includes the rails gem with that constraint" do
+        expect(content).to include("gem 'rails', '~> 7.1.0'")
+      end
+    end
+
+    context "with a multi-constraint rails version" do
+      let(:checker) { described_class.new(rails_version: ">= 7.0, < 8.0") }
+
+      it "formats each constraint as a separate argument" do
+        expect(content).to include("gem 'rails', '>= 7.0', '< 8.0'")
+      end
+    end
+  end
+
   describe "#tmp_dir" do
     it "is unique per instance so concurrent runs do not collide" do
       checker_a = described_class.new(rails_version: "7.1.0")

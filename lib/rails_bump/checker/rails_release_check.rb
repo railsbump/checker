@@ -57,9 +57,10 @@ module RailsBump
 
       # Create a temporary Gemfile with the specified dependencies
       def gemfile_content
+        versions = @rails_version.split(",").map { |v| "'#{v.strip}'" }.join(", ")
         <<~GEMFILE
           source 'https://rubygems.org'
-          gem 'rails', '#{@rails_version}'
+          gem 'rails', #{versions}
         GEMFILE
       end
 
