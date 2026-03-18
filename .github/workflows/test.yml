@@ -1,15 +1,23 @@
-name: Tests
+name: CI
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 on:
   pull_request:
     types: [opened, synchronize, reopened]
   push:
     branches:
-      - '**'
+      - main
 
 jobs:
-  run_tests:
+  lint:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
     - name: Checkout repository
@@ -18,22 +26,25 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1
+        ruby-version: .ruby-version
+        bundler-cache: true
 
-    - name: Upgrade Bundler
-      run: |
-        gem update bundler
+    - name: Run linter
+      run: bundle exec standardrb --format progress
 
-    - name: Output Ruby and Bundler versions
-      run: |
-        echo "Ruby version: $(ruby -v)"
-        echo "Bundler version: $(bundle -v)"
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
 
-    - name: Install dependencies
-      run: bundle install --jobs 4 --retry 3
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
 
-    - name: Change permissions
-      run: chmod -R o-w /opt/hostedtoolcache/Ruby
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: .ruby-version
+        bundler-cache: true
 
     - name: Run tests with coverage
       run: COVERAGE=true bundle exec rspec --order random spec
