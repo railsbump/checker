@@ -1,18 +1,17 @@
 require "spec_helper"
 
 RSpec.describe RailsBump::Checker::RailsReleaseCheck do
-  describe "#tmp_dir" do
-    it "is unique per instance so concurrent runs do not collide" do
-      checker_a = described_class.new(rails_version: "7.1.0")
-      checker_b = described_class.new(rails_version: "7.2.0")
-
-      expect(checker_a.send(:tmp_dir)).not_to eq(checker_b.send(:tmp_dir))
-    end
-
-    it "is stable within the same instance" do
+  describe "#with_tmp_dir" do
+    it "creates a checker-scoped temporary directory under tmp" do
       checker = described_class.new(rails_version: "7.1.0")
 
-      expect(checker.send(:tmp_dir)).to eq(checker.send(:tmp_dir))
+      allow(FileUtils).to receive(:mkdir_p)
+      expect(Dir).to receive(:mktmpdir).with("checker-", "tmp").and_yield("tmp/release-scope-test")
+
+      yielded = nil
+      checker.send(:with_tmp_dir) { |tmp_dir| yielded = tmp_dir }
+
+      expect(yielded).to eq("tmp/release-scope-test")
     end
   end
 
@@ -51,18 +50,14 @@ RSpec.describe RailsBump::Checker::RailsReleaseCheck do
       end
     end
 
-    it "cleans up only the checker scoped temp directory" do
+    it "uses Dir.mktmpdir scoped under tmp" do
       checker = described_class.new(rails_version: "7.1.0")
       scoped_tmp_dir = "tmp/release-scope-test"
 
-      checker.instance_variable_set(:@tmp_dir, scoped_tmp_dir)
-      allow(checker).to receive(:try_bundle_install).and_return("ok")
+      allow(checker).to receive(:try_bundle_install).with(scoped_tmp_dir).and_return("ok")
       allow(Bundler).to receive(:with_unbundled_env).and_yield
       allow(FileUtils).to receive(:mkdir_p)
-      allow(FileUtils).to receive(:rm_rf)
-
-      expect(FileUtils).to receive(:rm_rf).with(scoped_tmp_dir)
-      expect(FileUtils).not_to receive(:rm_rf).with("tmp")
+      expect(Dir).to receive(:mktmpdir).with("checker-", "tmp").and_yield(scoped_tmp_dir)
 
       checker.check
     end

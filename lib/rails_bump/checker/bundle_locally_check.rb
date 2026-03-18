@@ -1,6 +1,6 @@
 require "fileutils"
 require "stringio"
-require "securerandom"
+require "tmpdir"
 
 module RailsBump
   module Checker
@@ -34,12 +34,11 @@ module RailsBump
         end
 
         begin
-          # Ensure the tmp directory exists
-          FileUtils.mkdir_p("tmp")
-
           # Set up the environment and definition
           Bundler.with_unbundled_env do
-            @captured_output = try_bundle_install
+            with_tmp_dir do |tmp_dir|
+              @captured_output = try_bundle_install(tmp_dir)
+            end
 
             puts "✅ Compatible dependencies"
             @result = Result.new(
@@ -61,9 +60,6 @@ module RailsBump
             strategy: self.class.name,
             output: "#{@captured_output}\n\nBundler error: #{err.message}\n\n#{err.backtrace}"
           )
-        ensure
-          puts "Cleaning up temporary files..."
-          cleanup_tmp_dir
         end
 
         @result
@@ -71,12 +67,11 @@ module RailsBump
 
       private
 
-      def tmp_dir
-        @tmp_dir ||= File.join("tmp", SecureRandom.hex(8))
-      end
-
-      def cleanup_tmp_dir
-        FileUtils.rm_rf(@tmp_dir) if @tmp_dir
+      def with_tmp_dir
+        FileUtils.mkdir_p("tmp")
+        Dir.mktmpdir("checker-", "tmp") do |tmp_dir|
+          yield tmp_dir
+        end
       end
 
       # Create a temporary Gemfile with the specified dependencies
@@ -95,11 +90,7 @@ module RailsBump
         result
       end
 
-      def try_bundle_install
-        FileUtils.mkdir_p(tmp_dir)
-
-        FileUtils.rm_rf File.join(tmp_dir, "Gemfile")
-        FileUtils.rm_rf File.join(tmp_dir, "Gemfile.lock")
+      def try_bundle_install(tmp_dir)
 
         # Clean Bundler cache
         `bundle clean --force`
