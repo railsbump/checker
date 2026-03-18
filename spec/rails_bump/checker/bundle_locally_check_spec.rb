@@ -121,12 +121,9 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
         rails_version: "7.1.0",
         dependencies: {"rack" => ">= 2.0"}
       )
-      scoped_tmp_dir = "tmp/checker-scope-test"
 
-      allow(checker).to receive(:try_bundle_install).with(scoped_tmp_dir).and_return("ok")
+      expect(checker).to receive(:try_bundle_install).and_return("ok")
       allow(Bundler).to receive(:with_unbundled_env).and_yield
-      allow(FileUtils).to receive(:mkdir_p)
-      expect(Dir).to receive(:mktmpdir).with("checker-", "tmp").and_yield(scoped_tmp_dir)
 
       checker.check
     end

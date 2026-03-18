@@ -1,10 +1,8 @@
-require "fileutils"
-require "stringio"
-require "tmpdir"
-
 module RailsBump
   module Checker
     class RailsReleaseCheck
+      include TempBundleRunner
+
       def initialize(opts = {})
         @rails_version = opts[:rails_version] || "9.1.0"
         @captured_output = ""
@@ -20,9 +18,7 @@ module RailsBump
         begin
           # Set up the environment and definition
           Bundler.with_unbundled_env do
-            with_tmp_dir do |tmp_dir|
-              @captured_output = try_bundle_install(tmp_dir)
-            end
+            @captured_output = try_bundle_install
 
             puts "✅ Compatible dependencies"
             @result = Result.new(
@@ -47,13 +43,6 @@ module RailsBump
 
       private
 
-      def with_tmp_dir
-        FileUtils.mkdir_p("tmp")
-        Dir.mktmpdir("checker-", "tmp") do |tmp_dir|
-          yield tmp_dir
-        end
-      end
-
       # Create a temporary Gemfile with the specified dependencies
       def gemfile_content
         versions = @rails_version.split(",").map { |v| "'#{v.strip}'" }.join(", ")
@@ -63,25 +52,8 @@ module RailsBump
         GEMFILE
       end
 
-      def try_bundle_install(tmp_dir)
-
-        File.write(File.join(tmp_dir, "Gemfile"), gemfile_content)
-
-        puts "Checking with temporary Gemfile: \n\n#{gemfile_content}\n\n"
-
-        # Build the definition from the temporary Gemfile
-        definition = Bundler::Definition.build(File.join(tmp_dir, "Gemfile"), File.join(tmp_dir, "Gemfile.lock"), nil)
-
-        original_stdout = $stdout
-        $stdout = StringIO.new
-        begin
-          Bundler::Installer.install(File.join(tmp_dir, "Gemfile"), definition)
-        ensure
-          @captured_output = $stdout.string
-          $stdout = original_stdout
-        end
-
-        @captured_output
+      def try_bundle_install
+        run_bundle_install(gemfile_content: gemfile_content)
       end
     end
   end

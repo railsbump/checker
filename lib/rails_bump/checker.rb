@@ -3,6 +3,7 @@
 require "bundler"
 require_relative "checker/version"
 require_relative "checker/result"
+require_relative "checker/temp_bundle_runner"
 require_relative "checker/bundle_locally_check"
 require_relative "checker/rails_release_check"
 require_relative "checker/result_reporter"
