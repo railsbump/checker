@@ -40,10 +40,16 @@ module RailsBump
         Sentry.init do |config|
           config.dsn = ENV.fetch("SENTRY_DSN", nil)
           config.environment = ENV.fetch("SENTRY_ENVIRONMENT", ENV.fetch("RACK_ENV", "development"))
-          config.release = ENV.fetch("SENTRY_RELEASE", nil)
+          config.release = sentry_release
         end
 
         @sentry_initialized = true
+      end
+
+      def sentry_release
+        release = ENV.fetch("SENTRY_RELEASE", "").strip
+        release = ENV.fetch("HEROKU_RELEASE_VERSION", "").strip if release.empty?
+        release.empty? ? nil : release
       end
     end
   end
