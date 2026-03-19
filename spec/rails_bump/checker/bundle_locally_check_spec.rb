@@ -1,17 +1,14 @@
 require "spec_helper"
 
 RSpec.describe RailsBump::Checker::BundleLocallyCheck do
-  describe "#with_tmp_dir" do
-    it "creates a checker-scoped temporary directory under tmp" do
-      checker = described_class.new(rails_version: "7.1.0", dependencies: {"rack" => ">= 2.0"})
+  describe "temporary directory lifecycle" do
+    it "cleans up its temporary directory without removing tmp/" do
+      FileUtils.rm_rf(Dir.glob("tmp/checker-*"))
 
-      allow(FileUtils).to receive(:mkdir_p)
-      expect(Dir).to receive(:mktmpdir).with("checker-", "tmp").and_yield("tmp/checker-scope-test")
+      described_class.new(rails_version: "7.1.0", dependencies: {"rack" => ">= 2.0"}).check
 
-      yielded = nil
-      checker.send(:with_tmp_dir) { |tmp_dir| yielded = tmp_dir }
-
-      expect(yielded).to eq("tmp/checker-scope-test")
+      expect(Dir.glob("tmp/checker-*")).to be_empty
+      expect(Dir.exist?("tmp")).to be true
     end
   end
 
@@ -116,7 +113,7 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
       end
     end
 
-    it "uses Dir.mktmpdir scoped under tmp" do
+    it "attempts bundler install when dependencies are present" do
       checker = described_class.new(
         rails_version: "7.1.0",
         dependencies: {"rack" => ">= 2.0"}
