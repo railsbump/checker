@@ -32,7 +32,7 @@ begin
   option_parser.parse!
   unless options.size >= 2 && options.size <= 3
     puts option_parser
-    exit
+    exit 1
   end
 rescue OptionParser::InvalidOption, OptionParser::MissingArgument
   puts option_parser
@@ -56,4 +56,6 @@ puts result.output
 puts ""
 puts "Success: #{result.success?}"
 
-exit(0)
+status = result.success? ? 0 : 1
+RailsBump::Checker::SentryNotifier.capture_check_failure(check_name: "check_bundler", result: result) if status.positive?
+exit(status)

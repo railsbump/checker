@@ -34,6 +34,13 @@ exe/check_bundler.sh --compat_id '999' --rails_version '6.1.0' --dependencies '{
 
 In order to report back to railsbump.org, you will need to have the right RAILS_BUMP_API_KEY in your environment. Otherwise you will see a failed authentication error.
 
+Both CLI scripts now return process status based on the check result:
+
+- `0` when the check is successful
+- `1` when the check fails or when required arguments are missing/invalid
+
+If `SENTRY_DSN` is configured, failed checks are also reported to Sentry with check context.
+
 If you want to call this command using GitHub Actions: 
 
 ```
