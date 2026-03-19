@@ -20,9 +20,9 @@ on:
         required: true
         type: string
       dependencies:
-        description: 'Dependencies in the format cronex:>=0.13.0,fugit:~>1.8,globalid:>=1.0.1,sidekiq:>=6'
+        description: 'Dependencies in JSON format \'{"cronex":">= 0.13.0","fugit":"~> 1.8","globalid":">= 1.0.1","sidekiq":">= 6"}\''
         required: true
-        default: 'cronex:>=0.13.0,fugit:~>1.8,globalid:>=1.0.1,sidekiq:>=6'
+        default: '{"cronex":">= 0.13.0","fugit":"~> 1.8","globalid":">= 1.0.1","sidekiq":">= 6"}'
 
 
 jobs:
