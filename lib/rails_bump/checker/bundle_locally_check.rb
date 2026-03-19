@@ -1,10 +1,8 @@
-require "fileutils"
-require "stringio"
-require "securerandom"
-
 module RailsBump
   module Checker
     class BundleLocallyCheck
+      include TempBundleRunner
+
       def initialize(opts = {})
         @rails_version = opts[:rails_version] || "9.1.0"
         @dependencies = opts[:dependencies] || []
@@ -34,9 +32,6 @@ module RailsBump
         end
 
         begin
-          # Ensure the tmp directory exists
-          FileUtils.mkdir_p("tmp")
-
           # Set up the environment and definition
           Bundler.with_unbundled_env do
             @captured_output = try_bundle_install
@@ -61,9 +56,6 @@ module RailsBump
             strategy: self.class.name,
             output: "#{@captured_output}\n\nBundler error: #{err.message}\n\n#{err.backtrace}"
           )
-        ensure
-          puts "Cleaning up temporary files..."
-          FileUtils.rm_rf("tmp")
         end
 
         @result
@@ -88,35 +80,11 @@ module RailsBump
       end
 
       def try_bundle_install
-        # Create a random temporary directory
-        tmp_dir = File.join("tmp", SecureRandom.hex(8))
-        FileUtils.mkdir_p(tmp_dir)
-
-        FileUtils.rm_rf File.join(tmp_dir, "Gemfile")
-        FileUtils.rm_rf File.join(tmp_dir, "Gemfile.lock")
-
-        # Clean Bundler cache
-        `bundle clean --force`
-
-        File.write(File.join(tmp_dir, "Gemfile"), gemfile_content)
-
-        puts "Checking with temporary Gemfile: \n\n#{gemfile_content}\n\n"
-
-        # Build the definition from the temporary Gemfile
-        definition = Bundler::Definition.build(File.join(tmp_dir, "Gemfile"), File.join(tmp_dir, "Gemfile.lock"), nil)
-
-        original_stdout = $stdout
-        $stdout = StringIO.new
-        begin
-          Bundler::Installer.install(File.join(tmp_dir, "Gemfile"), definition, force: true, jobs: 4)
-        ensure
-          @captured_output = $stdout.string
-          $stdout = original_stdout
-          # Clean up the temporary directory
-          FileUtils.rm_rf(tmp_dir)
-        end
-
-        @captured_output
+        run_bundle_install(
+          gemfile_content: gemfile_content,
+          installer_options: {force: true, jobs: 4},
+          clean_bundle_cache: true
+        )
       end
     end
   end

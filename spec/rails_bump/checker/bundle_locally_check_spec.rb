@@ -1,6 +1,17 @@
 require "spec_helper"
 
 RSpec.describe RailsBump::Checker::BundleLocallyCheck do
+  describe "temporary directory lifecycle" do
+    it "cleans up its temporary directory without removing tmp/" do
+      FileUtils.rm_rf(Dir.glob("tmp/checker-*"))
+
+      described_class.new(rails_version: "7.1.0", dependencies: {"rack" => ">= 2.0"}).check
+
+      expect(Dir.glob("tmp/checker-*")).to be_empty
+      expect(Dir.exist?("tmp")).to be true
+    end
+  end
+
   describe "#gemfile_content" do
     subject(:content) { checker.send(:gemfile_content) }
 
@@ -100,6 +111,18 @@ RSpec.describe RailsBump::Checker::BundleLocallyCheck do
 
         expect(result.output.downcase).to include(msg.downcase)
       end
+    end
+
+    it "attempts bundler install when dependencies are present" do
+      checker = described_class.new(
+        rails_version: "7.1.0",
+        dependencies: {"rack" => ">= 2.0"}
+      )
+
+      expect(checker).to receive(:try_bundle_install).and_return("ok")
+      allow(Bundler).to receive(:with_unbundled_env).and_yield
+
+      checker.check
     end
   end
 end

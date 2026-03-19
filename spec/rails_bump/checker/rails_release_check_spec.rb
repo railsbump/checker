@@ -29,18 +29,17 @@ RSpec.describe RailsBump::Checker::RailsReleaseCheck do
     end
   end
 
-  describe "#tmp_dir" do
-    it "is unique per instance so concurrent runs do not collide" do
-      checker_a = described_class.new(rails_version: "7.1.0")
-      checker_b = described_class.new(rails_version: "7.2.0")
-
-      expect(checker_a.send(:tmp_dir)).not_to eq(checker_b.send(:tmp_dir))
-    end
-
-    it "is stable within the same instance" do
+  describe "#with_tmp_dir" do
+    it "creates a checker-scoped temporary directory under tmp" do
       checker = described_class.new(rails_version: "7.1.0")
 
-      expect(checker.send(:tmp_dir)).to eq(checker.send(:tmp_dir))
+      allow(FileUtils).to receive(:mkdir_p)
+      expect(Dir).to receive(:mktmpdir).with("checker-", "tmp").and_yield("tmp/release-scope-test")
+
+      yielded = nil
+      checker.send(:with_tmp_dir) { |tmp_dir| yielded = tmp_dir }
+
+      expect(yielded).to eq("tmp/release-scope-test")
     end
   end
 
@@ -77,6 +76,15 @@ RSpec.describe RailsBump::Checker::RailsReleaseCheck do
 
         expect(result.success?).to be_truthy
       end
+    end
+
+    it "uses Dir.mktmpdir scoped under tmp" do
+      checker = described_class.new(rails_version: "7.1.0")
+
+      expect(checker).to receive(:try_bundle_install).and_return("ok")
+      allow(Bundler).to receive(:with_unbundled_env).and_yield
+
+      checker.check
     end
   end
 end
