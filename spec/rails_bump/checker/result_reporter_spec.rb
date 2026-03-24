@@ -28,15 +28,8 @@ RSpec.describe RailsBump::Checker::ResultReporter do
       it "uses the current ENV value" do
         stub_request(:post, "http://custom-host.test/results").to_return(status: 200, body: "ok")
 
-        original_host = ENV["RAILS_BUMP_API_HOST"]
-        original_key = ENV["RAILS_BUMP_API_KEY"]
-        begin
-          ENV["RAILS_BUMP_API_HOST"] = "http://custom-host.test"
-          ENV["RAILS_BUMP_API_KEY"] = "test-key"
+        with_env("RAILS_BUMP_API_HOST" => "http://custom-host.test", "RAILS_BUMP_API_KEY" => "test-key") do
           described_class.new(result).report
-        ensure
-          ENV["RAILS_BUMP_API_HOST"] = original_host
-          ENV["RAILS_BUMP_API_KEY"] = original_key
         end
 
         assert_requested(:post, "http://custom-host.test/results")
@@ -47,15 +40,8 @@ RSpec.describe RailsBump::Checker::ResultReporter do
       it "defaults to localhost" do
         stub_request(:post, "http://localhost:3000/results").to_return(status: 200, body: "ok")
 
-        original_host = ENV["RAILS_BUMP_API_HOST"]
-        original_key = ENV["RAILS_BUMP_API_KEY"]
-        begin
-          ENV.delete("RAILS_BUMP_API_HOST")
-          ENV["RAILS_BUMP_API_KEY"] = "test-key"
+        with_env("RAILS_BUMP_API_HOST" => nil, "RAILS_BUMP_API_KEY" => "test-key") do
           described_class.new(result).report
-        ensure
-          ENV["RAILS_BUMP_API_HOST"] = original_host
-          ENV["RAILS_BUMP_API_KEY"] = original_key
         end
 
         assert_requested(:post, "http://localhost:3000/results")
