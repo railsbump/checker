@@ -4,6 +4,7 @@ require "webmock"
 
 RSpec.describe RailsBump::Checker::ResultReporter do
   include WebMock::API
+  include EnvHelper
 
   before { WebMock.enable! }
   after do
