@@ -82,8 +82,7 @@ module RailsBump
       def try_bundle_install
         run_bundle_install(
           gemfile_content: gemfile_content,
-          installer_options: {force: true, jobs: 4},
-          clean_bundle_cache: true
+          installer_options: {force: true, jobs: 4}
         )
       end
     end

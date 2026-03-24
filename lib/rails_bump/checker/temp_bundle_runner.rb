@@ -7,10 +7,8 @@ module RailsBump
     module TempBundleRunner
       private
 
-      def run_bundle_install(gemfile_content:, installer_options: {}, clean_bundle_cache: false)
+      def run_bundle_install(gemfile_content:, installer_options: {})
         with_tmp_dir do |tmp_dir|
-          `bundle clean --force` if clean_bundle_cache
-
           gemfile_path = File.join(tmp_dir, "Gemfile")
           gemfile_lock_path = File.join(tmp_dir, "Gemfile.lock")
 
