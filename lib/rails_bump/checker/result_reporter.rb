@@ -5,7 +5,6 @@ require "json"
 module RailsBump
   module Checker
     class ResultReporter
-
       def initialize(result)
         @result = result
         @compat_id = result.compat_id.to_i
