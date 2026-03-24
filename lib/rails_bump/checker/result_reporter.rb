@@ -5,8 +5,6 @@ require "json"
 module RailsBump
   module Checker
     class ResultReporter
-      RAILS_BUMP_HOST = ENV["RAILS_BUMP_API_HOST"] || "http://localhost:3000"
-      RESULT_ENDPOINT = URI.parse("#{RAILS_BUMP_HOST}/results")
 
       def initialize(result)
         @result = result
@@ -20,10 +18,12 @@ module RailsBump
         return puts "Skipping report because compat_id was not provided" if @compat_id.zero?
         return puts "Skipping report because RAILS_BUMP_API_KEY was not provided" if @api_key.empty?
 
-        http = Net::HTTP.new(RESULT_ENDPOINT.host, RESULT_ENDPOINT.port)
-        http.use_ssl = true if RESULT_ENDPOINT.scheme == "https"
+        endpoint = result_endpoint
 
-        request = Net::HTTP::Post.new(RESULT_ENDPOINT.path, {"Content-Type" => "application/json"})
+        http = Net::HTTP.new(endpoint.host, endpoint.port)
+        http.use_ssl = true if endpoint.scheme == "https"
+
+        request = Net::HTTP::Post.new(endpoint.path, {"Content-Type" => "application/json"})
         request["RAILS-BUMP-API-KEY"] = @api_key
 
         request.body = {
@@ -38,6 +38,13 @@ module RailsBump
 
         response = http.request(request)
         puts "Response: #{response.body} (Status: #{response.code})"
+      end
+
+      private
+
+      def result_endpoint
+        host = ENV["RAILS_BUMP_API_HOST"] || "http://localhost:3000"
+        URI.parse("#{host}/results")
       end
     end
   end
