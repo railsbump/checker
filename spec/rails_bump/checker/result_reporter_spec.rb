@@ -1,24 +1,14 @@
-require "rails_bump/checker/result_reporter"
-require "rails_bump/checker/result"
-require "webmock"
+require "spec_helper"
 
 RSpec.describe RailsBump::Checker::ResultReporter do
-  include WebMock::API
   include EnvHelper
 
-  before { WebMock.enable! }
-  after do
-    WebMock.reset!
-    WebMock.disable!
-  end
-
   let(:result) do
-    instance_double(
-      RailsBump::Checker::Result,
+    RailsBump::Checker::Result.new(
       compat_id: 123,
-      dependencies: "[]",
+      dependencies: {},
       rails_version: "7.0.0",
-      success?: true,
+      success: true,
       output: "ok",
       strategy: "bundler"
     )

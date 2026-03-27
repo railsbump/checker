@@ -1,6 +1,9 @@
 require "spec_helper"
 
 RSpec.describe RailsBump::Checker::BundleLocallyCheck do
+  before { WebMock.allow_net_connect! }
+  after { WebMock.disable_net_connect! }
+
   describe "temporary directory lifecycle" do
     it "cleans up its temporary directory without removing tmp/" do
       FileUtils.rm_rf(Dir.glob("tmp/checker-*"))

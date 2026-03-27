@@ -9,6 +9,7 @@ if ENV["COVERAGE"]
 end
 
 require "rails_bump/checker"
+require "webmock/rspec"
 require_relative "support/env_helper"
 
 RSpec.configure do |config|
