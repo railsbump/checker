@@ -1,6 +1,9 @@
 require "spec_helper"
 
 RSpec.describe RailsBump::Checker::RailsReleaseCheck do
+  before { WebMock.allow_net_connect! }
+  after { WebMock.disable_net_connect! }
+
   describe "#gemfile_content" do
     subject(:content) { checker.send(:gemfile_content) }
 
