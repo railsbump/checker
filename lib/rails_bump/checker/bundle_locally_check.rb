@@ -5,7 +5,7 @@ module RailsBump
 
       def initialize(opts = {})
         @rails_version = opts[:rails_version] || "9.1.0"
-        @dependencies = opts[:dependencies] || []
+        @dependencies = opts[:dependencies] || {}
         @compat_id = opts[:compat_id]
         @captured_output = ""
         @result = nil
