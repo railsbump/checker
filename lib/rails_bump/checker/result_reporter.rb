@@ -30,7 +30,6 @@ module RailsBump
           rails_version: @rails_version,
           dependencies: @dependencies,
           success: @result.success?,
-          output: @result.output,
           strategy: @result.strategy,
           github_action_url: ENV["GITHUB_ACTION_URL"]
         }.to_json
